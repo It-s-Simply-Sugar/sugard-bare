@@ -1,1 +1,1 @@
-# simply-sugar
+# Sugar'd Bare
