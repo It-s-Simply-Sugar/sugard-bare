@@ -1,0 +1,12 @@
+.nav__item:hover {
+    color: #AA7E09;
+}
+.nav__item--active {
+    color: #AA7E09;
+    border-bottom: 3px solid #AA7E09;
+    padding-bottom: 3px;
+}
+
+.book-online__btn:hover {
+    color: #AA7E09;
+}
