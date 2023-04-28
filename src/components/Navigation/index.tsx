@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './navigation.css';
 import HamburgerNavigation from './HamburgerNavigation';
+import logo from '../../assets/sugardbare-logo.png';
 
 const Navigation = () => {
   const [windowWidth, setWindowWidth] = useState(0);
@@ -35,14 +36,14 @@ const Navigation = () => {
   return (
     <nav aria-label="Main navigation">
       {windowWidth >= 1024 ? (
-        <div style={{ backgroundColor: '#C4B682' }}>
+        <div style={{ backgroundColor: '#CCB6A0' }}>
           <div
             className="mx-auto px-6 md:px-20 xxl:px-0 flex justify-between items-center py-8 px-10 text-white font-medium"
             style={{ maxWidth: '1550px' }}>
             {' '}
             <Link to="/">
               <div>
-                <img src="" alt="logo" />
+                <img src={logo} alt="logo" className="w-32" />
               </div>
             </Link>
             <div className="flex justify-center items-center">
@@ -53,18 +54,18 @@ const Navigation = () => {
                 <li className={getLinkClass('/services')}>
                   <Link to="/services">Services</Link>
                 </li>
-                <li className={getLinkClass('#promotions')}>
-                  <a href="#">Promotions</a>
+                <li className={getLinkClass('/faq')}>
+                  <a href="/faq">FAQs</a>
                 </li>
-                <li className={getLinkClass('/our-story')}>
-                  <Link to="/our-story">Our Story</Link>
+                <li className={getLinkClass('/about')}>
+                  <Link to="/about">About Us</Link>
                 </li>
                 <li className={getLinkClass('#contact-us')}>
-                  <a href="#">Contact Us</a>
+                  <a href="/contact">Contact</a>
                 </li>
               </ul>
               <a
-                href="https://www.vagaro.com/itssimplysugar/book-now"
+                href="https://www.vagaro.com/itssimplysugar/services"
                 target="_blank"
                 rel="noreferrer">
                 <button

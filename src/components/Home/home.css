@@ -53,3 +53,10 @@
     transform: translate(-3px, -10px);
   }
   
+.flowers-left, .flowers-right {
+  background-image: url("../../assets/flower-left.png"), url("../../assets/flower-right.png");
+  background-position: 0% 120%, 100% 120%;
+  background-repeat: no-repeat;
+  background-size: 25%;
+  min-height: 10rem;
+}

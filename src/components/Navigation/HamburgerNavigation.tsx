@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import logo from '../../assets/sugardbare-logo.png';
 
 const HamburgerNavigation = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -25,7 +26,7 @@ const HamburgerNavigation = () => {
       <div className="cursor-pointer mb-4 flex justify-between">
         <Link to="/">
           <div className="mt-2">
-            <img src="" alt="" className="w-32 sm:w-40 md:w-48" />
+            <img src={logo} alt="" className="w-20 sm:w-24 md:w-32" />
           </div>
         </Link>
         <button className="p-0" onClick={() => setIsNavOpen((prev) => !prev)}>
@@ -45,11 +46,11 @@ const HamburgerNavigation = () => {
               <li className={`py-4 ${getLinkClass('/services')}`}>
                 <Link to="/services">Services</Link>
               </li>
-              <li className={`py-4 ${getLinkClass('/promotions')}`}>
-                <Link to="/promotions">Promotions</Link>
+              <li className={`py-4 ${getLinkClass('/faq')}`}>
+                <Link to="/faq">FAQs</Link>
               </li>
-              <li className={`py-4 ${getLinkClass('/our-story')}`}>
-                <Link to="/our-story">Our Story</Link>
+              <li className={`py-4 ${getLinkClass('/about')}`}>
+                <Link to="/about">About Us</Link>
               </li>
               <li className={`py-4 ${getLinkClass('/contact-us')}`}>
                 <Link to="/contact-us">Contact Us</Link>
@@ -58,7 +59,7 @@ const HamburgerNavigation = () => {
             <div className="mx-4 grid grid-cols-1">
               <span className="my-4">
                 <a
-                  href="https://www.vagaro.com/itssimplysugar/book-now"
+                  href="https://www.vagaro.com/itssimplysugar/services"
                   target="_blank"
                   rel="noreferrer">
                   <button

@@ -7,13 +7,11 @@ const Services = () => {
     <div
       className="mx-auto grid place-items-center px-6 md:px-20 xxl:px-0"
       style={{ maxWidth: '1550px' }}>
-      <div className="block m-auto">
-        <img src={heroImage} alt="" className="block m-auto" />
-      </div>
-
       <div>
-        <h3 className="mt-20 text-center text-2xl font-semibold pb-3 border-solid">Services</h3>
-        <div className="w-52 h-1 bg-black mb-10" style={{ backgroundColor: '#CCA43A' }} />
+        <h3 className="mt-20 text-center text-2xl xl:text-4xl font-semibold pb-3 border-solid">
+          SERVICES
+        </h3>
+        <div className="w-52 xl:w-64 h-1 bg-black mb-10" style={{ backgroundColor: '#CCA43A' }} />
       </div>
       <div>
         <p className="px-10 sm:px-14 lg:px-24 xl:px-60 pb-10 text-center text-sm md:text-base leading-relaxed">

@@ -1,0 +1,15 @@
+.tab {
+
+}
+
+.tab:hover {
+    background-color: #99836D;
+}
+
+.select-tab {
+    background-color: #99836D;
+}
+
+.unselected-tab {
+    background-color: #CCB6A0;
+}

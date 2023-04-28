@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import './services.css';
 import SugarServices from './SugarServices';
 import WaxServices from './WaxServices';
 import EyebrowServices from './EyebrowServices';
@@ -32,7 +33,6 @@ const ServiceTypes = () => {
       setShowEyebrowsTab(true);
       setShowEyelashesTab(false);
       setActiveTab('eyebrows');
-      // setSelectedClass(null);
     }
     if (selected === 'eyelashes') {
       setShowSugarTab(false);
@@ -45,34 +45,34 @@ const ServiceTypes = () => {
 
   return (
     <div className="mt-20 w-full">
-      <ul className="flex justify-center items-center ">
+      <ul className="flex justify-center items-center gap-x-2">
         <li
           onClick={() => handleTabSelections('sugar')}
-          className={`py-2 px-6 md:px-10 text-sm md:text-base cursor-pointer hover:bg-blue-500 hover:text-white ${
-            activeTab === 'sugar' ? 'bg-red-200 text-white' : 'bg-blue-200'
+          className={`tab py-2 px-6 md:px-10 text-sm md:text-base cursor-pointer text-white ${
+            activeTab === 'sugar' ? 'select-tab text-white' : 'unselected-tab'
           }`}>
-          Sugar
+          Body
         </li>
         <li
           onClick={() => handleTabSelections('wax')}
-          className={`py-2 px-6 md:px-10 text-sm md:text-base cursor-pointer hover:bg-blue-500 hover:text-white ${
-            activeTab === 'wax' ? 'bg-red-200 text-white' : 'bg-blue-200'
+          className={`tab py-2 px-6 md:px-10 text-sm md:text-base cursor-pointer text-white ${
+            activeTab === 'wax' ? 'select-tab text-white' : 'unselected-tab'
           }`}>
-          Wax
+          Bikini
         </li>
         <li
           onClick={() => handleTabSelections('eyebrows')}
-          className={`py-2 px-6 md:px-10 text-sm md:text-base cursor-pointer hover:bg-blue-500 hover:text-white ${
-            activeTab === 'eyebrows' ? 'bg-red-200 text-white' : 'bg-blue-200'
+          className={`tab py-2 px-6 md:px-10 text-sm md:text-base cursor-pointer text-white ${
+            activeTab === 'eyebrows' ? 'select-tab text-white' : 'unselected-tab'
           }`}>
-          Eyebrows
+          Facial
         </li>
         <li
           onClick={() => handleTabSelections('eyelashes')}
-          className={`py-2 px-6 md:px-10 text-sm md:text-base cursor-pointer hover:bg-blue-500 hover:text-white ${
-            activeTab === 'eyelashes' ? 'bg-red-200 text-white' : 'bg-blue-200'
+          className={`tab py-2 px-6 md:px-10 text-sm md:text-base cursor-pointer text-white ${
+            activeTab === 'eyelashes' ? 'select-tab text-white' : 'unselected-tab'
           }`}>
-          Eyelashes
+          Tinting
         </li>
       </ul>
       <div className="mt-10">
