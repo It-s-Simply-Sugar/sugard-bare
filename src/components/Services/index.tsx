@@ -17,9 +17,9 @@ const Services = () => {
         <div className="lg:block hidden" style={{ width: '600px' }}>
           <img src={heroImage} alt="" />
         </div>
-        <div className="p-6 lg:p-0 lg:w-full grid place-items-center">
+        <div className="md:p-6 lg:p-0 lg:w-full grid place-items-center">
           <div>
-            <p className="pl-20 pb-10 text-center text-sm md:text-base leading-relaxed">
+            <p className="md:pl-20 pb-10 text-center text-sm md:text-base leading-relaxed">
               Unlike other methods, sugaring is a natural alternative to hair removal. Our sugar
               paste is handcrafted with a blend of ingredients found in your kitchen: sugar, water,
               and lemon. It&apos;s gentle on all skin types, even the most sensitive, making it a
