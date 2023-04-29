@@ -3,8 +3,10 @@ import './home.css';
 import Services from './Services';
 import Gallery from './Gallery';
 import BookOnline from './BookOnline';
+import Reviews from './Reviews';
 import Promotions from './Promotions';
-import heroImage from '../../assets/hero-image.png';
+import ContactUs from './ContactUs';
+import heroImage from '../../assets/hero-image-option2.png';
 
 const Home = () => {
   return (
@@ -80,7 +82,9 @@ const Home = () => {
       <Services />
       <BookOnline />
       <Gallery />
+      <Reviews />
       <Promotions />
+      <ContactUs />
     </div>
   );
 };

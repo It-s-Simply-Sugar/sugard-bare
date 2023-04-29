@@ -10,7 +10,9 @@ const Services = () => {
   const [windowWidth, setWindowWidth] = useState(0);
 
   return (
-    <div className="bg-white pb-20 bg-white flex justify-center items-center px-6">
+    <div
+      className="pb-20 flex justify-center items-center px-6"
+      style={{ backgroundColor: '#F6F5F5' }}>
       <div
         className="mt-8 md:-mt-32 w-full z-0 bg-white rounded-2xl shadow-lg shadow-stone-300"
         style={{ maxWidth: '1550px' }}>
@@ -19,35 +21,35 @@ const Services = () => {
           <div className="w-full h-full flex justify-center items-center">
             <p
               className="uppercase text-xl sm:text-2xl md:text-3xl xxl:text-4xl tracking-widest"
-              style={{ color: '#CCB6A0' }}>
+              style={{ color: '#C4B682' }}>
               bikini
             </p>
           </div>
           <div
-            className="bg-yellow-200 w-full h-32 sm:h-56 md:h-60 bg-center bg-cover bg-center"
-            style={{ backgroundImage: `url(${waxingIcon})` }}
+            className="w-full h-32 sm:h-56 md:h-60 bg-center bg-cover bg-center"
+            style={{ backgroundImage: `url(${waxingIcon})`, backgroundColor: '#F5F0ED' }}
           />
           <div className="w-full h-full flex justify-center items-center">
             <p
               className="uppercase text-xl sm:text-2xl md:text-3xl xxl:text-4xl tracking-widest"
-              style={{ color: '#CCB6A0' }}>
+              style={{ color: '#C4B682' }}>
               brazilian
             </p>
           </div>
           <div
-            className="bg-yellow-200 w-full h-32 sm:h-56 md:h-60 bg-center bg-cover bg-center"
-            style={{ backgroundImage: `url(${eyelashIcon})` }}
+            className="w-full h-32 sm:h-56 md:h-60 bg-center bg-cover bg-center"
+            style={{ backgroundImage: `url(${eyelashIcon})`, backgroundColor: '#F5F0ED' }}
           />
           <div className="w-full h-full flex justify-center items-center">
             <p
               className="uppercase text-xl sm:text-2xl md:text-3xl xxl:text-4xl tracking-widest"
-              style={{ color: '#CCB6A0' }}>
+              style={{ color: '#C4B682' }}>
               legs
             </p>
           </div>
           <div
-            className="bg-yellow-200 w-full h-32 sm:h-56 md:h-60 bg-center bg-cover bg-center"
-            style={{ backgroundImage: `url(${eyebrowIcon})` }}
+            className="w-full h-32 sm:h-56 md:h-60 bg-center bg-cover bg-center"
+            style={{ backgroundImage: `url(${eyebrowIcon})`, backgroundColor: '#F5F0ED' }}
           />
         </div>
       </div>

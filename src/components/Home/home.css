@@ -52,11 +52,34 @@
     border-width: 0 2px 0 0;
     transform: translate(-3px, -10px);
   }
-  
+/*   
 .flowers-left, .flowers-right {
   background-image: url("../../assets/flower-left.png"), url("../../assets/flower-right.png");
   background-position: 0% 120%, 100% 120%;
   background-repeat: no-repeat;
   background-size: 25%;
   min-height: 10rem;
+} */
+
+.schedule_appointnent__btn {
+  color: #C4B682;
+  background-color: white;
+  border-color: #C4B682;
+}
+
+.schedule_appointnent__btn:hover {
+  color: white;
+  background-color: #C4B682;
+}
+
+.promotion_btn {
+  background-color: #C4B682;
+  border-color: #C4B682;
+  color: white;
+}
+
+.promotion_btn:hover {
+  background-color: white;
+  border-color: #C4B682;
+  color: #C4B682;
 }

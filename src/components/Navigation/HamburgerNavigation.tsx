@@ -22,7 +22,7 @@ const HamburgerNavigation = () => {
   return (
     <div
       className="mx-auto py-8 px-10 text-white font-medium bg-yellow-200"
-      style={{ backgroundColor: '#C4B682' }}>
+      style={{ backgroundColor: '#CCB6A0' }}>
       <div className="cursor-pointer mb-4 flex justify-between">
         <Link to="/">
           <div className="mt-2">

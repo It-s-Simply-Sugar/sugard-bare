@@ -1,0 +1,15 @@
+.link:hover {
+    color: #CCA43A;
+}
+
+.contact_us__btn {
+    color: #C4B682;
+    background-color: white;
+    border-color: #C4B682;
+  }
+  
+  .contact_us__btn:hover {
+    color: white;
+    background-color: #C4B682;
+  }
+  

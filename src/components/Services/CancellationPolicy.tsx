@@ -11,12 +11,21 @@ const CancellationPolicy = () => {
       </div>
       <p className="px-10 sm:px-14 lg:px-24 xl:px-60 text-center text-sm md:text-base leading-relaxed">
         Kindly be considerate of my time and schedule by canceling your appointment at least 24
-        hours prior to the scheduled time. You may reach me through email at
-        itssimplysugar@gmail.com, text or call at 303-885-5985. Please note that failure to show up
-        for your appointment will result in a fee charge, and a deposit will be required to secure
-        your next appointment. For clients who have purchased a Groupon Voucher, not showing up for
-        your scheduled appointment will result in the voucher being marked as redeemed and you will
-        not be able to use it for a future appointment.
+        hours prior to the scheduled time. You may reach me through email at{' '}
+        <a
+          href="mailto:sugardbare.official@gmail.com"
+          style={{ color: '#CCA43A' }}
+          className="hover:underline">
+          sugardbare.official@gmail.com
+        </a>
+        , text or call at{' '}
+        <a href="tel:3038855985" style={{ color: '#CCA43A' }} className="hover:underline">
+          303-885-5985
+        </a>
+        . Please note that failure to show up for your appointment will result in a fee charge, and
+        a deposit will be required to secure your next appointment. For clients who have purchased a
+        Groupon Voucher, not showing up for your scheduled appointment will result in the voucher
+        being marked as redeemed and you will not be able to use it for a future appointment.
       </p>
     </div>
   );

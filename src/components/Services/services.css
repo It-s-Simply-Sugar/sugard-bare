@@ -3,13 +3,15 @@
 }
 
 .tab:hover {
-    background-color: #99836D;
+    background-color: #CCB6A0;
+    color: white;
 }
 
 .select-tab {
-    background-color: #99836D;
+    background-color: #CCB6A0;
 }
 
 .unselected-tab {
-    background-color: #CCB6A0;
+    background-color: #F3EFEB;
+    color: black;
 }

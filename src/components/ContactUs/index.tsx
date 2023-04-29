@@ -4,7 +4,7 @@ const ContactUs = () => {
   return (
     <div>
       {' '}
-      <p>home page</p>
+      <p>the contact form goes here</p>
     </div>
   );
 };

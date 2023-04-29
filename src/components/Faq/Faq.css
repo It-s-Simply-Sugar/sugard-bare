@@ -1,0 +1,9 @@
+.box:nth-of-type(odd)
+{
+background:#F3EFEB;
+}
+
+.box:nth-of-type(even)
+{
+background:#F6F5F5;
+}
