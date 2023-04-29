@@ -3,7 +3,9 @@ import promotionImage from '../../assets/promotion-image.png';
 const Promotions = () => {
   return (
     <div className="py-20 bg-white">
-      <div className="mx-auto grid place-items-center px-6 xl:px-20" style={{ maxWidth: '1550px' }}>
+      <div
+        className="mx-auto grid place-items-center px-6 lt:px-20 lg:px-32 xl:px-20"
+        style={{ maxWidth: '1550px' }}>
         <div>
           <h3 className="text-center tracking-wider text-2xl xl:text-3xl font-semibold pb-3 border-solid">
             PROMOTIONS
@@ -28,8 +30,12 @@ const Promotions = () => {
               </button>
             </div>
           </div>
-          <div className="md:w-1/2 xl:w-1/4 flex justify-center items-center md:justify-end md:items-end">
-            <img src={promotionImage} alt="" className="w-80 xl:max-w-md" />
+          <div className="w-full md:w-1/2 xl:w-1/4 flex justify-center items-center md:justify-end md:items-end">
+            <img
+              src={promotionImage}
+              alt=""
+              className="w-48 xxs:w-56 sm:w-64 md:w-80 xl:max-w-md"
+            />
           </div>
         </div>
       </div>

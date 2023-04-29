@@ -11,16 +11,16 @@ import heroImage from '../../assets/hero-image-option2.png';
 const Home = () => {
   return (
     <div className="">
-      <div className="pt-4 lg:pt-10" style={{ backgroundColor: '#CCB6A0' }}>
-        <div className="mx-auto px-6 lg:px-20 xxl:px-0 relative" style={{ maxWidth: '1450px' }}>
-          <div className="flex flex-col-reverse lg:flex-row justify-center items-center lg:justify-around lg:w-full">
+      <div className="pt-14 xs:pt-20 lg:pt-10" style={{ backgroundColor: '#CCB6A0' }}>
+        <div className="relative mx-auto px-6 lg:px-20 xxl:px-0" style={{ maxWidth: '1450px' }}>
+          <div className=" flex flex-col-reverse lg:flex-row justify-center items-center lg:justify-around lg:w-full">
             <img
               src={heroImage}
               alt=""
               className="mt-6 lg:-mt-8 h-auto"
               style={{ maxWidth: '50%' }}
             />
-            <div className="lg:w-1/2 lg:flex lg:max-w-40 lg:-mt-28">
+            <div className="lg:w-1/2 lg:flex lg:max-w-40 lg:-mt-28 lg:ml-10">
               <div className="lg:flex-grow">
                 <div className="grid place-items-center">
                   <div>
@@ -54,9 +54,11 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="absolute text-center" style={{ top: 150, left: 90 }}>
-            <p className="text-white text-4xl font-semibold mb-2">5.0</p>
-            <div className="grid place-items-center grid-cols-5  mb-1">
+          <div className="google-reviews absolute text-center">
+            <p className="rating text-white text-2xl xs:text-4xl font-semibold mb-1 xxl:mb-2">
+              5.0
+            </p>
+            <div className="rating-stars grid place-items-center grid-cols-5  mb-1">
               {[1, 2, 3, 4, 5].map((item, index) => (
                 <div key={index}>
                   <svg

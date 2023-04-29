@@ -51,7 +51,7 @@ const Gallery = () => {
   };
 
   return (
-    <div className="pb-32" style={{ backgroundColor: '#F6F5F5' }}>
+    <div className="pb-32 px-4" style={{ backgroundColor: '#F6F5F5' }}>
       <div className="max-w-[1000px] h-[500px] w-full m-auto pb-16 px-4 relative group">
         <div className="grid place-items-center">
           <h3 className="uppercase text-center tracking-wider text-2xl xl:text-3xl font-semibold pb-3 border-solid">

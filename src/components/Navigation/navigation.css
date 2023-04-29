@@ -1,12 +1,13 @@
 .nav__item:hover {
-    color: #AA7E09;
+    color: #CCA43A;
 }
 .nav__item--active {
-    color: #AA7E09;
-    border-bottom: 3px solid #AA7E09;
+    color: #CCA43A;
+    border-bottom: 3px solid #CCA43A;
     padding-bottom: 3px;
 }
 
 .book-online__btn:hover {
-    color: #AA7E09;
+    color: #CCA43A;
 }
+

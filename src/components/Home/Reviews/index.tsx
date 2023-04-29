@@ -9,15 +9,15 @@ const Reviews = () => {
       <div
         className="relative mx-auto grid place-items-center px-6 xl:px-20"
         style={{ maxWidth: '1550px' }}>
-        <p className="uppercase tracking-wider text-center text-2xl xl:text-3xl font-semibold pb-3">
+        <p className="uppercase tracking-wider text-center text-xl sm:text-2xl xl:text-3xl font-semibold pb-3">
           10+ years in business
         </p>
         <img
           src={quotes}
           alt=""
-          className="w-9 absolute top-[57%] right-[58.5%] -translate-x-0 translate-y-[-50%]"
+          className="w-8 md:w-9 absolute top-[40%] right-[78%] xlz:right-[58.5%]"
         />
-        <p className="pt-6 text-2xl font-light tracking-wider">
+        <p className="pt-6 text-lg sm:text-2xl font-light tracking-wider">
           See what our clients <br /> have to say about us!
         </p>
       </div>
