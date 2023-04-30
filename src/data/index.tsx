@@ -16,7 +16,7 @@ export const sugarServices = [
   {
     serviceName: 'Full Legs',
     description:
-      'Removal of hair from the thigh to the ankle, both front and back. The price is for both legs.',
+      'Removal of hair from the thigh to the ankle, both front and back. Both legs included.',
     price: 66,
     image: fullLegs,
     bookNow: '66'
@@ -24,7 +24,7 @@ export const sugarServices = [
   {
     serviceName: 'Half Legs',
     description:
-      'Removal of hair from knee up or from knee down to ankle. Front and back and price includes both legs',
+      'Removal of hair from knee up or from knee down to ankle. Front and back of both legs included.',
     price: 23,
     image: fullLegsUpper,
     bookNow: '23'
@@ -89,7 +89,7 @@ export const sugarServices = [
   },
   {
     serviceName: 'Sideburns',
-    description: '',
+    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam ',
     price: 19,
     image: sfjgj,
     bookNow: ''

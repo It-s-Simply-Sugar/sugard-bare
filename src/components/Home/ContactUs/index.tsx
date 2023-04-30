@@ -26,7 +26,7 @@ const ContactUs = () => {
                 <p>
                   125 West Bloomingdale Avenue <br /> Brandon, FL 33511
                 </p>
-                <div className="mt-6 mb-2">
+                <div className="mt-6">
                   <a href="tel:3038855985" className="hover:underline link">
                     303-885-5985
                   </a>
@@ -36,8 +36,8 @@ const ContactUs = () => {
                 </a>
               </div>
             </div>
-            <div>
-              <p className="text-center">Have a question?</p>
+            <div className="mt-4">
+              <p className="text-center mb-2">Have a question?</p>
               <div className="text-center">
                 <button className="contact_us__btn text-sm md:text-base border-2 px-12 py-2">
                   Message Us

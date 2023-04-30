@@ -45,31 +45,31 @@ const ServiceTypes = () => {
 
   return (
     <div className="mt-20 w-full">
-      <ul className="flex justify-center items-center gap-x-1 sm:gap-x-2">
+      <ul className="xxxs:flex justify-center items-center gap-x-1 sm:gap-x-2">
         <li
           onClick={() => handleTabSelections('sugar')}
-          className={`tab py-2 px-6 md:px-10 text-xs sm:text-sm md:text-base cursor-pointer text-white ${
+          className={`tab mb-1 xxxs:mb-0 py-2 px-6 md:px-10 text-center xxxs:text-left text-xs sm:text-sm md:text-base cursor-pointer text-white ${
             activeTab === 'sugar' ? 'select-tab text-white' : 'unselected-tab'
           }`}>
           Body
         </li>
         <li
           onClick={() => handleTabSelections('wax')}
-          className={`tab py-2 px-6 md:px-10 text-xs sm:text-sm md:text-base cursor-pointer text-white ${
+          className={`tab mb-1 xxxs:mb-0 py-2 px-6 md:px-10 text-center xxxs:text-left text-xs sm:text-sm md:text-base cursor-pointer text-white ${
             activeTab === 'wax' ? 'select-tab text-white' : 'unselected-tab'
           }`}>
           Bikini
         </li>
         <li
           onClick={() => handleTabSelections('eyebrows')}
-          className={`tab py-2 px-6 md:px-10 text-xs sm:text-sm md:text-base cursor-pointer text-white ${
+          className={`tab mb-1 xxxs:mb-0 py-2 px-6 md:px-10 text-center xxxs:text-left text-xs sm:text-sm md:text-base cursor-pointer text-white ${
             activeTab === 'eyebrows' ? 'select-tab text-white' : 'unselected-tab'
           }`}>
           Facial
         </li>
         <li
           onClick={() => handleTabSelections('eyelashes')}
-          className={`tab py-2 px-6 md:px-10 text-xs sm:text-sm md:text-base cursor-pointer text-white ${
+          className={`tab mb-1 xxxs:mb-0 py-2 px-6 md:px-10 text-center xxxs:text-left text-xs sm:text-sm md:text-base cursor-pointer text-white ${
             activeTab === 'eyelashes' ? 'select-tab text-white' : 'unselected-tab'
           }`}>
           Tinting

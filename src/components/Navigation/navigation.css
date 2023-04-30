@@ -11,3 +11,41 @@
     color: #CCA43A;
 }
 
+.animate-slide-in {
+
+        position: absolute;
+        right: -600px;
+        -webkit-animation: slide 0.3s forwards;
+        animation: slide 0.3s forwards;
+    }
+    
+    @-webkit-keyframes slide {
+        100% { right: 0; }
+    }
+    
+    @keyframes slide {
+        100% { right: 0; }
+    }
+
+.close {
+    width: 40px;
+    height: 25px;
+    position: relative;
+}
+.close:after {
+    content: '';
+    height: 25px;
+    border-left: 2px solid #CCA43A;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 28px;
+}
+
+.close:before {
+    content: '';
+    height: 25px;
+    border-left: 2px solid #CCA43A;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 28px;
+}

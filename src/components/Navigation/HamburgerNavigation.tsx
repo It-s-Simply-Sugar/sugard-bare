@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './navigation.css';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../../assets/sugardbare-logo.png';
 
@@ -27,49 +28,64 @@ const HamburgerNavigation = () => {
             <img src={logo} alt="" className="w-20 sm:w-24 md:w-32" />
           </div>
         </Link>
-        <button className="p-0" onClick={() => setIsNavOpen((prev) => !prev)}>
-          <span
-            className="hamburger_line_1 block w-8 bg-black mb-1"
-            style={{ height: '2px', backgroundColor: '#CCA43A' }}></span>
-          <span
-            className="hamburger_line_3 block w-8"
-            style={{ height: '2px', backgroundColor: '#CCA43A' }}></span>
-        </button>
+        {!isNavOpen && (
+          <button className="p-0" onClick={() => setIsNavOpen(true)}>
+            <span
+              className="hamburger_line_1 block w-8 bg-black mb-1"
+              style={{ height: '2px', backgroundColor: '#CCA43A' }}></span>
+            <span
+              className="hamburger_line_2 block w-8"
+              style={{ height: '2px', backgroundColor: '#CCA43A' }}></span>
+          </button>
+        )}
       </div>
       {isNavOpen && (
-        <div className="grid place-items-center">
-          <div>
-            <ul className="mx-4 text-center">
-              <li className={`py-4 ${getLinkClass('/')}`}>
-                <Link to="/">Home</Link>
-              </li>
-              <li className={`py-4 ${getLinkClass('/services')}`}>
-                <Link to="/services">Services</Link>
-              </li>
-              <li className={`py-4 ${getLinkClass('/faq')}`}>
-                <Link to="/faq">FAQs</Link>
-              </li>
-              <li className={`py-4 ${getLinkClass('/about')}`}>
-                <Link to="/about">About Us</Link>
-              </li>
-              <li className={`py-4 ${getLinkClass('/contact-us')}`}>
-                <Link to="/contact-us">Contact Us</Link>
-              </li>
-            </ul>
-            <div className="mx-4 grid grid-cols-1">
-              <span className="my-4">
-                <a
-                  href="https://www.vagaro.com/itssimplysugar/services"
-                  target="_blank"
-                  rel="noreferrer">
-                  <button
-                    type="button"
-                    className="book-online__btn border-2 border-solid rounded-full px-5 py-2 hover:bg-white"
-                    style={{ borderColor: '#CCA43A' }}>
-                    Book Online
-                  </button>
-                </a>
-              </span>
+        <div
+          className="fixed top-0 right-0 h-full w-64 shadow-lg z-50 animate-slide-in"
+          style={{ backgroundColor: '#F6F5F5' }}>
+          <div className="mt-6 mb-3 mx-10 grid place-items-end">
+            <div className="cursor-pointer close" onClick={() => setIsNavOpen(false)} />
+          </div>
+          <div className="mt-16 grid place-items-center">
+            <div>
+              <ul className="mx-4 text-center">
+                <li className={`py-4 ${getLinkClass('/')}`} onClick={() => setIsNavOpen(false)}>
+                  <Link to="/">Home</Link>
+                </li>
+                <li
+                  className={`py-4 ${getLinkClass('/services')}`}
+                  onClick={() => setIsNavOpen(false)}>
+                  <Link to="/services">Services</Link>
+                </li>
+                <li className={`py-4 ${getLinkClass('/faq')}`} onClick={() => setIsNavOpen(false)}>
+                  <Link to="/faq">FAQs</Link>
+                </li>
+                <li
+                  className={`py-4 ${getLinkClass('/about')}`}
+                  onClick={() => setIsNavOpen(false)}>
+                  <Link to="/about">About Us</Link>
+                </li>
+                <li
+                  className={`py-4 ${getLinkClass('/contact-us')}`}
+                  onClick={() => setIsNavOpen(false)}>
+                  <Link to="/contact-us">Contact Us</Link>
+                </li>
+              </ul>
+              <div className="mx-4 grid grid-cols-1">
+                <span className="my-4">
+                  <a
+                    href="https://www.vagaro.com/itssimplysugar/services"
+                    target="_blank"
+                    rel="noreferrer">
+                    <button
+                      type="button"
+                      className="book-online__btn border-2 border-solid rounded-full px-5 py-2 bg-white"
+                      style={{ borderColor: '#CCA43A' }}>
+                      Book Online
+                    </button>
+                  </a>
+                </span>
+              </div>
             </div>
           </div>
         </div>
