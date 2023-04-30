@@ -38,7 +38,7 @@ const Navigation = () => {
       {windowWidth >= 1024 ? (
         <div style={{ backgroundColor: '#F6F5F5' }}>
           <div
-            className="mx-auto px-6 md:px-20 xxl:px-0 flex justify-between items-center py-8 px-10 font-medium"
+            className="mx-auto px-6 xxxl:px-0 flex justify-between items-center py-5 font-medium"
             style={{ maxWidth: '1550px' }}>
             {' '}
             <Link to="/">
@@ -46,7 +46,7 @@ const Navigation = () => {
                 <img src={logo} alt="logo" className="w-32" />
               </div>
             </Link>
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center" style={{ color: '#665E58' }}>
               <ul className="flex gap-x-14 mr-14">
                 <li className={getLinkClass('/')}>
                   <Link to="/">Home</Link>
@@ -70,7 +70,8 @@ const Navigation = () => {
                 rel="noreferrer">
                 <button
                   type="button"
-                  className="book-online__btn border-2 border-white border-solid rounded-full px-5 py-2 hover:bg-white">
+                  className="book-online__btn border-2 border-white border-solid rounded-full px-5 py-2 bg-white"
+                  style={{ borderColor: '#CCA43A' }}>
                   Book Online
                 </button>
               </a>

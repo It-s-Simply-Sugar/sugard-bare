@@ -1,5 +1,6 @@
 import './ContactUs.css';
 import spaInterior from '../../../assets/spa-interior.png';
+import anna from '../../../assets/anna-headshot.png';
 
 const ContactUs = () => {
   return (
@@ -17,12 +18,12 @@ const ContactUs = () => {
           </div>
           <div className="p-6 lg:p-0 lg:w-full grid place-items-center">
             <div className="text-center">
-              <img src="" alt="" />
+              <img src={anna} alt="" className="mx-auto w-32 rounded-full" />
               <p className="font-semibold text-lg" style={{ color: '#C4B682' }}>
                 Anna Trujillo
               </p>
               <div className="mt-4">
-                <p className="font-semibold text-lg mb-2">Salon 705 Suites</p>
+                <p className="font-semibold text-md mb-2">Salon 705 Suites</p>
                 <p>
                   125 West Bloomingdale Avenue <br /> Brandon, FL 33511
                 </p>

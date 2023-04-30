@@ -22,13 +22,13 @@ const HamburgerNavigation = () => {
 
   return (
     <div className="mx-auto py-4 px-10 font-medium" style={{ backgroundColor: '#F6F5F5' }}>
-      <div className="cursor-pointer flex justify-between">
+      <div className="flex justify-between">
         <Link to="/">
           <div>
             <img src={logo} alt="" className="w-20 sm:w-24 md:w-32" />
           </div>
         </Link>
-        {!isNavOpen && (
+        {!isNavOpen ? (
           <button className="p-0" onClick={() => setIsNavOpen(true)}>
             <span
               className="hamburger_line_1 block w-8 bg-black mb-1"
@@ -37,16 +37,17 @@ const HamburgerNavigation = () => {
               className="hamburger_line_2 block w-8"
               style={{ height: '2px', backgroundColor: '#CCA43A' }}></span>
           </button>
+        ) : (
+          <div className="grid place-items-end">
+            <div className="cursor-pointer close" onClick={() => setIsNavOpen(false)} />
+          </div>
         )}
       </div>
       {isNavOpen && (
         <div
-          className="fixed top-0 right-0 h-full w-64 shadow-lg z-50 animate-slide-in"
-          style={{ backgroundColor: '#F6F5F5' }}>
-          <div className="mt-6 mb-3 mx-10 grid place-items-end">
-            <div className="cursor-pointer close" onClick={() => setIsNavOpen(false)} />
-          </div>
-          <div className="mt-16 grid place-items-center">
+          className="fixed mt-4 right-0 w-64 shadow-lg z-50 animate-slide-in"
+          style={{ backgroundColor: '#F6F5F5', height: '100vh' }}>
+          <div className="mt-16 grid place-items-center" style={{ color: '#665E58' }}>
             <div>
               <ul className="mx-4 text-center">
                 <li className={`py-4 ${getLinkClass('/')}`} onClick={() => setIsNavOpen(false)}>
@@ -71,7 +72,7 @@ const HamburgerNavigation = () => {
                   <Link to="/contact-us">Contact Us</Link>
                 </li>
               </ul>
-              <div className="mx-4 grid grid-cols-1">
+              <div className="mx-4 grid grid-cols-1" onClick={() => setIsNavOpen(false)}>
                 <span className="my-4">
                   <a
                     href="https://www.vagaro.com/itssimplysugar/services"

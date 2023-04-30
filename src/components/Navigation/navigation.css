@@ -6,9 +6,12 @@
     border-bottom: 3px solid #CCA43A;
     padding-bottom: 3px;
 }
-
-.book-online__btn:hover {
+.book-online__btn {
     color: #CCA43A;
+}
+.book-online__btn:hover {
+    color: #665E58;
+    background-color: #F2EFEA;
 }
 
 .animate-slide-in {
@@ -29,8 +32,11 @@
 
 .close {
     width: 40px;
-    height: 25px;
+    height: 20px;
     position: relative;
+    @media screen and (min-width: 768px) {
+        top: -8px; 
+      }
 }
 .close:after {
     content: '';
@@ -38,7 +44,7 @@
     border-left: 2px solid #CCA43A;
     position: absolute;
     transform: rotate(45deg);
-    left: 28px;
+    left: 22px;
 }
 
 .close:before {
@@ -47,5 +53,5 @@
     border-left: 2px solid #CCA43A;
     position: absolute;
     transform: rotate(-45deg);
-    left: 28px;
+    left: 22px;
 }
