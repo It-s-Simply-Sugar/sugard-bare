@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import './services.css';
-import SugarServices from './SugarServices';
-import WaxServices from './WaxServices';
-import EyebrowServices from './EyebrowServices';
+import BodyServices from './BodyServices';
+import BikiniServices from './BikiniServices';
+import FaceServices from './FaceServices';
 import EyelashServices from './EyelashServices';
 
 const ServiceTypes = () => {
@@ -76,9 +76,9 @@ const ServiceTypes = () => {
         </li>
       </ul>
       <div className="mt-10">
-        {showSugarTab && <SugarServices />}
-        {showWaxTab && <WaxServices />}
-        {showEyebrowsTab && <EyebrowServices />}
+        {showSugarTab && <BodyServices />}
+        {showWaxTab && <BikiniServices />}
+        {showEyebrowsTab && <FaceServices />}
         {showEyelashesTab && <EyelashServices />}
       </div>
     </div>

@@ -17,7 +17,7 @@ export const sugarServices = [
     serviceName: 'Full Legs',
     description:
       'Removal of hair from the thigh to the ankle, both front and back. Both legs included.',
-    price: 66,
+    price: 88,
     image: fullLegs,
     bookNow: '66'
   },
@@ -25,115 +25,51 @@ export const sugarServices = [
     serviceName: 'Half Legs',
     description:
       'Removal of hair from knee up or from knee down to ankle. Front and back of both legs included.',
-    price: 23,
+    price: 50,
     image: fullLegsUpper,
     bookNow: '23'
   },
   {
     serviceName: 'Feet and Toes',
-    description:
-      'Both feet included in the price. r from knee up or from knee down to ankle. Front and back.',
-    price: 56,
+    description: 'Both feet included in the price.',
+    price: 12,
     image: feetToes,
     bookNow: '11'
   },
   {
-    serviceName: 'Full Face',
-    description: 'Hair removal using the sugaring technique on entire face including brows',
-    price: 19,
-    image: sfjgj,
-    bookNow: '52'
-  },
-  {
-    serviceName: 'Brow Shaping',
-    description: 'Sugaring price includes both brows',
-    price: 19,
-    image: browShaping,
-    bookNow: ''
-  },
-  {
-    serviceName: 'Brow Maintenance',
-    description: 'Removal of regrowth on brow line using sugar. Price includes both brows',
-    price: 19,
-    image: browShaping,
-    bookNow: ''
-  },
-  {
-    serviceName: 'Ears',
-    description:
-      'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam doloribus tempore commodi, culpa non corpori',
-    price: 19,
-    image: ears,
-    bookNow: ''
-  },
-  {
-    serviceName: 'Upper Lip',
-    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam doloribus',
-    price: 19,
-    image: upperLip,
-    bookNow: ''
-  },
-  {
-    serviceName: 'Chin',
-    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam doloribus',
-    price: 19,
-    image: chin,
-    bookNow: ''
-  },
-  {
-    serviceName: 'Lip and Chin',
-    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam doloribus',
-    price: 19,
-    image: lipChin,
-    bookNow: ''
-  },
-  {
-    serviceName: 'Sideburns',
-    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam ',
-    price: 19,
-    image: sfjgj,
-    bookNow: ''
-  },
-  {
     serviceName: 'Neck',
-    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam doloribus',
-    price: 19,
+    description: 'Removal of hair for either the front or back of neck',
+    price: 12,
     image: neck,
     bookNow: ''
   },
   {
     serviceName: 'Shoulders',
-    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam doloribus',
-    price: 19,
+    description: 'Removal of hair from shoulders. Price includes both shoulders.',
+    price: 20,
     image: sfjgj,
     bookNow: ''
   },
   {
     serviceName: 'Chest and Stomach',
-    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam doloribus',
-    price: 19,
+    description: 'Both upper and lower torso are included in price.',
+    price: 60,
     image: sfjgj,
     bookNow: ''
   },
   {
     serviceName: 'Ab Trail',
-    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam doloribus',
-    price: 19,
+    description:
+      'This does not include lower torso, only ab trail. If you want more than the ab trail please select stomach sugaring.',
+    price: 8,
     image: sfjgj,
     bookNow: ''
   },
   {
     serviceName: 'Inner Thigh',
-    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam doloribus',
-    price: 19,
-    image: sfjgj,
-    bookNow: ''
-  },
-
-  {
-    serviceName: 'Brow',
-    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam doloribus',
-    price: 19,
+    description:
+      '1/4 of the upper leg, inner thigh only. Please note this service is not for legs that are fully covered in sparse hair. It is specifically for pubic hair that comes out to the inner thigh only.',
+    price: 18,
     image: sfjgj,
     bookNow: ''
   }
@@ -141,67 +77,153 @@ export const sugarServices = [
 
 export const bikiniServices = [
   {
-    serviceName: 'Bikini',
+    serviceName: 'Vajacial',
     description:
-      'Removal of hair from the thigh to the ankle, both front and back. The price is for both legs.',
-    price: 66,
+      'Do you get bumps with waxing or shaving? Want to keep your skin clear and smooth where you wax? Of course, you do! Just like a traditional face facial, this service includes a double cleanse, light exfoliation, extractions, soothing mask. Can/should be done every wax, every other wax, or quarterly depending on the condition of the skin.',
+    price: 50,
     image: sfjgj,
     bookNow: '66'
   },
   {
-    serviceName: 'Bikini Maintenance',
-    description:
-      'Removal of hair from knee up or from knee down to ankle. Front and back and price includes both legs',
-    price: 23,
+    serviceName: 'Bikini',
+    description: 'Removal of hair on the bikini line not to extend to leg or inner thigh area.',
+    price: 55,
     image: sfjgj,
-    bookNow: '23'
+    bookNow: '66'
   },
   {
-    serviceName: 'Bikini with vajacial',
-    description: 'Both feet included in the price',
-    price: 56,
+    serviceName: 'Bikini w/ Vajacial',
+    description:
+      'Do you get bumps with waxing or shaving? Want to keep your skin clear and smooth where you wax? Of course, you do! Just like a traditional face facial, this service includes a double cleanse, light exfoliation, extractions, soothing mask. Can/should be done every wax, every other wax, or quarterly depending on the condition of the skin.',
+    price: 80,
     image: sfjgj,
     bookNow: '11'
   },
   {
-    serviceName: 'Bikini Calming Mask',
-    description: 'Hair removal using the sugaring technique on entire face including brows',
-    price: 19,
+    serviceName: 'Bikini w/ Calming Mask',
+    description:
+      'Aloe & Rose Post Epilation Mask will leave your skin soothed, moisturized and protected. Aloe is a natural healer and is soothing and calming. Tea Tree is a great antibacterial and anti-inflammatory oil. Vitamin E, Jojoba and Hyaluronic Acid will further moisturize and calm the skin. Mask will be applied after sugaring hair removal service.',
+    price: 50,
     image: sfjgj,
     bookNow: '52'
   },
   {
-    serviceName: 'Brazilian Vajacial',
-    description: 'Sugaring price includes both brows',
-    price: 19,
+    serviceName: 'Bikini Maintenance',
+    description: 'Removal of regrowth of hair within 4 to 5 weeks from last sugaring appointment.',
+    price: 48,
+    image: sfjgj,
+    bookNow: '23'
+  },
+  {
+    serviceName: 'Brazilian (New Client)',
+    description:
+      'Removal of all the pubic hair with the sugaring technique which includes the backside but not the cheeks. Cheeks is an additional charge.',
+    price: 68,
     image: sfjgj,
     bookNow: ''
   },
   {
-    serviceName: 'Brazilian (New Client)',
-    description: 'Removal of regrowth on brow line using sugar. Price includes both brows',
-    price: 19,
+    serviceName: 'Brazilian (New Groupon Client)',
+    description:
+      'Groupon coupon is for NEW Clients only. Service is for a Brazilian or Bikini sugaring. Brazilian includes backside but not butt cheeks or inner thigh. Bikini does not include inner thigh.',
+    price: 65,
+    image: sfjgj,
+    bookNow: ''
+  },
+  {
+    serviceName: 'Brazilian w/ Vajacial',
+    description:
+      'Do you get bumps with waxing or shaving? Want to keep your skin clear and smooth where you wax? Of course, you do! Just like a traditional face facial, this service includes a double cleanse, light exfoliation, extractions, soothing mask. Can/should be done every wax, every other wax, or quarterly depending on the condition of the skin.',
+    price: 100,
     image: sfjgj,
     bookNow: ''
   },
   {
     serviceName: 'Brazilian with Calming Mask',
-    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam doloribus',
-    price: 19,
+    description:
+      'Aloe & Rose Post Epilation Mask will leave your skin soothed, moisturized and protected. Aloe is a natural healer and is soothing and calming. Tea Tree is a great antibacterial and anti-inflammatory oil. Vitamin E, Jojoba and Hyaluronic Acid will further moisturize and calm the skin. The mask is applied after sugaring hair removal to help with redness and to soothe and calm the skin.',
+    price: 70,
     image: sfjgj,
     bookNow: ''
   },
   {
     serviceName: 'Brazilian Maintenance',
-    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam doloribus',
-    price: 19,
+    description: 'Removal of regrowth. Must be made within 4 to 5 weeks of last sugaring.',
+    price: 60,
     image: sfjgj,
     bookNow: ''
   },
   {
-    serviceName: 'Brazilian over 6 weeks',
+    serviceName: 'Brazilian over 6 weeks (non-maintenance)',
+    description: 'Removal of regrowth from last sugaring. Must be an established client.',
+    price: 65,
+    image: sfjgj,
+    bookNow: ''
+  }
+];
+
+export const faceServices = [
+  {
+    serviceName: 'Full Face',
+    description: 'Hair removal using the sugaring technique on entire face including brows.',
+    price: 45,
+    image: sfjgj,
+    bookNow: '52'
+  },
+  {
+    serviceName: 'Full Face w/ Mask',
+    description: '',
+    price: 57,
+    image: sfjgj,
+    bookNow: '52'
+  },
+  {
+    serviceName: 'Brow Shaping',
+    description: 'Sugaring price includes both brows',
+    price: 28,
+    image: browShaping,
+    bookNow: ''
+  },
+  {
+    serviceName: 'Brow Maintenance',
+    description: 'Removal of regrowth on brow line using sugar. Price includes both brows.',
+    price: 20,
+    image: browShaping,
+    bookNow: ''
+  },
+  {
+    serviceName: 'Ears',
+    description:
+      'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam doloribus tempore commodi, culpa non corpori',
+    price: 10,
+    image: ears,
+    bookNow: ''
+  },
+  {
+    serviceName: 'Upper Lip',
     description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam doloribus',
-    price: 19,
+    price: 12,
+    image: upperLip,
+    bookNow: ''
+  },
+  {
+    serviceName: 'Chin',
+    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam doloribus',
+    price: 15,
+    image: chin,
+    bookNow: ''
+  },
+  {
+    serviceName: 'Lip and Chin',
+    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam doloribus',
+    price: 25,
+    image: lipChin,
+    bookNow: ''
+  },
+  {
+    serviceName: 'Sideburns',
+    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam ',
+    price: 20,
     image: sfjgj,
     bookNow: ''
   }
