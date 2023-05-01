@@ -12,7 +12,9 @@ const ContactUs = () => {
           </h3>
           <div className="w-52 xl:w-64 h-1 bg-black mb-10" style={{ backgroundColor: '#CCA43A' }} />
         </div>
-        <div className="w-full lg:flex flex-reverse bg-white">
+        <div
+          className="w-full lg:flex flex-reverse bg-white"
+          style={{ backgroundColor: '#F3EFEB' }}>
           <div className="lg:block hidden" style={{ width: '600px' }}>
             <img src={spaInterior} alt="" />
           </div>

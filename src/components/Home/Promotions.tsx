@@ -1,17 +1,21 @@
+import { useState, useEffect } from 'react';
 import promotionImage from '../../assets/promotion-image.png';
+import promotionMobileImage from '../../assets/promotions-mobile.png';
 
 const Promotions = () => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  });
+  const promotionImgSrc = windowWidth < 768 ? promotionMobileImage : promotionImage;
   return (
     <div className="py-20 bg-white">
-      <div
-        className="mx-auto grid place-items-center px-6 lt:px-20 lg:px-32 xl:px-20"
-        style={{ maxWidth: '1550px' }}>
-        <div>
-          <h3 className="text-center tracking-wider text-2xl xl:text-3xl font-semibold pb-3 border-solid">
-            PROMOTIONS
-          </h3>
-          <div className="w-52 xl:w-64 h-1 bg-black mb-10" style={{ backgroundColor: '#CCA43A' }} />
-        </div>
+      <div className="mx-auto grid place-items-center px-6 md:px-12" style={{ maxWidth: '1550px' }}>
         <div className="md:flex justify-between items-center xl:px-20">
           <div className="md:w-1/2 xl:w-3/4 xl:mr-40 mb-10 md:mb-0">
             <p
@@ -30,12 +34,8 @@ const Promotions = () => {
               </button>
             </div>
           </div>
-          <div className="w-full md:w-1/2 xl:w-1/4 flex justify-center items-center md:justify-end md:items-end">
-            <img
-              src={promotionImage}
-              alt=""
-              className="w-48 xxs:w-56 sm:w-64 md:w-80 xl:max-w-md"
-            />
+          <div className="w-full lg:w-1/4 xl:w-1/4 flex justify-center items-center md:justify-end md:items-end">
+            <img src={promotionImgSrc} alt="" className="" />
           </div>
         </div>
       </div>

@@ -20,37 +20,6 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className="py-10" style={{ backgroundColor: '#F6F5F5' }}>
-        <div
-          className="mx-auto grid place-items-center grid-cols-1 md:grid-cols-3 my-10"
-          style={{ maxWidth: '1550px' }}>
-          <div className="mb-8 xl:mb-0">
-            <img src={sugar} alt="one" className="w-40 xl:w-64" />
-            <p
-              className="text-center mt-4 xl:mt-10 text-2xl xl:text-4xl uppercase font-extralight"
-              style={{ color: '#CCA43A' }}>
-              Sugar
-            </p>
-          </div>
-          <div className="mb-8 xl:mb-0">
-            <img src={water} alt="one" className="w-40 xl:w-64" />
-            <p
-              className="text-center mt-4 xl:mt-10 text-2xl xl:text-4xl uppercase font-extralight"
-              style={{ color: '#CCA43A' }}>
-              water
-            </p>
-          </div>
-          <div className="mb-8 xl:mb-0">
-            <img src={lemon} alt="one" className="w-40 xl:w-64" />
-            <p
-              className="text-center mt-4 xl:mt-10 text-2xl xl:text-4xl uppercase font-extralight"
-              style={{ color: '#CCA43A' }}>
-              lemon
-            </p>
-          </div>
-        </div>
-      </div>
-
       <div className="py-10" style={{ backgroundColor: 'white' }}>
         <div className="mx-auto grid place-items-center" style={{ maxWidth: '1550px' }}>
           <div>

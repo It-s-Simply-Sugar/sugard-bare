@@ -38,7 +38,7 @@ const Navigation = () => {
       {windowWidth >= 1024 ? (
         <div style={{ backgroundColor: '#F6F5F5' }}>
           <div
-            className="mx-auto px-6 xxxl:px-0 flex justify-between items-center py-5 font-medium"
+            className="mx-auto px-6 md:px-12 flex justify-between items-center py-5 font-medium"
             style={{ maxWidth: '1550px' }}>
             {' '}
             <Link to="/">

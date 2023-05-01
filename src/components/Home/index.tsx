@@ -6,13 +6,14 @@ import BookOnline from './BookOnline';
 import Reviews from './Reviews';
 import Promotions from './Promotions';
 import ContactUs from './ContactUs';
+import BusinessHours from './BusinessHours';
 import heroImage from '../../assets/hero-image-option2.png';
 
 const Home = () => {
   return (
     <div className="">
       <div className="pt-20 xs:pt-20 lg:pt-10" style={{ backgroundColor: '#CCB6A0' }}>
-        <div className="relative mx-auto px-6 lg:px-20 xxl:px-0" style={{ maxWidth: '1450px' }}>
+        <div className="relative mx-auto px-6 md:px-12" style={{ maxWidth: '1450px' }}>
           <div className="lg:mt-14 flex flex-col-reverse lg:flex-row justify-center items-center lg:justify-around lg:w-full">
             <img
               src={heroImage}
@@ -87,6 +88,7 @@ const Home = () => {
       <Reviews />
       <Promotions />
       <ContactUs />
+      <BusinessHours />
     </div>
   );
 };

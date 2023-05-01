@@ -2,7 +2,7 @@ const BookOnline = () => {
   return (
     <div className="pb-20" style={{ backgroundColor: '#F6F5F5' }}>
       <div className="mx-auto" style={{ maxWidth: '1550px' }}>
-        <div className="mx-auto grid place-items-center px-6 xlz:px-0">
+        <div className="mx-auto grid place-items-center px-6 md:px-12 xlz:px-0">
           <div
             className="px-10 py-14 -mt-20 flowers-left flowers-right"
             style={{ backgroundColor: '#F3EFEB' }}>

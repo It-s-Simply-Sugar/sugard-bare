@@ -36,11 +36,27 @@ export const reviews = [
     an extra layer of protection against any potential bacteria or germs.`
   },
   {
-    question: '',
-    answer: ''
+    question: 'Should I exfoliate before my appointment?',
+    answer: `Preparing your skin before a sugaring appointment can help to improve the results and ensure a more comfortable experience. Gently exfoliating your skin a day or two before your appointment is recommended to remove any dead skin cells and ensure that the hair is ready for removal. However, it is important to avoid using harsh scrubs or exfoliants on the day of your appointment, as this can irritate the skin and make it more sensitive. 
+    A washcloth or a gentle scrub is ideal for exfoliating your skin before sugaring, but be careful not to scrub too hard. It is also important to avoid using any products that contain retinol or retin-A for at least two weeks before your appointment, as these can make your skin more sensitive and prone to irritation. 
+    If you are taking any prescription drugs that affect your skin, it is important to consult with your healthcare professional before scheduling a sugaring appointment. This includes medications like Accutane, which should not be used up to 45 days before a sugaring session. 
+    `
   },
   {
-    question: '',
-    answer: ''
+    question: 'What are aftercare post sugaring?',
+    answer: `Proper aftercare is essential to ensure that your skin stays smooth and healthy after a sugaring appointment. Here are some important tips for post-sugaring care:`,
+    answerList: [
+      `
+      Keep the treated area clean: Wash your hands before touching the treated area for at least 24 hours after sugaring. This will help to reduce the risk of infection and irritation. 
+     `,
+      `Avoid heat and sun exposure: Stay away from bathtubs, hot tubs, and tanning for at least 72 hours after sugaring. If you are going to the pool or beach, wear at least SPF 50 protection and reapply as needed to protect your skin from harmful UV rays. 
+     `,
+      `Avoid working out for 24 hours: It is important to avoid sweating for at least 24 hours after sugaring. Sweat can harbor bacteria and cause irritation, so wait at least a day before engaging in any strenuous activities. 
+     `,
+      `Use an antibacterial cleanser: After working out or engaging in any activities that cause sweating, use an antibacterial cleanser to keep the treated area clean and free from bacteria. 
+     `,
+      `Moisturize regularly: Keeping your skin moisturized after sugaring can help to soothe any irritation and keep your skin looking smooth and healthy.
+     `
+    ]
   }
 ];

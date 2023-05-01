@@ -51,14 +51,8 @@ const Gallery = () => {
   };
 
   return (
-    <div className="pb-32 px-4" style={{ backgroundColor: '#F6F5F5' }}>
+    <div className="pb-10 px-6 md:px-12" style={{ backgroundColor: '#F6F5F5' }}>
       <div className="max-w-[1000px] h-[500px] w-full m-auto pb-16 px-4 relative group">
-        <div className="grid place-items-center">
-          <h3 className="uppercase text-center tracking-wider text-2xl xl:text-3xl font-semibold pb-3 border-solid">
-            gallery
-          </h3>
-          <div className="w-52 xl:w-64 h-1 bg-black mb-10" style={{ backgroundColor: '#CCA43A' }} />
-        </div>
         <div
           style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
           className="w-full h-full bg-center bg-cover duration-500"></div>

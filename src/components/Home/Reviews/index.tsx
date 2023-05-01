@@ -7,7 +7,7 @@ const Reviews = () => {
   return (
     <div className="pt-20 bg-white">
       <div
-        className="relative mx-auto grid place-items-center px-6 xl:px-20"
+        className="relative mx-auto grid place-items-center px-6 md:px-12"
         style={{ maxWidth: '1550px' }}>
         <p className="uppercase tracking-wider text-center text-xl sm:text-2xl xl:text-3xl font-semibold pb-3">
           10+ years in business
