@@ -52,20 +52,20 @@ const Gallery = () => {
 
   return (
     <div className="pb-10 px-6 md:px-12" style={{ backgroundColor: '#F6F5F5' }}>
-      <div className="max-w-[1000px] h-[500px] w-full m-auto pb-16 px-4 relative group">
+      <div className="max-w-[1000px] h-[550px] w-full m-auto pb-16 px-4 relative group">
         <div
           style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
           className="w-full h-full bg-center bg-cover duration-500"></div>
         {/* Left Arrow */}
         <div
           onClick={prevSlide}
-          className="arrow-left absolute top-[63%] -translate-x-0 translate-y-[-50%] left-0 text-2xl rounded-full h-12 w-12  cursor-pointer">
+          className="arrow-left absolute top-[48%] -translate-x-0 translate-y-[-50%] left-[-8px] text-2xl rounded-full h-12 w-12  cursor-pointer">
           <img src={leftArrow} className="w-5 ml-3" style={{ marginTop: '19px' }} />
         </div>
         {/* Right Arrow */}
         <div
           onClick={nextSlide}
-          className="arrow-right absolute top-[63%] -translate-x-0 translate-y-[-50%] right-0 text-2xl rounded-full h-12 w-12 cursor-pointer">
+          className="arrow-right absolute top-[48%] -translate-x-0 translate-y-[-50%] right-[-8px] text-2xl rounded-full h-12 w-12 cursor-pointer">
           <img src={rightArrow} className="w-5 ml-3" style={{ marginTop: '19px' }} />
         </div>
         <div className="flex top-4 justify-center pt-4 gap-x-1">

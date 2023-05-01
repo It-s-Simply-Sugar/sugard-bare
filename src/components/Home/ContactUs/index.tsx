@@ -26,9 +26,9 @@ const ContactUs = () => {
               </p>
               <div className="mt-4">
                 <p className="font-semibold text-md mb-2">Salon 705 Suites</p>
-                <p>
+                <address>
                   125 West Bloomingdale Avenue <br /> Brandon, FL 33511
-                </p>
+                </address>
                 <div className="mt-6">
                   <a href="tel:3038855985" className="hover:underline link">
                     303-885-5985
