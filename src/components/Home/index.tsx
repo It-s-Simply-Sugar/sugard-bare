@@ -12,7 +12,7 @@ import heroImage from '../../assets/hero-image-option2.png';
 const Home = () => {
   return (
     <div>
-      <div className="pt-20 xs:pt-20 lg:pt-10" style={{ backgroundColor: '#CCB6A0' }}>
+      <div className="pt-10 xs:pt-16 lg:pt-10" style={{ backgroundColor: '#CCB6A0' }}>
         <div className="relative mx-auto px-6 md:px-12" style={{ maxWidth: '1450px' }}>
           <div className="lg:mt-14 flex flex-col-reverse lg:flex-row justify-center items-center lg:justify-around lg:w-full">
             <img
@@ -26,7 +26,7 @@ const Home = () => {
                 <div className="grid place-items-center">
                   <div>
                     <div className="flex justify-center lg:justify-start">
-                      <h1 className="lg:hidden font-semibold text-center text-3xl xs:text-4xl md:text-5xl leading-tight mb-5">
+                      <h1 className="lg:hidden font-semibold text-center text-4xl xs:text-5xl leading-tight mb-5">
                         Where Beauty Meets Luxury -<br />
                         <span className="text-white">Sugar&apos;d Bare</span>
                       </h1>
@@ -35,7 +35,7 @@ const Home = () => {
                         <span className="text-white">Sugar&apos;d Bare</span>
                       </h1>
                     </div>
-                    <p className="text-left text-sm lg:text-base xl:text-lg px-10 sm:px-20 md:px-40 lg:px-0 xl:pr-20">
+                    <p className="text-center lg:text-left text-left text-sm lg:text-base xl:text-lg px-10 sm:px-20 md:px-40 lg:px-0 xl:pr-20">
                       Indulge in expert sugaring and top-tier beauty services, all delivered with a
                       warm and welcoming touch.
                     </p>

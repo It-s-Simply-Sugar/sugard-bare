@@ -1,4 +1,22 @@
 import { useState, useEffect } from 'react';
+import {
+  Animator,
+  ScrollContainer,
+  ScrollPage,
+  batch,
+  Fade,
+  FadeIn,
+  FadeOut,
+  Move,
+  MoveIn,
+  MoveOut,
+  Sticky,
+  StickyIn,
+  StickyOut,
+  Zoom,
+  ZoomIn,
+  ZoomOut
+} from 'react-scroll-motion';
 import promotionImage from '../../assets/promotion-image.png';
 import promotionMobileImage from '../../assets/promotions-mobile.png';
 
@@ -23,7 +41,7 @@ const Promotions = () => {
               style={{ color: '#C4B682' }}>
               Get More for Less: Our Latest Promotions and Discounts!
             </p>
-            <p className="text-sm md:text-base lg:text-lg leading-relaxed">
+            <p className="text-center text-sm md:text-base lg:text-lg leading-relaxed">
               Periodically, we offer exclusive promotions, discounts, and package bundles to our
               valued clients. Check out our Groupon page to stay up-to-date on our current offerings
               and save on your favorite services!
