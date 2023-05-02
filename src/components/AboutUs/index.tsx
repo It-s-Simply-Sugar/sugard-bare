@@ -7,7 +7,7 @@ const AboutUs = () => {
   return (
     <div className="py-20">
       <div className="mx-auto px-6" style={{ maxWidth: '1550px' }}>
-        <h1 className="px-6 uppercase font-semibold leading-tight text-4xl xs:text-5xl lg:text-6xl xl:text-7xl xxl:text-8xl">
+        <h1 className="px-6 uppercase font-semibold leading-tight text-5xl lg:text-6xl xl:text-7xl xxl:text-8xl">
           I love
           <br />
           the work

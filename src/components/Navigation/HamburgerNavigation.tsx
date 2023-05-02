@@ -69,7 +69,7 @@ const HamburgerNavigation = () => {
                 <li
                   className={`py-4 ${getLinkClass('/contact-us')}`}
                   onClick={() => setIsNavOpen(false)}>
-                  <Link to="/contact-us">Contact Us</Link>
+                  <Link to="/contact">Contact Us</Link>
                 </li>
               </ul>
               <div className="mx-4 grid grid-cols-1" onClick={() => setIsNavOpen(false)}>

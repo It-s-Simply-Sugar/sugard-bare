@@ -16,19 +16,37 @@
 
 .animate-slide-in {
 
-        position: absolute;
-        right: -600px;
-        -webkit-animation: slide 0.3s forwards;
-        animation: slide 0.3s forwards;
-    }
+    position: absolute;
+    right: -600px;
+    -webkit-animation: slideIn 0.3s forwards;
+    animation: slideIn 0.3s forwards;
+}
     
-    @-webkit-keyframes slide {
-        100% { right: 0; }
-    }
+@-webkit-keyframes slideIn {
+    100% { right: 0; }
+}
     
-    @keyframes slide {
-        100% { right: 0; }
-    }
+@keyframes slideIn {
+    100% { right: 0; }
+}
+
+.animate-slide-out {
+
+    position: absolute;
+    right: 0px;
+    -webkit-animation: slideOut 0.3s backwards;
+    animation: slideOut 0.3s backwards;
+}
+    
+@-webkit-keyframes slideOut {
+    100% { right: -600px; }
+}
+    
+@keyframes slideOut {
+    100% { right: -600px; }
+}
+
+    
 
 .close {
     width: 40px;
