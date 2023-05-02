@@ -11,7 +11,7 @@ const Services = () => {
       <div
         className="mt-8 md:-mt-32 w-full z-0 bg-white rounded-t-2xl shadow-lg shadow-stone-300"
         style={{ maxWidth: '1550px' }}>
-        <div className="text-center leading-relaxed py-8">
+        <div className="text-center leading-relaxed pt-8 pb-14">
           <p
             className="text-xl sm:text-2xl md:text-3xl font-semibold uppercase mb-2"
             style={{ color: '#C4B682' }}>

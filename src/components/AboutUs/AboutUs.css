@@ -1,0 +1,16 @@
+.container {
+    margin-top: -35px;
+    /* text-4xl xs:text-5xl lg:text-6xl xl:text-7xl xxl:text-8xl */
+    @media screen and (min-width: 600px) {
+        margin-top: -40px;
+    }
+    @media screen and (min-width: 1024px) {
+        margin-top: -51px;
+    }
+    @media screen and (min-width: 1280px) {
+        margin-top: -60px;
+    }
+    @media screen and (min-width: 1430px) {
+        margin-top: -80px;
+    }
+}

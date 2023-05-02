@@ -5,14 +5,8 @@ import heroImage from '../../assets/services-bg.png';
 const Services = () => {
   return (
     <div
-      className="mx-auto grid place-items-center px-6 md:px-20 xxl:px-0"
+      className="mx-auto grid place-items-center px-6 md:px-20 xxl:px-0 mb-20"
       style={{ maxWidth: '1550px' }}>
-      {/* <div>
-        <h3 className="mt-20 text-center text-2xl xl:text-3xl font-semibold pb-3 border-solid">
-          SERVICES
-        </h3>
-        <div className="w-52 xl:w-64 h-1 bg-black mb-10" style={{ backgroundColor: '#CCA43A' }} />
-      </div> */}
       <div className="w-full bg-white">
         <div className="mt-20 mb-10 mx-auto" style={{ backgroundImage: '', maxWidth: '1000px' }}>
           <img src={heroImage} alt="" />

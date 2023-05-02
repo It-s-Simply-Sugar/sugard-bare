@@ -6,12 +6,6 @@ const ContactUs = () => {
   return (
     <div className="py-20" style={{ backgroundColor: '#F6F5F5' }}>
       <div className="mx-auto grid place-items-center px-6 xl:px-20" style={{ maxWidth: '1550px' }}>
-        <div>
-          <h3 className="uppercase text-center tracking-wider text-2xl xl:text-3xl font-semibold pb-3 border-solid">
-            contact us
-          </h3>
-          <div className="w-52 xl:w-64 h-1 bg-black mb-10" style={{ backgroundColor: '#CCA43A' }} />
-        </div>
         <div
           className="w-full lg:flex flex-reverse bg-white"
           style={{ backgroundColor: '#F3EFEB' }}>
