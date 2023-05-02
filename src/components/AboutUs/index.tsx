@@ -7,7 +7,7 @@ const AboutUs = () => {
   return (
     <div className="py-20">
       <div className="mx-auto px-6" style={{ maxWidth: '1550px' }}>
-        <h1 className="px-6 uppercase font-semibold leading-tight text-5xl lg:text-6xl xl:text-7xl xxl:text-8xl">
+        <h1 className="px-6 uppercase font-semibold leading-tight text-5xl sm:text-7xl xxl:text-8xl">
           I love
           <br />
           the work
@@ -15,7 +15,7 @@ const AboutUs = () => {
           <span className="text-white">that I do</span>
         </h1>
         <div className="container grid place-items-center" style={{ backgroundColor: '#CCB6A0' }}>
-          <div className="px-8 sm:px-14 md:px-20 pt-32 md:pt-40 pb-10 grid place-items-center">
+          <div className="px-8 sm:px-14 md:px-20 pt-24 sm:pt-32 md:pt-40 pb-10 grid place-items-center">
             <img src={sugar} alt="" />
           </div>
           <div className="pb-8 flex flex-col justify-center items-center text-white">
@@ -49,7 +49,7 @@ const AboutUs = () => {
               forward to your next appointment.
             </p>
           </div>
-          <div className="pb-32 md:pb-40 ">
+          <div className="pb-24 sm:pb-32 md:pb-32 md:pb-40 ">
             <img src={logo} alt="" className="w-32 md:w-48" />
           </div>
         </div>
