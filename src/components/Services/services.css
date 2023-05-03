@@ -15,3 +15,7 @@
     background-color: #F3EFEB;
     color: black;
 }
+
+.service-image {
+    max-width: 120px;
+}

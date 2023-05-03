@@ -72,18 +72,19 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="px-6 pb-6 rounded-3xl">
-      <div className="grid place-items-center mt-20">
-        <>
-          <h3 className="uppercase text-center tracking-wider text-2xl xl:text-3xl font-semibold pb-3 border-solid">
-            contact us
-          </h3>
-          <div className="w-52 xl:w-64 h-1 bg-black mb-10" style={{ backgroundColor: '#CCA43A' }} />
-        </>
+    <div className="sm:px-6 py-20">
+      <div className="grid place-items-center">
+        <h1 className="px-6 pb-6 uppercase text-center font-semibold leading-tight text-5xl sm:text-7xl xxl:text-8xl">
+          contact
+          <br />
+          <span className="text-white xl:ml-32 xxl:ml-44" style={{ color: '#CCB6A0' }}>
+            us
+          </span>
+        </h1>
       </div>
       <div className="mx-auto" style={{ maxWidth: '1200px' }}>
         <div
-          className="w-full lg:flex p-8 md:p-20 rounded-3xl"
+          className="w-full lg:flex px-6 py-8 md:p-20 sm:rounded-3xl"
           style={{ backgroundColor: '#CCB6A0', color: '#F3EFEB' }}>
           <div className="lg:w-1/2 grid place-items-center">
             <div>
@@ -94,7 +95,7 @@ const ContactUs = () => {
                 get back to you within 24 hours
               </p>
 
-              <div>
+              <div className="mb-8">
                 <div className="flex justify-start items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -135,13 +136,13 @@ const ContactUs = () => {
                 </div>
               </div>
 
-              <div>social icons</div>
+              {/* <div>social icons</div> */}
             </div>
           </div>
           <div className="lg:w-1/2 text-sm p-10 rounded-3xl bg-white">
             <form onSubmit={submitHandler}>
               <div className="mb-8">
-                <label htmlFor="firstName" className="font-semibold">
+                <label htmlFor="firstName" className="font-semibold text-black">
                   First Name
                   <br />
                   <input
@@ -157,7 +158,7 @@ const ContactUs = () => {
                 <p className="text-xs text-red-600 mt-2">{formError.firstName}</p>
               </div>
               <div className="mb-8">
-                <label htmlFor="lastNamelastName" className="font-semibold">
+                <label htmlFor="lastNamelastName" className="font-semibold text-black">
                   Last Name
                   <br />
                   <input
@@ -173,7 +174,7 @@ const ContactUs = () => {
                 <p className="text-xs text-red-600 mt-2">{formError.lastName}</p>
               </div>
               <div className="mb-8">
-                <label htmlFor="email" className="font-semibold">
+                <label htmlFor="email" className="font-semibold text-black">
                   Email
                   <br />
                   <input
@@ -190,7 +191,7 @@ const ContactUs = () => {
                 <p className="text-xs text-red-600 mt-2">{formError.email}</p>
               </div>
               <div className="mb-8">
-                <label htmlFor="message" className="font-semibold">
+                <label htmlFor="message" className="font-semibold text-black">
                   Message
                   <br />
                   <textarea

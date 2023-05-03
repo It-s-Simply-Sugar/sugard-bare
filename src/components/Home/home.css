@@ -39,11 +39,6 @@
     left: 90px;
     
   }
-  /* @media screen and (min-width: 1430px) {
-    top: 43%; 
-    left: 23%;
-    
-  } */
           
 }
 
@@ -127,4 +122,14 @@
   background-color: white;
   border-color: #C4B682;
   color: #C4B682;
+}
+
+.google_map {
+  height: 250px;
+  @media screen and (min-width: 780px) {
+    height: 300px; 
+  }
+  @media screen and (min-width: 1200px) {
+    height: 450px; 
+  }
 }
