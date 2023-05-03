@@ -8,12 +8,13 @@ const Faq = () => {
   return (
     <div className="py-20">
       <div className="mx-auto grid place-items-center px-6 xl:px-20" style={{ maxWidth: '1550px' }}>
-        <div>
-          <h3 className="text-center tracking-wider text-2xl xl:text-3xl font-semibold pb-3 border-solid">
+        <h1 className="px-6 pb-6 uppercase text-center font-semibold leading-tight text-5xl sm:text-7xl xxl:text-8xl">
+          the
+          <br />
+          <span className="text-white xl:ml-32 xxl:ml-44" style={{ color: '#CCB6A0' }}>
             FAQs
-          </h3>
-          <div className="w-52 xl:w-64 h-1 bg-black mb-10" style={{ backgroundColor: '#CCA43A' }} />
-        </div>
+          </span>
+        </h1>
 
         <div className="">
           <div className="mx-auto grid place-items-center gap-x-10 grid-cols-1 sm:grid-cols-3 my-10">

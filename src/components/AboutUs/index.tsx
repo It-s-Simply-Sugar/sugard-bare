@@ -24,7 +24,7 @@ const AboutUs = () => {
               <li>|</li>
               <li className="text-lg font-thin">Sugarist</li>
             </ul>
-            <p className="text-md font-thin">Professional Esthetician</p>
+            <p className="text-md font-normal">Professional Esthetician</p>
           </div>
           <div
             className="pb-8 px-8 sm:px-14 md:px-20 text-sm md:text-base lg:text-lg "
