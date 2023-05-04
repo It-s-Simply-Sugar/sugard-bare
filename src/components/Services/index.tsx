@@ -1,6 +1,6 @@
 import ServiceTypes from './ServiceTypes';
 import CancellationPolicy from './CancellationPolicy';
-import heroImage from '../../assets/services-bg.png';
+import heroImage from '../../assets/services-hero.png';
 
 const Services = () => {
   return (
@@ -15,6 +15,7 @@ const Services = () => {
             services
           </span>
         </h1>
+        {/* <img src={heroImage} alt="" className="mx-auto" style={{ maxWidth: '600px' }} /> */}
         <div className="md:p-6 lg:p-0 lg:w-full grid place-items-center">
           <div>
             <p className="px-10 sm:px-14 lg:px-24 xl:px-60 pb-10 text-center text-sm md:text-base leading-relaxed">
