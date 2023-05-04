@@ -1,10 +1,10 @@
-import { sugarServices } from '../../data';
+import { bodyServices } from '../../data';
 
 const BodyServices = () => {
   return (
     <div className="grid place-items-center">
       <div className="xl:w-3/4 grid grid-cols-1 sm:grid-cols-2 gap-x-6">
-        {sugarServices.map((service, index) => (
+        {bodyServices.map((service, index) => (
           <div
             key={index}
             className="bg-white p-4 xsl:p-6 shadow-md rounded-md border border-solid border-gray-200 mb-6">

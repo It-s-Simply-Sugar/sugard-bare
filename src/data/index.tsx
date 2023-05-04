@@ -1,5 +1,7 @@
 import sfjgj from '../assets/unnamed-3.jpg';
 import fullLegs from '../assets/full-legs.png';
+import halfArms from '../assets/half-arms-lower.png';
+import fullArms from '../assets/full-arms.png';
 import fullLegsUpper from '../assets/half-legs-upper.png';
 import feetToes from '../assets/feet-toes.png';
 import browShaping from '../assets/eyebrows.png';
@@ -10,9 +12,27 @@ import lipChin from '../assets/lip-chin.png';
 import neck from '../assets/neck.png';
 
 // reviews
-import headshot from '../assets/gallery-image1.png';
+import customerReviewImage from '../assets/gallery-image1.png';
 
-export const sugarServices = [
+export const popularServices = [
+  {
+    serviceName: 'Bikini',
+    description: 'Removal of hair on the bikini line not to extend to leg or inner thigh area.',
+    price: 55,
+    image: sfjgj,
+    bookNow: '66'
+  },
+  {
+    serviceName: 'Brazilian (New Client)',
+    description:
+      'Removal of all the pubic hair with the sugaring technique which includes the backside but not the cheeks. Cheeks is an additional charge.',
+    price: 68,
+    image: sfjgj,
+    bookNow: ''
+  }
+];
+
+export const bodyServices = [
   {
     serviceName: 'Full Legs',
     description:
@@ -48,6 +68,20 @@ export const sugarServices = [
     description: 'Removal of hair from shoulders. Price includes both shoulders.',
     price: 20,
     image: sfjgj,
+    bookNow: ''
+  },
+  {
+    serviceName: 'Full Arms',
+    description: 'Removal of hair on upper and lower arms using Sugar.',
+    price: 55,
+    image: fullArms,
+    bookNow: ''
+  },
+  {
+    serviceName: 'Half Arms',
+    description: 'Removal of hair on upper or lower part of arm. Elbow up or Elbow down.',
+    price: 40,
+    image: halfArms,
     bookNow: ''
   },
   {
@@ -231,43 +265,43 @@ export const faceServices = [
 
 export const reviews = [
   {
-    image: headshot,
+    image: customerReviewImage,
     rating: 5,
     review:
       'Anna is awesome. This was my first time having a sugaring service and she made sure to explain the process step by step. Definitely recommend!'
   },
   {
-    image: headshot,
+    image: customerReviewImage,
     rating: 5,
     review:
       'Anna is the best!! She’s so personable and always makes me feel comfortable. She does a great job and prices are great compared to a lot of others I’ve tried. It’s hard to find someone reliable at a reasonable price that knows what they’re doing. I’m obsessed with sugar and recommend Anna all day!'
   },
   {
-    image: headshot,
+    image: customerReviewImage,
     rating: 5,
     review:
       'Literally the sweetest & takes her time and does amazing at making you feel comfortable!!'
   },
   {
-    image: headshot,
+    image: customerReviewImage,
     rating: 5,
     review:
       'Anna is awesome. This was my first time having a sugaring service and she made sure to explain the process step by step. Definitely recommend!'
   },
   {
-    image: headshot,
+    image: customerReviewImage,
     rating: 5,
     review:
       'Anna is awesome. This was my first time having a sugaring service and she made sure to explain the process step by step. Definitely recommend!'
   },
   {
-    image: headshot,
+    image: customerReviewImage,
     rating: 5,
     review:
       'Anna is awesome. This was my first time having a sugaring service and she made sure to explain the process step by step. Definitely recommend!'
   },
   {
-    image: headshot,
+    image: customerReviewImage,
     rating: 5,
     review:
       'Anna is awesome. This was my first time having a sugaring service and she made sure to explain the process step by step. Definitely recommend!'

@@ -3,43 +3,43 @@ import './services.css';
 import BodyServices from './BodyServices';
 import BikiniServices from './BikiniServices';
 import FaceServices from './FaceServices';
-import EyelashServices from './EyelashServices';
+import PopularServices from './PopularServices';
 
 const ServiceTypes = () => {
-  const [activeTab, setActiveTab] = useState('sugar');
-  const [showSugarTab, setShowSugarTab] = useState(true);
-  const [showWaxTab, setShowWaxTab] = useState(false);
+  const [activeTab, setActiveTab] = useState('popular');
+  const [showPopularTab, setShowPopularTab] = useState(true);
+  const [showBodyTab, setShowBodyTab] = useState(false);
+  const [showBikiniTab, setShowBikiniTab] = useState(false);
   const [showEyebrowsTab, setShowEyebrowsTab] = useState(false);
-  const [showEyelashesTab, setShowEyelashesTab] = useState(false);
 
   const handleTabSelections = (selected: string) => {
-    if (selected === 'sugar') {
-      setShowSugarTab(true);
-      setShowWaxTab(false);
+    if (selected === 'popular') {
+      setShowBodyTab(false);
+      setShowBikiniTab(false);
       setShowEyebrowsTab(false);
-      setShowEyelashesTab(false);
-      setActiveTab('sugar');
+      setShowPopularTab(true);
+      setActiveTab('popular');
     }
-    if (selected === 'wax') {
-      setShowSugarTab(false);
-      setShowWaxTab(true);
+    if (selected === 'body') {
+      setShowBodyTab(true);
+      setShowBikiniTab(false);
       setShowEyebrowsTab(false);
-      setShowEyelashesTab(false);
-      setActiveTab('wax');
+      setShowPopularTab(false);
+      setActiveTab('body');
+    }
+    if (selected === 'bikini') {
+      setShowBodyTab(false);
+      setShowBikiniTab(true);
+      setShowEyebrowsTab(false);
+      setShowPopularTab(false);
+      setActiveTab('bikini');
     }
     if (selected === 'eyebrows') {
-      setShowSugarTab(false);
-      setShowWaxTab(false);
+      setShowBodyTab(false);
+      setShowBikiniTab(false);
       setShowEyebrowsTab(true);
-      setShowEyelashesTab(false);
+      setShowPopularTab(false);
       setActiveTab('eyebrows');
-    }
-    if (selected === 'eyelashes') {
-      setShowSugarTab(false);
-      setShowWaxTab(false);
-      setShowEyebrowsTab(false);
-      setShowEyelashesTab(true);
-      setActiveTab('eyelashes');
     }
   };
 
@@ -47,23 +47,23 @@ const ServiceTypes = () => {
     <div className="mt-20 w-full">
       <ul className="xxxs:flex justify-center items-center gap-x-1 sm:gap-x-2">
         <li
-          onClick={() => handleTabSelections('eyelashes')}
+          onClick={() => handleTabSelections('popular')}
           className={`tab mb-1 xxxs:mb-0 py-2 px-6 md:px-10 text-center xxxs:text-left text-xs sm:text-sm md:text-base cursor-pointer text-white ${
-            activeTab === 'eyelashes' ? 'select-tab text-white' : 'unselected-tab'
+            activeTab === 'popular' ? 'select-tab text-white' : 'unselected-tab'
           }`}>
           Popular
         </li>
         <li
-          onClick={() => handleTabSelections('sugar')}
+          onClick={() => handleTabSelections('body')}
           className={`tab mb-1 xxxs:mb-0 py-2 px-6 md:px-10 text-center xxxs:text-left text-xs sm:text-sm md:text-base cursor-pointer text-white ${
-            activeTab === 'sugar' ? 'select-tab text-white' : 'unselected-tab'
+            activeTab === 'body' ? 'select-tab text-white' : 'unselected-tab'
           }`}>
           Body
         </li>
         <li
-          onClick={() => handleTabSelections('wax')}
+          onClick={() => handleTabSelections('bikini')}
           className={`tab mb-1 xxxs:mb-0 py-2 px-6 md:px-10 text-center xxxs:text-left text-xs sm:text-sm md:text-base cursor-pointer text-white ${
-            activeTab === 'wax' ? 'select-tab text-white' : 'unselected-tab'
+            activeTab === 'bikini' ? 'select-tab text-white' : 'unselected-tab'
           }`}>
           Bikini
         </li>
@@ -76,10 +76,10 @@ const ServiceTypes = () => {
         </li>
       </ul>
       <div className="mt-10">
-        {showSugarTab && <BodyServices />}
-        {showWaxTab && <BikiniServices />}
+        {showPopularTab && <PopularServices />}
+        {showBodyTab && <BodyServices />}
+        {showBikiniTab && <BikiniServices />}
         {showEyebrowsTab && <FaceServices />}
-        {showEyelashesTab && <EyelashServices />}
       </div>
     </div>
   );
