@@ -19,7 +19,7 @@ export const popularServices = [
     serviceName: 'Bikini',
     description: 'Removal of hair on the bikini line not to extend to leg or inner thigh area.',
     price: 55,
-    image: sfjgj,
+    image: feetToes,
     bookNow: '66'
   },
   {
@@ -27,8 +27,16 @@ export const popularServices = [
     description:
       'Removal of all the pubic hair with the sugaring technique which includes the backside but not the cheeks. Cheeks is an additional charge.',
     price: 68,
-    image: sfjgj,
+    image: feetToes,
     bookNow: ''
+  },
+  {
+    serviceName: 'Vajacial',
+    description:
+      'Similar to a traditional face facial, this service includes a double cleanse, light exfoliation, extractions, soothing mask.',
+    price: 50,
+    image: feetToes,
+    bookNow: '66'
   }
 ];
 
@@ -113,7 +121,7 @@ export const bikiniServices = [
   {
     serviceName: 'Vajacial',
     description:
-      'Do you get bumps with waxing or shaving? Want to keep your skin clear and smooth where you wax? Of course, you do! Just like a traditional face facial, this service includes a double cleanse, light exfoliation, extractions, soothing mask. Can/should be done every wax, every other wax, or quarterly depending on the condition of the skin.',
+      'Similar to a traditional face facial, this service includes a double cleanse, light exfoliation, extractions, soothing mask.',
     price: 50,
     image: sfjgj,
     bookNow: '66'
@@ -128,7 +136,7 @@ export const bikiniServices = [
   {
     serviceName: 'Bikini w/ Vajacial',
     description:
-      'Do you get bumps with waxing or shaving? Want to keep your skin clear and smooth where you wax? Of course, you do! Just like a traditional face facial, this service includes a double cleanse, light exfoliation, extractions, soothing mask. Can/should be done every wax, every other wax, or quarterly depending on the condition of the skin.',
+      'Similar to a traditional face facial, this service includes a double cleanse, light exfoliation, extractions, soothing mask.',
     price: 80,
     image: sfjgj,
     bookNow: '11'
@@ -136,7 +144,7 @@ export const bikiniServices = [
   {
     serviceName: 'Bikini w/ Calming Mask',
     description:
-      'Aloe & Rose Post Epilation Mask will leave your skin soothed, moisturized and protected. Aloe is a natural healer and is soothing and calming. Tea Tree is a great antibacterial and anti-inflammatory oil. Vitamin E, Jojoba and Hyaluronic Acid will further moisturize and calm the skin. Mask will be applied after sugaring hair removal service.',
+      'Aloe & Rose Post Epilation Mask will leave your skin soothed, moisturized and protected.',
     price: 50,
     image: sfjgj,
     bookNow: '52'
@@ -167,7 +175,7 @@ export const bikiniServices = [
   {
     serviceName: 'Brazilian w/ Vajacial',
     description:
-      'Do you get bumps with waxing or shaving? Want to keep your skin clear and smooth where you wax? Of course, you do! Just like a traditional face facial, this service includes a double cleanse, light exfoliation, extractions, soothing mask. Can/should be done every wax, every other wax, or quarterly depending on the condition of the skin.',
+      'Similar to a traditional face facial, this service includes a double cleanse, light exfoliation, extractions, soothing mask.',
     price: 100,
     image: sfjgj,
     bookNow: ''
@@ -175,7 +183,7 @@ export const bikiniServices = [
   {
     serviceName: 'Brazilian with Calming Mask',
     description:
-      'Aloe & Rose Post Epilation Mask will leave your skin soothed, moisturized and protected. Aloe is a natural healer and is soothing and calming. Tea Tree is a great antibacterial and anti-inflammatory oil. Vitamin E, Jojoba and Hyaluronic Acid will further moisturize and calm the skin. The mask is applied after sugaring hair removal to help with redness and to soothe and calm the skin.',
+      'Aloe & Rose Post Epilation Mask will leave your skin soothed, moisturized and protected.',
     price: 70,
     image: sfjgj,
     bookNow: ''

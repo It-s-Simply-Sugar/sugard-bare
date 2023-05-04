@@ -15,9 +15,10 @@
 }
 
 .animate-slide-in {
-
-    position: absolute;
-    right: -600px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    right: -600vw;
     -webkit-animation: slideIn 0.3s forwards;
     animation: slideIn 0.3s forwards;
 }
@@ -31,27 +32,30 @@
 }
 
 .animate-slide-out {
-
-    position: absolute;
-    right: 0px;
+    position: fixed;
+    right: 0;
+    
     -webkit-animation: slideOut 0.3s backwards;
     animation: slideOut 0.3s backwards;
-}
-    
-@-webkit-keyframes slideOut {
-    100% { right: -600px; }
-}
-    
-@keyframes slideOut {
-    100% { right: -600px; }
-}
+  }
+  
+  @-webkit-keyframes slideOut {
+    0% { right: 0; }
+    100% { right: -100%; }
+  }
+  
+  @keyframes slideOut {
+    0% { right: 0; }
+    100% { right: -100%; }
+  }
+  
 
     
 
 .close {
     width: 40px;
     height: 20px;
-    position: relative;
+    position: fixed;
     @media screen and (min-width: 768px) {
         top: -8px; 
       }
@@ -73,3 +77,4 @@
     transform: rotate(-45deg);
     left: 22px;
 }
+

@@ -5,6 +5,7 @@ import logo from '../../assets/sugardbare-logo.png';
 
 const HamburgerNavigation = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
+  const [isNavClosing, setIsNavClosing] = useState(false);
   const [activeLink, setActiveLink] = useState('');
   const location = useLocation();
 
@@ -17,6 +18,18 @@ const HamburgerNavigation = () => {
       return 'nav__item nav__item--active';
     } else {
       return 'nav__item';
+    }
+  };
+
+  const handleCloseNav = () => {
+    setIsNavClosing(true);
+  };
+
+  const handleAnimationEnd = (e: React.AnimationEvent<HTMLDivElement>) => {
+    if (e.animationName === 'slideOut') {
+      setIsNavOpen(false);
+      setIsNavClosing(false);
+      e.currentTarget.classList.remove('animate-slide-out');
     }
   };
 
@@ -38,15 +51,18 @@ const HamburgerNavigation = () => {
               style={{ height: '2px', backgroundColor: '#CCA43A' }}></span>
           </button>
         ) : (
-          <div className="grid place-items-end">
-            <div className="cursor-pointer close" onClick={() => setIsNavOpen(false)} />
+          <div className="grid place-items-end" style={{ zIndex: 10 }}>
+            <div className="cursor-pointer close" onClick={handleCloseNav} />
           </div>
         )}
       </div>
       {isNavOpen && (
         <div
-          className="fixed mt-4 right-0 w-64 shadow-lg z-50 animate-slide-in"
-          style={{ backgroundColor: '#F6F5F5', height: '100vh' }}>
+          className={`fixed right-0 w-64 shadow-lg z-50 animate-slide-${
+            isNavClosing ? 'out' : 'in'
+          }`}
+          style={{ backgroundColor: '#F6F5F5', height: '100vh' }}
+          onAnimationEnd={handleAnimationEnd}>
           <div className="mt-16 grid place-items-center" style={{ color: '#665E58' }}>
             <div>
               <ul className="mx-4 text-center">
