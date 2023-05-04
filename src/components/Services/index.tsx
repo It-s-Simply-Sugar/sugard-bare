@@ -19,14 +19,7 @@ const Services = () => {
         <div className="md:p-6 lg:p-0 lg:w-full grid place-items-center">
           <div>
             <p className="px-10 sm:px-14 lg:px-24 xl:px-60 pb-10 text-center text-sm md:text-base leading-relaxed">
-              Unlike other methods, sugaring is a natural alternative to hair removal. Our sugar
-              paste is handcrafted with a blend of ingredients found in your kitchen: sugar, water,
-              and lemon. It&apos;s gentle on all skin types, even the most sensitive, making it a
-              safe and effective solution for all areas of the body. Our technique is designed to
-              ensure maximum comfort, as sugar is never applied hot like wax and only adheres to
-              dead skin cells therefore preventing skin tearing. After a completed session,
-              you&apos;ll emerge with silky-smooth, exfoliated skin that will leave you feeling
-              confident and radiant.
+              Some text here
             </p>
             <div className="text-center">
               <a href="#cancellation-policy" className="text-sm underline font-semibold">

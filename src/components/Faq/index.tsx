@@ -17,11 +17,20 @@ const Faq = () => {
         </h1>
 
         <div className="">
-          <div className="mx-auto grid place-items-center gap-x-10 grid-cols-1 sm:grid-cols-3 my-10">
+          <p className="sm:px-14 lg:px-24 xl:px-60 text-center text-sm md:text-base leading-relaxed">
+            Unlike other methods, sugaring is a natural alternative to hair removal. Our sugar paste
+            is handcrafted with a blend of ingredients found in your kitchen: sugar, water, and
+            lemon. It&apos;s gentle on all skin types, even the most sensitive, making it a safe and
+            effective solution for all areas of the body. Our technique is designed to ensure
+            maximum comfort, as sugar is never applied hot like wax and only adheres to dead skin
+            cells therefore preventing skin tearing. After a completed session, you&apos;ll emerge
+            with silky-smooth, exfoliated skin that will leave you feeling confident and radiant.
+          </p>
+          <div className="mx-auto grid place-items-center grid-cols-3 gap-x-4 my-10">
             <div className="mb-8 xl:mb-0">
               <img src={sugar} alt="one" className="w-32 lg:w-40" />
               <p
-                className="text-center mt-4 xl:mt-10 text-2xl uppercase font-extralight"
+                className="text-center mt-4 xl:mt-10 text-lg sm:text-2xl uppercase font-extralight"
                 style={{ color: '#CCA43A' }}>
                 Sugar
               </p>
@@ -29,7 +38,7 @@ const Faq = () => {
             <div className="mb-8 xl:mb-0">
               <img src={water} alt="one" className="w-32 lg:w-40" />
               <p
-                className="text-center mt-4 xl:mt-10 text-2xl uppercase font-extralight"
+                className="text-center mt-4 xl:mt-10 text-lg sm:text-2xl uppercase font-extralight"
                 style={{ color: '#CCA43A' }}>
                 water
               </p>
@@ -37,7 +46,7 @@ const Faq = () => {
             <div className="mb-8 xl:mb-0">
               <img src={lemon} alt="one" className="w-32 lg:w-40" />
               <p
-                className="text-center mt-4 xl:mt-10 text-2xl uppercase font-extralight"
+                className="text-center mt-4 xl:mt-10 text-lg sm:text-2xl uppercase font-extralight"
                 style={{ color: '#CCA43A' }}>
                 lemon
               </p>
@@ -47,7 +56,7 @@ const Faq = () => {
       </div>
       <div className="mt-10">
         {reviews.map((review, index) => (
-          <div key={index} className="box py-10 px-10">
+          <div key={index} className="box py-10 px-6 xl:px-20">
             <div className="mx-auto" style={{ maxWidth: '1550px' }}>
               <p
                 className="m-0 text-2xl font-medium tracking-wider text-center mb-4"
