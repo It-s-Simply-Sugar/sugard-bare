@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
+import './App.css';
+import AnnouncementBanner from './components/Home/AnnouncementBanner';
 import Navigation from './components/Navigation';
 import Home from './components/Home';
 import Services from './components/Services';
@@ -9,8 +11,26 @@ import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 
 function App() {
+  const [showBanner, setShowBanner] = useState(true);
+  useEffect(() => {
+    const scrollHandler = () => {
+      const scrollTop = window.pageYOffset;
+      if (scrollTop <= 300 && showBanner) {
+        setShowBanner(false);
+      } else if (scrollTop > 300 && !showBanner) {
+        setShowBanner(true);
+      }
+    };
+    window.addEventListener('scroll', scrollHandler);
+    return () => window.removeEventListener('scroll', scrollHandler);
+  }, [showBanner]);
+
   return (
-    <div className="">
+    <div>
+      <div className={showBanner ? 'fixed top-0 w-full z-40 transition' : 'top-[-300px]'}>
+        <AnnouncementBanner />
+      </div>
+
       <Navigation />
       <div className="">
         <Routes>
