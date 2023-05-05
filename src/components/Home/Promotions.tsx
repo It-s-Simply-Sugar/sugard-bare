@@ -23,14 +23,14 @@ const Promotions = () => {
         </div>
 
         <div className="lg:w-1/2 leading-relaxed grid place-items-start">
-          <div className="">
-            <div className="grid place-items-center sm:place-items-start mb-4 sm:mb-0">
-              <img src={womanRelaxing} alt="" className="w-full" />
-            </div>
-            <div className="text-sm md:text-base lg:text-lg mt-14">
+          <div className="xs:flex xs:flex-col-reverse">
+            <div className="text-sm md:text-base lg:text-lg mt-8 mb-6 xs:mt-14 xs:mb-0">
               Periodically, we offer exclusive promotions, discounts, and package bundles to our
               valued clients. Check out our Groupon page to stay up-to-date on our current offerings
               and save on your favorite services!
+            </div>
+            <div className="grid place-items-center sm:place-items-start mb-4 sm:mb-0">
+              <img src={womanRelaxing} alt="" className="w-full" />
             </div>
           </div>
         </div>

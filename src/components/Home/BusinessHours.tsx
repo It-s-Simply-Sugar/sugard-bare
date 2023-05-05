@@ -14,12 +14,6 @@ const BusinessHours = () => {
     <div
       className="mx-auto py-20 bg-white grid place-items-center px-6 md:px-12"
       style={{ maxWidth: '1550px' }}>
-      <div>
-        <h3 className="uppercase text-center tracking-wider text-2xl xl:text-3xl font-semibold pb-3 border-solid">
-          business hours
-        </h3>
-        <div className="w-52 xl:w-80 h-1 bg-black mb-10" style={{ backgroundColor: '#CCA43A' }} />
-      </div>
       <div className="w-full mb-16">
         {hours.map((item, index) => (
           <div

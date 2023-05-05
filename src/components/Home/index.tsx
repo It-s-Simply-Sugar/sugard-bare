@@ -11,7 +11,7 @@ import heroImage from '../../assets/hero-image-option2.png';
 const Home = () => {
   return (
     <div>
-      <div className="pt-10 xs:pt-16 lg:pt-10" style={{ backgroundColor: '#CCB6A0' }}>
+      <div className="pt-6 xs:pt-16 lg:pt-10" style={{ backgroundColor: '#CCB6A0' }}>
         <div className="relative mx-auto px-6 md:px-12" style={{ maxWidth: '1450px' }}>
           <div className="flex flex-col-reverse lg:flex-row justify-center items-center lg:justify-around lg:w-full">
             <img
@@ -38,7 +38,7 @@ const Home = () => {
                       Indulge in expert sugaring and top-tier beauty services, all delivered with a
                       warm and welcoming touch.
                     </p>
-                    <div className="grid justify-center pt-12">
+                    <div className="hidden lg:block grid justify-center pt-12">
                       <a href="#" className="flex">
                         <p className="grid place-items-center text-xs lg:text-base xl:text-lg font-semibold text-center underline mr-6">
                           View Services

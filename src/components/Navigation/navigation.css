@@ -1,16 +1,22 @@
+.nav__item {
+    color: #F6F5F5;
+}
+
 .nav__item:hover {
-    color: #CCA43A;
+    color: #605651;
 }
 .nav__item--active {
-    color: #CCA43A;
-    border-bottom: 3px solid #CCA43A;
+    color: #605651;
+    border-bottom: 3px solid #605651;
     padding-bottom: 3px;
 }
 .book-online__btn {
-    color: #CCA43A;
+    color: #F6F5F5;
+    border-color: #F6F5F5;
+    background-color: #CCB6A0;
 }
 .book-online__btn:hover {
-    color: #665E58;
+    color: #CCA43A;
     background-color: #F2EFEA;
 }
 

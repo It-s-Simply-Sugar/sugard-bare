@@ -44,11 +44,11 @@ const HamburgerNavigation = () => {
         {!isNavOpen ? (
           <button className="p-0" onClick={() => setIsNavOpen(true)}>
             <span
-              className="hamburger_line_1 block w-8 bg-black mb-1"
-              style={{ height: '2px', backgroundColor: '#CCA43A' }}></span>
+              className="hamburger_line_1 block w-8 mb-1"
+              style={{ height: '2px', backgroundColor: '#F6F5F5' }}></span>
             <span
               className="hamburger_line_2 block w-8"
-              style={{ height: '2px', backgroundColor: '#CCA43A' }}></span>
+              style={{ height: '2px', backgroundColor: '#F6F5F5' }}></span>
           </button>
         ) : (
           <div className="grid place-items-end" style={{ zIndex: 10 }}>

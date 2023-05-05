@@ -1,7 +1,7 @@
 import Marquee from 'react-fast-marquee';
 import './Reviews.css';
 import quotes from '../../../assets/quotes.png';
-import { reviews } from '../../../data';
+import { data } from './data';
 
 const Reviews = () => {
   return (
@@ -23,11 +23,11 @@ const Reviews = () => {
       </div>
       <div className="mt-10 mx-auto" style={{ maxWidth: '1550px' }}>
         <Marquee className="marquee-container-div flex" direction="left" speed={50}>
-          {reviews.map((review, index) => (
+          {data.map((review, index) => (
             <div
               key={index}
-              className="mx-4 rounded-2xl px-10 py-6 grid place-items-center"
-              style={{ maxWidth: '400px', height: '200px', backgroundColor: '#F3EFEB' }}>
+              className="mx-4 rounded-2xl px-4 md:px-10 py-6 grid place-items-center w-72 md:w-96"
+              style={{ height: '200px', backgroundColor: '#F3EFEB' }}>
               <div className="grid place-items-center relative">
                 <img
                   src={review.image}
@@ -52,9 +52,9 @@ const Reviews = () => {
                 </div>
               </div>
               <p className="text-xs text-center my-2 font-light">
-                &quot;{review.review.slice(0, 125)} {review.review.length > 125 ? '...' : ''}&quot;
+                &quot;{review.review.slice(0, 105)} {review.review.length > 105 ? '...' : ''}&quot;
               </p>
-              {review.review.length > 125 && (
+              {review.review.length > 105 && (
                 <p className="text-center text-xs underline cursor-pointer">See full review</p>
               )}
             </div>

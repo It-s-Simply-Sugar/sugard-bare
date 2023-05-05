@@ -1,5 +1,5 @@
 import './Benefits.css';
-import spaInterior from '../../../assets/spa-interior.png';
+import spaInterior from '../../../assets/some-image.png';
 import flower from '../../../assets/flower-icon.png';
 
 const Benefits = () => {
@@ -11,11 +11,15 @@ const Benefits = () => {
         <div
           className="w-full lg:flex flex-reverse bg-white"
           style={{ backgroundColor: '#F3EFEB' }}>
-          <div className="lg:w-full grid place-items-center">
-            <p className="text-xl sm:text-2xl md:text-3xl font-semibold uppercase pb-8">
+          <div
+            className="lg:w-full grid place-items-center lg:mr-10 xl:mr-20"
+            style={{ maxWidth: '950px' }}>
+            <p
+              className="text-xl sm:text-2xl md:text-3xl font-semibold uppercase pb-8"
+              style={{ color: '#CCB6A0' }}>
               benefits of sugaring
             </p>
-            <div className="grid grid-cols-1 xs:grid-cols-2 xs:gap-8">
+            <div className="grid grid-cols-1 xsl:grid-cols-2 xs:gap-8">
               <div className="mb-8 xs:mb-0">
                 <img src={flower} alt="" className="w-8 rounded-full" />
                 <p className="font-bold text-base md:text-md lg:text-xl mt-2 mb-4">100% Natural</p>
@@ -53,12 +57,8 @@ const Benefits = () => {
               </div>
             </div>
           </div>
-          <div className="lg:block hidden" style={{ width: '600px' }}>
-            <img
-              src={spaInterior}
-              alt=""
-              className="lg:absolute lg:top-[-350px] lg:right-[100px]"
-            />
+          <div className="lg:block hidden -mt-96" style={{ marginTop: '-40%' }}>
+            <img src={spaInterior} alt="" className="" />
           </div>
         </div>
       </div>

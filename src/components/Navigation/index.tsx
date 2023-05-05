@@ -70,8 +70,7 @@ const Navigation = () => {
                 rel="noreferrer">
                 <button
                   type="button"
-                  className="book-online__btn border-2 border-white border-solid rounded-full px-5 py-2 bg-white"
-                  style={{ borderColor: '#CCA43A' }}>
+                  className="book-online__btn border-2 border-white border-solid rounded-full px-5 py-2 bg-white">
                   Book Online
                 </button>
               </a>

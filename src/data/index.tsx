@@ -11,9 +11,6 @@ import chin from '../assets/chin.png';
 import lipChin from '../assets/lip-chin.png';
 import neck from '../assets/neck.png';
 
-// reviews
-import customerReviewImage from '../assets/gallery-image1.png';
-
 export const popularServices = [
   {
     serviceName: 'Bikini',
@@ -268,50 +265,5 @@ export const faceServices = [
     price: 20,
     image: sfjgj,
     bookNow: ''
-  }
-];
-
-export const reviews = [
-  {
-    image: customerReviewImage,
-    rating: 5,
-    review:
-      'Anna is awesome. This was my first time having a sugaring service and she made sure to explain the process step by step. Definitely recommend!'
-  },
-  {
-    image: customerReviewImage,
-    rating: 5,
-    review:
-      'Anna is the best!! She’s so personable and always makes me feel comfortable. She does a great job and prices are great compared to a lot of others I’ve tried. It’s hard to find someone reliable at a reasonable price that knows what they’re doing. I’m obsessed with sugar and recommend Anna all day!'
-  },
-  {
-    image: customerReviewImage,
-    rating: 5,
-    review:
-      'Literally the sweetest & takes her time and does amazing at making you feel comfortable!!'
-  },
-  {
-    image: customerReviewImage,
-    rating: 5,
-    review:
-      'Anna is awesome. This was my first time having a sugaring service and she made sure to explain the process step by step. Definitely recommend!'
-  },
-  {
-    image: customerReviewImage,
-    rating: 5,
-    review:
-      'Anna is awesome. This was my first time having a sugaring service and she made sure to explain the process step by step. Definitely recommend!'
-  },
-  {
-    image: customerReviewImage,
-    rating: 5,
-    review:
-      'Anna is awesome. This was my first time having a sugaring service and she made sure to explain the process step by step. Definitely recommend!'
-  },
-  {
-    image: customerReviewImage,
-    rating: 5,
-    review:
-      'Anna is awesome. This was my first time having a sugaring service and she made sure to explain the process step by step. Definitely recommend!'
   }
 ];

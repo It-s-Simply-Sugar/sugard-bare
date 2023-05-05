@@ -7,7 +7,7 @@ const Services = () => {
       className="pb-20 flex justify-center items-center px-6 md:px-12"
       style={{ backgroundColor: '#F6F5F5' }}>
       <div
-        className="mt-8 md:-mt-32 w-full lg:flex lg:flex-row-reverse z-0 bg-white shadow-lg shadow-stone-300"
+        className="-mt-12 xsl:-mt-16 md:-mt-32 w-full lg:flex lg:flex-row-reverse z-0 bg-white shadow-lg shadow-stone-300"
         style={{ maxWidth: '1550px' }}>
         <div className="lg:w-1/2 leading-relaxed grid place-items-center bg-white">
           <div className="p-8 xsl:p-10 sm:py-20 lg:py-40">
@@ -15,7 +15,7 @@ const Services = () => {
               <img src={flower} className="w-14 h-14 mr-4 sm:mr-10" />
               <ul className="grid place-items-center sm:place-items-start">
                 <li
-                  className="text-xl sm:text-2xl md:text-3xl font-semibold uppercase sm:pb-3"
+                  className="text-md xsl:text-xl sm:text-2xl md:text-3xl font-semibold uppercase sm:pb-3"
                   style={{ color: '#CCB6A0' }}>
                   brazilian
                 </li>
@@ -33,7 +33,7 @@ const Services = () => {
               <img src={flower} className="w-14 h-14 mr-4 sm:mr-10" />
               <ul className="grid place-items-center sm:place-items-start">
                 <li
-                  className="text-xl sm:text-2xl md:text-3xl font-semibold uppercase sm:pb-3"
+                  className="text-md xsl:text-xl sm:text-2xl md:text-3xl font-semibold uppercase sm:pb-3"
                   style={{ color: '#CCB6A0' }}>
                   bikini
                 </li>
@@ -51,7 +51,7 @@ const Services = () => {
               <img src={flower} className="w-14 h-14 mr-4 sm:mr-10" />
               <ul className="grid place-items-center sm:place-items-start">
                 <li
-                  className="text-xl sm:text-2xl md:text-3xl font-semibold uppercase sm:pb-3"
+                  className="text-md xsl:text-xl sm:text-2xl md:text-3xl font-semibold uppercase sm:pb-3"
                   style={{ color: '#CCB6A0' }}>
                   legs
                 </li>
@@ -88,7 +88,7 @@ const Services = () => {
             </p>
             <div>
               <button
-                className="bg-white border-2 border-solid px-5 py-2 bg-white"
+                className="text-sm xs:text-base bg-white border-2 border-solid px-5 py-2 bg-white"
                 style={{ borderColor: '#CCA43A', color: '#CCA43A' }}>
                 Schedule Appointment
               </button>
