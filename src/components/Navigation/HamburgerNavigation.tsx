@@ -3,7 +3,11 @@ import './navigation.css';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../../assets/sugardbare-logo.png';
 
-const HamburgerNavigation = () => {
+interface Props {
+  showBanner: boolean;
+}
+
+const HamburgerNavigation = ({ showBanner }: Props) => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const [isNavClosing, setIsNavClosing] = useState(false);
   const [activeLink, setActiveLink] = useState('');
@@ -58,7 +62,9 @@ const HamburgerNavigation = () => {
       </div>
       {isNavOpen && (
         <div
-          className={`fixed right-0 w-64 z-50 animate-slide-${isNavClosing ? 'out' : 'in'}`}
+          className={`fixed right-0 w-64 z-50 animate-slide-${isNavClosing ? 'out' : 'in'} ${
+            !showBanner ? 'banner-is-shown' : 'top-0'
+          }`}
           style={{ backgroundColor: '#F6F5F5', height: '100vh' }}
           onAnimationEnd={handleAnimationEnd}>
           <div className="mt-16 grid place-items-center" style={{ color: '#665E58' }}>

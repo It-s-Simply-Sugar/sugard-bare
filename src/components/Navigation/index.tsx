@@ -4,7 +4,10 @@ import './navigation.css';
 import HamburgerNavigation from './HamburgerNavigation';
 import logo from '../../assets/sugardbare-logo.png';
 
-const Navigation = () => {
+interface Props {
+  closeBanner: boolean;
+}
+const Navigation = ({ closeBanner }: Props) => {
   const [windowWidth, setWindowWidth] = useState(0);
   const [activeLink, setActiveLink] = useState('');
   const location = useLocation();
@@ -78,7 +81,7 @@ const Navigation = () => {
           </div>
         </div>
       ) : (
-        <HamburgerNavigation />
+        <HamburgerNavigation showBanner={closeBanner} />
       )}
     </nav>
   );

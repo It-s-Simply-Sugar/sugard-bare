@@ -6,6 +6,8 @@ import rightArrow from '../../../assets/arrow-right.png';
 
 const Gallery = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [touchStart, setTouchStart] = useState(0);
+  const [touchEnd, setTouchEnd] = useState(0);
 
   const prevSlide = () => {
     const isFirstSlide = currentIndex === 0;
@@ -23,12 +25,32 @@ const Gallery = () => {
     setCurrentIndex(slideIndex);
   };
 
+  const handleTouchStart = (e: React.TouchEvent<HTMLDivElement>) => {
+    setTouchStart(e.touches[0].clientX);
+  };
+
+  const handleTouchEnd = (e: React.TouchEvent<HTMLDivElement>) => {
+    setTouchEnd(e.changedTouches[0].clientX);
+    handleSwipe();
+  };
+
+  const handleSwipe = () => {
+    const swipeDistance = touchStart - touchEnd;
+    if (swipeDistance > 0) {
+      nextSlide();
+    } else if (swipeDistance < 0) {
+      prevSlide();
+    }
+  };
+
   return (
     <div className="pb-10 px-6 md:px-12" style={{ backgroundColor: '#F6F5F5' }}>
       <div className="gallery max-w-[1000px] w-full m-auto pb-16 px-4 relative group">
         <div
           style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-          className="w-full h-full bg-center bg-cover duration-500"></div>
+          className="w-full h-full bg-center bg-cover duration-500"
+          onTouchStart={handleTouchStart}
+          onTouchEnd={handleTouchEnd}></div>
         {/* Left Arrow */}
         <div
           onClick={prevSlide}

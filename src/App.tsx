@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 
 function App() {
   const [showBanner, setShowBanner] = useState(false);
+  const [closeBanner, setCloseBanner] = useState(false);
 
   const scrollHandler = () => {
     const scrollTop = window.pageYOffset;
@@ -21,7 +22,9 @@ function App() {
       setShowBanner(false);
     }
   };
-
+  const closeBannerHandler = () => {
+    setCloseBanner(true);
+  };
   useEffect(() => {
     window.addEventListener('scroll', scrollHandler);
     return () => window.removeEventListener('scroll', scrollHandler);
@@ -30,10 +33,10 @@ function App() {
   return (
     <div>
       <div className={showBanner ? 'fixed top-0 w-full z-40 transition' : ''}>
-        <AnnouncementBanner />
+        <AnnouncementBanner closeBannerHandler={closeBannerHandler} closeBanner={closeBanner} />
       </div>
 
-      <Navigation />
+      <Navigation closeBanner={closeBanner} />
       <div className="">
         <Routes>
           <Route path="/" element={<Home />} />
