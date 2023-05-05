@@ -58,9 +58,7 @@ const HamburgerNavigation = () => {
       </div>
       {isNavOpen && (
         <div
-          className={`fixed right-0 w-64 shadow-lg z-50 animate-slide-${
-            isNavClosing ? 'out' : 'in'
-          }`}
+          className={`fixed right-0 w-64 z-50 animate-slide-${isNavClosing ? 'out' : 'in'}`}
           style={{ backgroundColor: '#F6F5F5', height: '100vh' }}
           onAnimationEnd={handleAnimationEnd}>
           <div className="mt-16 grid place-items-center" style={{ color: '#665E58' }}>

@@ -17,7 +17,7 @@
 .animate-slide-in {
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 5;
     right: -600vw;
     -webkit-animation: slideIn 0.3s forwards;
     animation: slideIn 0.3s forwards;

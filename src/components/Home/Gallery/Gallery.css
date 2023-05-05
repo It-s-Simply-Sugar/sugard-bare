@@ -1,0 +1,37 @@
+.arrow-right, .arrow-left {
+  background-color: #CCA43A;
+  top: 48%;
+  transform: translateX(-0px);
+  transform: translateY(-50px);
+}
+
+.arrow-right {
+  right: -8px;
+  
+}
+
+.arrow-left {
+  left: -8px;
+}
+
+.gallery {
+  height:250px;
+  @media screen and (min-width: 400px) {
+    height: 300px; 
+  }
+  @media screen and (min-width: 500px) {
+    height: 350px; 
+  }
+  @media screen and (min-width: 600px) {
+    height: 400px; 
+  }
+  @media screen and (min-width: 700px) {
+    height: 450px; 
+  }
+  @media screen and (min-width: 800px) {
+    height: 500px; 
+  }
+  @media screen and (min-width: 1000px) {
+    height: 600px; 
+  }
+}
