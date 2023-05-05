@@ -20,23 +20,27 @@ const PopularServices = () => {
             <div className="mt-auto -full lg:flex">
               <div className="description w-full lg:ml-4  grid place-items-center">
                 <p className="text-center my-3 lg:text-left text-xs">{service.description}</p>
-                <div className="w-full mt-auto hidden xxs:block flex justify-start items-center -mt-auto">
+                <a
+                  className="w-full mt-auto hidden xxs:block flex justify-start items-center -mt-auto"
+                  href="https://www.vagaro.com/itssimplysugar/services">
                   <button
                     className="w-full sm:w-1/2 sm:w-full sm:w-auto text-xs p-2 text-white"
                     style={{ backgroundColor: '#CCB6A0' }}>
                     Book Service
                   </button>
-                </div>
+                </a>
               </div>
             </div>
             {/* mobile */}
-            <div className="mt-4 w-full xxs:hidden">
+            <a
+              className="mt-4 w-full xxs:hidden"
+              href="https://www.vagaro.com/itssimplysugar/services">
               <button
                 className="w-full text-xs p-2 text-white"
                 style={{ backgroundColor: '#CCB6A0' }}>
                 Book Service
               </button>
-            </div>
+            </a>
           </div>
         ))}
       </div>

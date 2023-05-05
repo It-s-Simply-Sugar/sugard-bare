@@ -11,23 +11,25 @@ import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 
 function App() {
-  const [showBanner, setShowBanner] = useState(true);
+  const [showBanner, setShowBanner] = useState(false);
+
+  const scrollHandler = () => {
+    const scrollTop = window.pageYOffset;
+    if (scrollTop >= 300 && !showBanner) {
+      setShowBanner(true);
+    } else if (scrollTop < 300 && showBanner) {
+      setShowBanner(false);
+    }
+  };
+
   useEffect(() => {
-    const scrollHandler = () => {
-      const scrollTop = window.pageYOffset;
-      if (scrollTop <= 300 && showBanner) {
-        setShowBanner(false);
-      } else if (scrollTop > 300 && !showBanner) {
-        setShowBanner(true);
-      }
-    };
     window.addEventListener('scroll', scrollHandler);
     return () => window.removeEventListener('scroll', scrollHandler);
   }, [showBanner]);
 
   return (
     <div>
-      <div className={showBanner ? 'fixed top-0 w-full z-40 transition' : 'top-[-300px]'}>
+      <div className={showBanner ? 'fixed top-0 w-full z-40 transition' : ''}>
         <AnnouncementBanner />
       </div>
 

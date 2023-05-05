@@ -16,54 +16,58 @@ const Services = () => {
               <ul className="grid place-items-center sm:place-items-start">
                 <li
                   className="text-md xsl:text-xl sm:text-2xl md:text-3xl font-semibold uppercase sm:pb-3"
-                  style={{ color: '#CCB6A0' }}>
+                  style={{ color: '#C4B682' }}>
                   brazilian
                 </li>
                 <li className="hidden sm:block text-sm md:text-base lg:text-lg">
-                  With our warm and welcoming atmosphere, top-tier treatments, and commitment to
-                  exceeding your expectations.
+                  Hair is removed from the pubic area using a sugar paste that is applied to the
+                  skin in the direction of hair growth. The result is smooth and soft skin that
+                  lasts for several weeks.
                 </li>
               </ul>
             </div>
             <p className="sm:hidden text-sm md:text-base lg:text-lg mb-8">
-              With our warm and welcoming atmosphere, top-tier treatments, and commitment to
-              exceeding your expectations.
+              Hair is removed from the pubic area using a sugar paste that is applied to the skin in
+              the direction of hair growth. The result is smooth and soft skin that lasts for
+              several weeks.
             </p>
             <div className="flex mb-4 sm:mb-14">
               <img src={flower} className="w-14 h-14 mr-4 sm:mr-10" />
               <ul className="grid place-items-center sm:place-items-start">
                 <li
                   className="text-md xsl:text-xl sm:text-2xl md:text-3xl font-semibold uppercase sm:pb-3"
-                  style={{ color: '#CCB6A0' }}>
+                  style={{ color: '#C4B682' }}>
                   bikini
                 </li>
                 <li className="hidden sm:block text-sm md:text-base lg:text-lg">
-                  With our warm and welcoming atmosphere, top-tier treatments, and commitment to
-                  exceeding your expectations.
+                  Bikini sugaring service is a natural and gentle hair removal treatment that
+                  targets the area outside of the panty line, leaving you with a smooth and
+                  hair-free bikini area.
                 </li>
               </ul>
             </div>
             <p className="sm:hidden text-sm md:text-base lg:text-lg mb-8">
-              With our warm and welcoming atmosphere, top-tier treatments, and commitment to
-              exceeding your expectations.
+              Bikini sugaring service is a natural and gentle hair removal treatment that targets
+              the area outside of the panty line, leaving you with a smooth and hair-free bikini
+              area.
             </p>
             <div className="flex mb-4 sm:mb-0">
               <img src={flower} className="w-14 h-14 mr-4 sm:mr-10" />
               <ul className="grid place-items-center sm:place-items-start">
                 <li
                   className="text-md xsl:text-xl sm:text-2xl md:text-3xl font-semibold uppercase sm:pb-3"
-                  style={{ color: '#CCB6A0' }}>
+                  style={{ color: '#C4B682' }}>
                   legs
                 </li>
                 <li className="hidden sm:block text-sm md:text-base lg:text-lg">
-                  With our warm and welcoming atmosphere, top-tier treatments, and commitment to
-                  exceeding your expectations.
+                  Leg sugaring is a popular choice for those who want to remove hair from larger
+                  areas of the body in a safe and natural way.
                 </li>
               </ul>
             </div>
             <p className="sm:hidden text-sm md:text-base lg:text-lg">
-              With our warm and welcoming atmosphere, top-tier treatments, and commitment to
-              exceeding your expectations.
+              Leg sugaring is a popular choice for those who want to remove hair from larger areas
+              of the body in a safe and natural way.
             </p>
           </div>
         </div>
@@ -86,13 +90,16 @@ const Services = () => {
               Don&apos;t wait – schedule your appointment now and discover the difference of Sugar’d
               Bare.
             </p>
-            <div>
+            <a
+              href="https://www.vagaro.com/itssimplysugar/services"
+              target="_blank"
+              rel="noreferrer">
               <button
                 className="text-sm xs:text-base bg-white border-2 border-solid px-5 py-2 bg-white"
-                style={{ borderColor: '#CCA43A', color: '#CCA43A' }}>
+                style={{ borderColor: '#C4B682', color: '#C4B682' }}>
                 Schedule Appointment
               </button>
-            </div>
+            </a>
           </div>
         </div>
       </div>

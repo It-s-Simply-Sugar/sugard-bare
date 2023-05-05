@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './home.css';
 import Services from './Services';
 import Gallery from './Gallery';
@@ -39,15 +40,15 @@ const Home = () => {
                       warm and welcoming touch.
                     </p>
                     <div className="hidden lg:block grid justify-center pt-12">
-                      <a href="#" className="flex">
-                        <p className="grid place-items-center text-xs lg:text-base xl:text-lg font-semibold text-center underline mr-6">
+                      <Link to="/services" className="flex">
+                        <p className="grid place-items-center text-xs lg:text-base xl:text-lg font-semibold text-center underline mr-6 hover:text-white">
                           View Services
                         </p>
                         {/* add animation to make button bounce */}
                         <button className="rounded-full bg-white h-9 w-9">
                           <span className="arrow down" />
                         </button>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

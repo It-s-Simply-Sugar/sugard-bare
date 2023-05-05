@@ -10,7 +10,7 @@ const Promotions = () => {
             <div className="grid place-items-center sm:place-items-start mb-4 sm:mb-10">
               <p
                 className="text-xl xsl:text-2xl xs:text-xl sm:text-2xl md:text-3xl font-semibold uppercase sm:pb-3"
-                style={{ color: '#CCB6A0' }}>
+                style={{ color: '#C4B682' }}>
                 get more for less: our latest
                 <br />
                 promotions & discounts
