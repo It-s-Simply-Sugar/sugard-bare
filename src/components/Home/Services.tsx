@@ -1,7 +1,5 @@
 import React from 'react';
-import waxingIcon from '../../assets/1.png';
-import eyebrowIcon from '../../assets/2.png';
-import eyelashIcon from '../../assets/3.png';
+import flower from '../../assets/flower-icon.png';
 
 const Services = () => {
   return (
@@ -9,68 +7,93 @@ const Services = () => {
       className="pb-20 flex justify-center items-center px-6 md:px-12"
       style={{ backgroundColor: '#F6F5F5' }}>
       <div
-        className="mt-8 md:-mt-32 w-full z-0 bg-white rounded-t-2xl shadow-lg shadow-stone-300"
+        className="mt-8 md:-mt-32 w-full lg:flex lg:flex-row-reverse z-0 bg-white shadow-lg shadow-stone-300"
         style={{ maxWidth: '1550px' }}>
-        <div className="text-center leading-relaxed pt-8 pb-14">
-          <p
-            className="text-xl sm:text-2xl md:text-3xl font-semibold uppercase mb-2"
-            style={{ color: '#C4B682' }}>
-            Our Services
-          </p>
-          <p className="text-sm md:text-base lg:text-lg">
-            Expert services to help you look your best
-          </p>
+        <div className="lg:w-1/2 leading-relaxed grid place-items-center bg-white">
+          <div className="p-8 xsl:p-10 sm:py-20 lg:py-40">
+            <div className="flex mb-4 sm:mb-14">
+              <img src={flower} className="w-14 h-14 mr-4 sm:mr-10" />
+              <ul className="grid place-items-center sm:place-items-start">
+                <li
+                  className="text-xl sm:text-2xl md:text-3xl font-semibold uppercase sm:pb-3"
+                  style={{ color: '#CCB6A0' }}>
+                  brazilian
+                </li>
+                <li className="hidden sm:block text-sm md:text-base lg:text-lg">
+                  With our warm and welcoming atmosphere, top-tier treatments, and commitment to
+                  exceeding your expectations.
+                </li>
+              </ul>
+            </div>
+            <p className="sm:hidden text-sm md:text-base lg:text-lg mb-8">
+              With our warm and welcoming atmosphere, top-tier treatments, and commitment to
+              exceeding your expectations.
+            </p>
+            <div className="flex mb-4 sm:mb-14">
+              <img src={flower} className="w-14 h-14 mr-4 sm:mr-10" />
+              <ul className="grid place-items-center sm:place-items-start">
+                <li
+                  className="text-xl sm:text-2xl md:text-3xl font-semibold uppercase sm:pb-3"
+                  style={{ color: '#CCB6A0' }}>
+                  bikini
+                </li>
+                <li className="hidden sm:block text-sm md:text-base lg:text-lg">
+                  With our warm and welcoming atmosphere, top-tier treatments, and commitment to
+                  exceeding your expectations.
+                </li>
+              </ul>
+            </div>
+            <p className="sm:hidden text-sm md:text-base lg:text-lg mb-8">
+              With our warm and welcoming atmosphere, top-tier treatments, and commitment to
+              exceeding your expectations.
+            </p>
+            <div className="flex mb-4 sm:mb-0">
+              <img src={flower} className="w-14 h-14 mr-4 sm:mr-10" />
+              <ul className="grid place-items-center sm:place-items-start">
+                <li
+                  className="text-xl sm:text-2xl md:text-3xl font-semibold uppercase sm:pb-3"
+                  style={{ color: '#CCB6A0' }}>
+                  legs
+                </li>
+                <li className="hidden sm:block text-sm md:text-base lg:text-lg">
+                  With our warm and welcoming atmosphere, top-tier treatments, and commitment to
+                  exceeding your expectations.
+                </li>
+              </ul>
+            </div>
+            <p className="sm:hidden text-sm md:text-base lg:text-lg">
+              With our warm and welcoming atmosphere, top-tier treatments, and commitment to
+              exceeding your expectations.
+            </p>
+          </div>
         </div>
 
-        <div className="grid place-items-center grid-cols-2 md:grid-cols-3">
-          <div className="w-full h-full flex justify-center items-center">
-            <p
-              className="uppercase text-xl sm:text-2xl md:text-3xl xxl:text-4xl tracking-widest font-light"
-              style={{ color: '#C4B682' }}>
-              bikini
+        <div
+          className="lg:w-1/2 leading-relaxed grid place-items-center"
+          style={{ backgroundColor: '#F3EFEB' }}>
+          <div className="p-8 xsl:p-10 sm:py-20 lg:py-40">
+            <p className="text-xl sm:text-2xl md:text-3xl font-semibold uppercase pb-8">
+              book your
+              <br />
+              appointment
             </p>
-          </div>
-          <div
-            className="w-full h-32 sm:h-56 md:h-60 bg-center bg-cover bg-center"
-            style={{ backgroundImage: `url(${waxingIcon})`, backgroundColor: '#F5F0ED' }}
-          />
-          {/* desktop  */}
-          <div className="hidden md:grid w-full h-full place-items-center">
-            <p
-              className="uppercase text-xl sm:text-2xl md:text-3xl xxl:text-4xl tracking-widest font-light"
-              style={{ color: '#C4B682' }}>
-              brazilian
+            <p className="text-sm md:text-base lg:text-lg pb-8">
+              With our warm and welcoming atmosphere, top-tier treatments, and commitment to
+              exceeding your expectations, you&apos;re sure to walk away feeling thoroughly
+              satisfied.
             </p>
-          </div>
-          <div
-            className="hidden md:block w-full h-32 sm:h-56 md:h-60 bg-center bg-cover bg-center"
-            style={{ backgroundImage: `url(${eyelashIcon})`, backgroundColor: '#F5F0ED' }}
-          />
-          {/* desktop end*/}
-          {/* mobile start*/}
-          <div
-            className="md:hidden w-full h-32 sm:h-56 md:h-60 bg-center bg-cover bg-center"
-            style={{ backgroundImage: `url(${eyelashIcon})`, backgroundColor: '#F5F0ED' }}
-          />
-          <div className="md:hidden w-full h-full flex justify-center items-center">
-            <p
-              className="uppercase text-xl sm:text-2xl md:text-3xl xxl:text-4xl tracking-widest font-light"
-              style={{ color: '#C4B682' }}>
-              brazilian
+            <p className="text-sm md:text-base lg:text-lg pb-8">
+              Don&apos;t wait – schedule your appointment now and discover the difference of Sugar’d
+              Bare.
             </p>
+            <div>
+              <button
+                className="bg-white border-2 border-solid px-5 py-2 bg-white"
+                style={{ borderColor: '#CCA43A', color: '#CCA43A' }}>
+                Schedule Appointment
+              </button>
+            </div>
           </div>
-          {/* mobile end*/}
-          <div className="w-full h-full flex justify-center items-center">
-            <p
-              className="uppercase text-xl sm:text-2xl md:text-3xl xxl:text-4xl tracking-widest"
-              style={{ color: '#C4B682' }}>
-              legs
-            </p>
-          </div>
-          <div
-            className="w-full h-32 sm:h-56 md:h-60 bg-center bg-cover bg-center"
-            style={{ backgroundImage: `url(${eyebrowIcon})`, backgroundColor: '#F5F0ED' }}
-          />
         </div>
       </div>
     </div>

@@ -34,7 +34,7 @@ const HamburgerNavigation = () => {
   };
 
   return (
-    <div className="mx-auto py-4 px-10 font-medium" style={{ backgroundColor: '#F6F5F5' }}>
+    <div className="mx-auto py-4 px-10 font-medium" style={{ backgroundColor: '#CCB6A0' }}>
       <div className="flex justify-between">
         <Link to="/">
           <div>

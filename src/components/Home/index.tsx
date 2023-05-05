@@ -2,10 +2,9 @@ import React from 'react';
 import './home.css';
 import Services from './Services';
 import Gallery from './Gallery';
-import BookOnline from './BookOnline';
 import Reviews from './Reviews';
 import Promotions from './Promotions';
-import ContactUs from './ContactUs';
+import Benefits from './Benefits';
 import BusinessHours from './BusinessHours';
 import heroImage from '../../assets/hero-image-option2.png';
 
@@ -14,7 +13,7 @@ const Home = () => {
     <div>
       <div className="pt-10 xs:pt-16 lg:pt-10" style={{ backgroundColor: '#CCB6A0' }}>
         <div className="relative mx-auto px-6 md:px-12" style={{ maxWidth: '1450px' }}>
-          <div className="lg:mt-14 flex flex-col-reverse lg:flex-row justify-center items-center lg:justify-around lg:w-full">
+          <div className="flex flex-col-reverse lg:flex-row justify-center items-center lg:justify-around lg:w-full">
             <img
               src={heroImage}
               alt=""
@@ -83,11 +82,10 @@ const Home = () => {
         </div>
       </div>
       <Services />
-      <BookOnline />
       <Gallery />
       <Reviews />
       <Promotions />
-      <ContactUs />
+      <Benefits />
       <BusinessHours />
     </div>
   );

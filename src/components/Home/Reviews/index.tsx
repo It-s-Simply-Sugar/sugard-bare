@@ -26,10 +26,15 @@ const Reviews = () => {
           {reviews.map((review, index) => (
             <div
               key={index}
-              className="mx-4 rounded-2xl px-10 py-6"
+              className="mx-4 rounded-2xl px-10 py-6 grid place-items-center"
               style={{ maxWidth: '400px', height: '200px', backgroundColor: '#F3EFEB' }}>
-              <div className="grid place-items-center">
-                <img src={review.image} alt="icon" className="w-12 mb-2 rounded-full" />
+              <div className="grid place-items-center relative">
+                <img
+                  src={review.image}
+                  alt="icon"
+                  className="w-12 mb-2 rounded-full"
+                  style={{ zIndex: 20 }}
+                />
                 <div className="flex">
                   {[1, 2, 3, 4, 5].map((item, index) => (
                     <div key={index}>

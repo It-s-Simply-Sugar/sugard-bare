@@ -1,59 +1,37 @@
-import { useState, useEffect } from 'react';
-import {
-  Animator,
-  ScrollContainer,
-  ScrollPage,
-  batch,
-  Fade,
-  FadeIn,
-  FadeOut,
-  Move,
-  MoveIn,
-  MoveOut,
-  Sticky,
-  StickyIn,
-  StickyOut,
-  Zoom,
-  ZoomIn,
-  ZoomOut
-} from 'react-scroll-motion';
-import promotionImage from '../../assets/promotion-image.png';
-import promotionMobileImage from '../../assets/promotions-mobile.png';
+import womanRelaxing from '../../assets/woman-relaxing.png';
+import image1 from '../../assets/promotions-image1.png';
 
 const Promotions = () => {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setWindowWidth(window.innerWidth);
-    };
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  });
-  const promotionImgSrc = windowWidth < 768 ? promotionMobileImage : promotionImage;
   return (
-    <div className="py-20 bg-white">
-      <div className="mx-auto grid place-items-center px-6 md:px-12" style={{ maxWidth: '1550px' }}>
-        <div className="md:flex justify-between items-center xl:px-20">
-          <div className="md:w-1/2 xl:w-3/4 xl:mr-40 mb-10 md:mb-0">
-            <p
-              className="text-center md:text-left pb-6 text-xl sm:text-2xl md:text-3xl font-semibold"
-              style={{ color: '#C4B682' }}>
-              Get More for Less: Our Latest Promotions and Discounts!
-            </p>
-            <p className="text-center text-sm md:text-base lg:text-lg leading-relaxed">
+    <div className="flex justify-center items-center py-20 px-6 md:px-12 bg-white">
+      <div className="mt-8 w-full xs:flex xs:gap-x-6" style={{ maxWidth: '1550px' }}>
+        <div className="lg:w-1/2 leading-relaxed grid place-items-center">
+          <div className="w-full">
+            <div className="grid place-items-center sm:place-items-start mb-4 sm:mb-10">
+              <p
+                className="text-xl xsl:text-2xl xs:text-xl sm:text-2xl md:text-3xl font-semibold uppercase sm:pb-3"
+                style={{ color: '#CCB6A0' }}>
+                get more for less: our latest
+                <br />
+                promotions & discounts
+              </p>
+            </div>
+            <div className="grid place-items-center sm:place-items-start mb-4 sm:mb-0">
+              <img src={image1} alt="" className="w-full" />
+            </div>
+          </div>
+        </div>
+
+        <div className="lg:w-1/2 leading-relaxed grid place-items-start">
+          <div className="">
+            <div className="grid place-items-center sm:place-items-start mb-4 sm:mb-0">
+              <img src={womanRelaxing} alt="" className="w-full" />
+            </div>
+            <div className="text-sm md:text-base lg:text-lg mt-14">
               Periodically, we offer exclusive promotions, discounts, and package bundles to our
               valued clients. Check out our Groupon page to stay up-to-date on our current offerings
               and save on your favorite services!
-            </p>
-            <div className="text-center mt-6">
-              <button className="promotion_btn border-2 px-8 py-2 text-sm md:text-base">
-                View Promotions
-              </button>
             </div>
-          </div>
-          <div className="w-full lg:w-1/4 xl:w-1/4 flex justify-center items-center md:justify-end md:items-end">
-            <img src={promotionImgSrc} alt="" className="" />
           </div>
         </div>
       </div>

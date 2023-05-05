@@ -36,7 +36,7 @@ const Navigation = () => {
   return (
     <nav aria-label="Main navigation">
       {windowWidth >= 1024 ? (
-        <div style={{ backgroundColor: '#F6F5F5' }}>
+        <div style={{ backgroundColor: '#CCB6A0' }}>
           <div
             className="mx-auto px-6 md:px-12 flex justify-between items-center py-5 font-medium"
             style={{ maxWidth: '1550px' }}>
