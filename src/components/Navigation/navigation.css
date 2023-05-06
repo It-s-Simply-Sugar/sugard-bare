@@ -5,11 +5,27 @@
 .nav__item:hover {
     color: #605651;
 }
+
 .nav__item--active {
     color: #605651;
     border-bottom: 3px solid #605651;
     padding-bottom: 3px;
 }
+
+.nav__item-mobile {
+    color: #605651;
+}
+
+.nav__item-mobile:hover {
+    color: #C4B682;
+}
+
+.nav__item-mobile--active {
+    color: #C4B682;
+    border-bottom: 3px solid #C4B682;
+    padding-bottom: 3px;
+}
+
 .book-online__btn {
     color: #F6F5F5;
     border-color: #F6F5F5;
@@ -18,6 +34,17 @@
 .book-online__btn:hover {
     color: #CCA43A;
     background-color: #F2EFEA;
+}
+
+.book-online-mobile__btn {
+    color: #C4B682;
+    border-color: #C4B682;
+    background-color: #fff;
+}
+
+.book-online-mobile__btn:hover {
+    color: #fff;
+    background-color: #C4B682;
 }
 
 .animate-slide-in {
@@ -53,22 +80,18 @@
     0% { right: 0; }
     100% { right: -100%; }
   }
-  
-
     
 
 .close {
     width: 40px;
     height: 20px;
     position: fixed;
-    @media screen and (min-width: 768px) {
-        top: -8px; 
-      }
 }
+
 .close:after {
     content: '';
     height: 25px;
-    border-left: 2px solid #CCA43A;
+    border-left: 2px solid #C4B682;
     position: absolute;
     transform: rotate(45deg);
     left: 22px;
@@ -77,13 +100,30 @@
 .close:before {
     content: '';
     height: 25px;
-    border-left: 2px solid #CCA43A;
+    border-left: 2px solid #C4B682;
     position: absolute;
     transform: rotate(-45deg);
     left: 22px;
 }
 
+.close-when-banner-inactive {
+    top: 16px; 
+    @media screen and (min-width: 768px) {
+        top: 18px; 
+      }
+}
+
+.close-when-banner-active {
+    top: 105px; 
+    @media screen and (min-width: 768px) {
+        top: 110px; 
+      }
+}
+
 .banner-is-shown {
-    top: 92px;
+    top: 89px;
+    @media screen and (min-width: 768px) {
+        top: 92px; 
+      }
 }
 

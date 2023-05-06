@@ -3,11 +3,13 @@
   top: 48%;
   transform: translateX(-0px);
   transform: translateY(-50px);
+  @media screen and (max-width: 600px) {
+    display: none; 
+  }
 }
 
 .arrow-right {
   right: -8px;
-  
 }
 
 .arrow-left {

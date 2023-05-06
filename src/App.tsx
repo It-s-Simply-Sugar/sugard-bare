@@ -32,7 +32,7 @@ function App() {
 
   return (
     <div>
-      <div className={showBanner ? 'fixed top-0 w-full z-40 transition' : ''}>
+      <div className={` ${showBanner ? 'transition' : ''}`}>
         <AnnouncementBanner closeBannerHandler={closeBannerHandler} closeBanner={closeBanner} />
       </div>
 

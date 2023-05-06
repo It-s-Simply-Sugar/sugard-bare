@@ -19,9 +19,9 @@ const HamburgerNavigation = ({ showBanner }: Props) => {
 
   const getLinkClass = (path: string) => {
     if (path === activeLink) {
-      return 'nav__item nav__item--active';
+      return 'nav__item-mobile nav__item-mobile--active';
     } else {
-      return 'nav__item';
+      return 'nav__item-mobile';
     }
   };
 
@@ -56,7 +56,12 @@ const HamburgerNavigation = ({ showBanner }: Props) => {
           </button>
         ) : (
           <div className="grid place-items-end" style={{ zIndex: 10 }}>
-            <div className="cursor-pointer close" onClick={handleCloseNav} />
+            <div
+              className={`cursor-pointer close ${
+                !showBanner ? 'close-when-banner-active' : 'close-when-banner-inactive'
+              }`}
+              onClick={handleCloseNav}
+            />
           </div>
         )}
       </div>
@@ -67,7 +72,7 @@ const HamburgerNavigation = ({ showBanner }: Props) => {
           }`}
           style={{ backgroundColor: '#F6F5F5', height: '100vh' }}
           onAnimationEnd={handleAnimationEnd}>
-          <div className="mt-16 grid place-items-center" style={{ color: '#665E58' }}>
+          <div className="mt-32 grid place-items-center" style={{ color: '#665E58' }}>
             <div>
               <ul className="mx-4 text-center">
                 <li className={`py-4 ${getLinkClass('/')}`} onClick={() => setIsNavOpen(false)}>
@@ -100,8 +105,7 @@ const HamburgerNavigation = ({ showBanner }: Props) => {
                     rel="noreferrer">
                     <button
                       type="button"
-                      className="book-online__btn border-2 border-solid rounded-full px-5 py-2 bg-white"
-                      style={{ borderColor: '#CCA43A' }}>
+                      className="book-online-mobile__btn border-2 border-solid rounded-full px-5 py-2 bg-white">
                       Book Online
                     </button>
                   </a>
