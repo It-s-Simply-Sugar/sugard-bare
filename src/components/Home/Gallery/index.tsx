@@ -54,13 +54,13 @@ const Gallery = () => {
         {/* Left Arrow */}
         <div
           onClick={prevSlide}
-          className="arrow-left absolute text-2xl rounded-full h-12 w-12  cursor-pointer">
+          className="hidden xs:block arrow-left absolute text-2xl rounded-full h-12 w-12  cursor-pointer">
           <img src={leftArrow} className="w-5 ml-3" style={{ marginTop: '19px' }} />
         </div>
         {/* Right Arrow */}
         <div
           onClick={nextSlide}
-          className="arrow-right absolute text-2xl rounded-full h-12 w-12 cursor-pointer">
+          className="hidden xs:block arrow-right absolute text-2xl rounded-full h-12 w-12 cursor-pointer">
           <img src={rightArrow} className="w-5 ml-3" style={{ marginTop: '19px' }} />
         </div>
         <div className="flex top-4 justify-center pt-4 gap-x-1">
