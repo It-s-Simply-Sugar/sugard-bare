@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import './navigation.css';
+import './Navigation.css';
 import HamburgerNavigation from './HamburgerNavigation';
 import logo from '../../assets/sugardbare-logo.png';
 

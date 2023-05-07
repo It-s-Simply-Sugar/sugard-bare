@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './navigation.css';
+import './Navigation.css';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../../assets/sugardbare-logo.png';
 
