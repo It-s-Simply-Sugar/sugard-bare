@@ -15,7 +15,7 @@ const Benefits = () => {
             className="lg:w-full grid place-items-center lg:mr-10 xl:mr-20"
             style={{ maxWidth: '950px' }}>
             <p
-              className="text-xl sm:text-2xl md:text-3xl font-semibold uppercase pb-8"
+              className="text-xl sm:text-2xl md:text-3xl font-semibold uppercase pb-8 lg:pb-14"
               style={{ color: '#C4B682' }}>
               benefits of sugaring
             </p>

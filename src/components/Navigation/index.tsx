@@ -28,18 +28,45 @@ const Navigation = ({ closeBanner }: Props) => {
     setActiveLink(location.pathname);
   }, [location]);
 
+  // const getLinkClass = (path: string) => {
+  //   if (path === activeLink) {
+  //     return 'nav__item nav__item--active';
+  //   } else {
+  //     return 'nav__item';
+  //   }
+  // };
+
   const getLinkClass = (path: string) => {
     if (path === activeLink) {
-      return 'nav__item nav__item--active';
+      // active link is '/'
+      if (activeLink === '/') {
+        return 'nav__item-other nav__item-other--active';
+      }
+      // active link is not '/'
+      else {
+        return 'nav__item-home nav__item-home--active';
+      }
     } else {
-      return 'nav__item';
+      // active link is '/'
+      if (activeLink === '/') {
+        return 'nav__item nav__item--home';
+      }
+      // active link is not '/'
+      else {
+        return 'nav__item nav__item--other';
+      }
     }
   };
+
+  console.log(activeLink);
 
   return (
     <nav aria-label="Main navigation">
       {windowWidth >= 1024 ? (
-        <div style={{ backgroundColor: '#CCB6A0' }}>
+        <div
+          style={
+            activeLink === '/' ? { backgroundColor: '#CCB6A0' } : { backgroundColor: '#FFFFFF' }
+          }>
           <div
             className="mx-auto px-6 md:px-12 flex justify-between items-center py-5 font-medium"
             style={{ maxWidth: '1550px' }}>
@@ -49,7 +76,7 @@ const Navigation = ({ closeBanner }: Props) => {
                 <img src={logo} alt="logo" className="w-32" />
               </div>
             </Link>
-            <div className="flex justify-center items-center" style={{ color: '#665E58' }}>
+            <div className="flex justify-center items-center">
               <ul className="flex gap-x-14 mr-14">
                 <li className={getLinkClass('/')}>
                   <Link to="/">Home</Link>
@@ -63,7 +90,7 @@ const Navigation = ({ closeBanner }: Props) => {
                 <li className={getLinkClass('/about')}>
                   <Link to="/about">About Us</Link>
                 </li>
-                <li className={getLinkClass('#contact-us')}>
+                <li className={getLinkClass('/contact')}>
                   <a href="/contact">Contact</a>
                 </li>
               </ul>
@@ -73,7 +100,9 @@ const Navigation = ({ closeBanner }: Props) => {
                 rel="noreferrer">
                 <button
                   type="button"
-                  className="book-online__btn border-2 border-white border-solid rounded-full px-5 py-2 bg-white">
+                  className={`border-2 border-solid rounded-full px-5 py-2 ${
+                    activeLink === '/' ? 'book-online__btn border-white' : 'book-online__btn_2'
+                  }`}>
                   Book Online
                 </button>
               </a>

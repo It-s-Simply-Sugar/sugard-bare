@@ -11,8 +11,8 @@ const Footer = () => {
         <div
           className="mx-auto grid place-items-center px-6 py-10 md:px-12"
           style={{ maxWidth: '1550px' }}>
-          <img src={logo} className="w-32 mb-4" />
-          <div className="flex gap-x-10 mt-3">
+          <img src={logo} className="w-32" />
+          {/* <div className="flex gap-x-10 mt-3">
             <img src={instagram} alt="" className="w-8" />
             <img src={facebook} alt="" className="w-8" />
             <img src={tiktok} alt="" className="w-8" />
@@ -31,10 +31,10 @@ const Footer = () => {
               </a>
             </li>
             <li className="hover:underline link cursor-pointer">Book Now</li>
-          </ul>
+          </ul> */}
         </div>
       </div>
-      <div style={{ backgroundColor: '#CCB6A0' }}>
+      <div style={{ backgroundColor: '#605651' }}>
         <div
           className="mx-auto grid place-items-center px-6 py-1 md:px-12"
           style={{ maxWidth: '500px' }}>

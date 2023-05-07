@@ -1,17 +1,32 @@
-.nav__item {
+.nav__item--home {
     color: #F6F5F5;
 }
 
-.nav__item:hover {
+.nav__item--home:hover {
     color: #605651;
 }
 
-.nav__item--active {
+.nav__item-home--active {
+    color: #605651;
+    border-bottom: 3px solid #605651;
+    padding-bottom: 3px;
+}
+ /* comment */
+.nav__item--other {
+    color: #C4B682;
+}
+
+.nav__item--other:hover {
+    color: #605651;
+}
+
+.nav__item-other--active {
     color: #605651;
     border-bottom: 3px solid #605651;
     padding-bottom: 3px;
 }
 
+/* commeny */
 .nav__item-mobile {
     color: #605651;
 }
@@ -31,9 +46,20 @@
     border-color: #F6F5F5;
     background-color: #CCB6A0;
 }
+
+.book-online__btn_2 {
+    color: #C4B682;
+    border-color: #C4B682;
+}
+
 .book-online__btn:hover {
     color: #CCA43A;
     background-color: #F2EFEA;
+}
+
+.book-online__btn_2:hover {
+    color: #FFFFFF;
+    background-color: #C4B682;
 }
 
 .book-online-mobile__btn {

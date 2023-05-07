@@ -25,7 +25,7 @@ const PopularServices = () => {
                   href="https://www.vagaro.com/itssimplysugar/services">
                   <button
                     className="w-full sm:w-1/2 sm:w-full sm:w-auto text-xs p-2 text-white"
-                    style={{ backgroundColor: '#CCB6A0' }}>
+                    style={{ backgroundColor: '#C4B682' }}>
                     Book Service
                   </button>
                 </a>
@@ -37,7 +37,7 @@ const PopularServices = () => {
               href="https://www.vagaro.com/itssimplysugar/services">
               <button
                 className="w-full text-xs p-2 text-white"
-                style={{ backgroundColor: '#CCB6A0' }}>
+                style={{ backgroundColor: '#C4B682' }}>
                 Book Service
               </button>
             </a>

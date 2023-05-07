@@ -92,7 +92,7 @@ const HamburgerNavigation = ({ showBanner }: Props) => {
                   <Link to="/about">About Us</Link>
                 </li>
                 <li
-                  className={`py-4 ${getLinkClass('/contact-us')}`}
+                  className={`py-4 ${getLinkClass('/contact')}`}
                   onClick={() => setIsNavOpen(false)}>
                   <Link to="/contact">Contact Us</Link>
                 </li>

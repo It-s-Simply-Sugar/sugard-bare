@@ -11,7 +11,7 @@ const Faq = () => {
         <h1 className="px-6 pb-6 uppercase text-center font-semibold leading-tight text-5xl sm:text-7xl xxl:text-8xl">
           the
           <br />
-          <span className="text-white xl:ml-32 xxl:ml-44" style={{ color: '#CCB6A0' }}>
+          <span className="text-white xl:ml-32 xxl:ml-44" style={{ color: '#CCA43A' }}>
             FAQs
           </span>
         </h1>
