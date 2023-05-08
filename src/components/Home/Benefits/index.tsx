@@ -4,9 +4,7 @@ import flower from '../../../assets/flower-icon.png';
 
 const Benefits = () => {
   return (
-    <div
-      className="px-6 md:px-12 py-8 xsl:py-10 sm:py-20 lg:py-40 relative"
-      style={{ backgroundColor: '#F3EFEB' }}>
+    <div className="px-6 md:px-12 py-20 lg:py-40 relative" style={{ backgroundColor: '#F3EFEB' }}>
       <div className="mx-auto grid place-items-center" style={{ maxWidth: '1550px' }}>
         <div
           className="w-full lg:flex flex-reverse bg-white"
@@ -49,7 +47,7 @@ const Benefits = () => {
                   compared to shaving or depilatory creams.
                 </p>
               </div>
-              <div className="mb-8 xs:mb-0">
+              <div className="">
                 <img src={flower} alt="" className="w-8 rounded-full" />
                 <p className="font-bold text-base md:text-md lg:text-xl mt-2 mb-4">
                   Gentle Exfoliation

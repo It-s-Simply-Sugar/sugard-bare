@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import flower from '../../assets/flower-icon.png';
 
 const Services = () => {
@@ -76,7 +77,7 @@ const Services = () => {
           className="lg:w-1/2 leading-relaxed grid place-items-center"
           style={{ backgroundColor: '#F3EFEB' }}>
           <div className="p-8 xsl:p-10 sm:py-20 lg:py-40">
-            <p className="text-xl sm:text-2xl md:text-3xl font-semibold uppercase pb-8">
+            <p className="text-xl sm:text-2xl md:text-3xl font-semibold uppercase py-8">
               book your
               <br />
               appointment
@@ -90,16 +91,13 @@ const Services = () => {
               Don&apos;t wait – schedule your appointment now and discover the difference of Sugar’d
               Bare.
             </p>
-            <a
-              href="https://www.vagaro.com/itssimplysugar/services"
-              target="_blank"
-              rel="noreferrer">
+            <Link to="/services">
               <button
                 className="text-sm xs:text-base bg-white border-2 border-solid px-5 py-2 bg-white"
                 style={{ borderColor: '#C4B682', color: '#C4B682' }}>
-                Schedule Appointment
+                View All Services
               </button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -42,6 +42,18 @@
           
 }
 
+.cta-btn {
+  color: #5F5551;
+  border-color: #F6F5F5;
+  background-color: #F2EFEA;
+}
+
+
+.cta-btn:hover {
+  color: #FFF;
+  background-color: #CBB6A0;
+}
+
 .arrow {
   
   width: 100px;

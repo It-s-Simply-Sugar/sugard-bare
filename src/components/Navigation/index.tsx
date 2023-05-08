@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import './Navigation.css';
+import './navigation.css';
 import HamburgerNavigation from './HamburgerNavigation';
 import logo from '../../assets/sugardbare-logo.png';
 
@@ -27,14 +27,6 @@ const Navigation = ({ closeBanner }: Props) => {
   useEffect(() => {
     setActiveLink(location.pathname);
   }, [location]);
-
-  // const getLinkClass = (path: string) => {
-  //   if (path === activeLink) {
-  //     return 'nav__item nav__item--active';
-  //   } else {
-  //     return 'nav__item';
-  //   }
-  // };
 
   const getLinkClass = (path: string) => {
     if (path === activeLink) {

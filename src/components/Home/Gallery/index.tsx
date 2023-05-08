@@ -44,7 +44,7 @@ const Gallery = () => {
   };
 
   return (
-    <div className="pb-10 px-6 md:px-12" style={{ backgroundColor: '#F6F5F5' }}>
+    <div className="py-10 px-6 md:px-12" style={{ backgroundColor: '#F6F5F5' }}>
       <div className="gallery max-w-[1000px] w-full m-auto pb-16 xs:px-4 relative group">
         <div
           style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
@@ -69,7 +69,7 @@ const Gallery = () => {
               key={index}
               onClick={() => goToSlide(index)}
               className={`w-2 h-2 rounded-full cursor-pointer ${
-                currentIndex === index ? 'bg-yellow-600' : 'bg-gray-200'
+                currentIndex === index ? 'dot' : 'bg-gray-200'
               }`}></div>
           ))}
         </div>
