@@ -7,7 +7,7 @@ import Home from './components/Home';
 import Services from './components/Services';
 import Faq from './components/Faq';
 import AboutUs from './components/AboutUs';
-import ContactUs from './components/ContactUs';
+// import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 
 function App() {
@@ -43,7 +43,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/faq" element={<Faq />} />
           <Route path="/about" element={<AboutUs />} />
-          <Route path="/contact" element={<ContactUs />} />
+          {/* <Route path="/contact" element={<ContactUs />} /> */}
         </Routes>
       </div>
       <Footer />

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './home.css';
 import Services from './Services';
 import Gallery from './Gallery';
@@ -26,19 +25,12 @@ const Home = () => {
                 <div className="grid place-items-center">
                   <div>
                     <div className="flex justify-center lg:justify-start">
-                      {/* <h1 className="lg:hidden font-semibold text-center text-4xl xs:text-5xl leading-tight mb-5">
-                        Where Beauty Meets Luxury -<br />
-                        <span className="text-white">Sugar&apos;d Bare</span>
-                      </h1> */}
                       <h1 className="lg:hidden font-semibold text-center text-4xl xs:text-5xl leading-tight mb-5">
                         Smooth Skin with
                         <br />
                         <span className="text-white">Sweet Solutions</span>
                       </h1>
-                      {/* <h1 className="hidden lg:block lg:text-6xl xl:text-7xl xxl:text-8xl font-semibold text-5xl leading-tight mb-5">
-                        Where Beauty <br /> Meets Luxury -<br />
-                        <span className="text-white">Sugar&apos;d Bare</span>
-                      </h1> */}
+
                       <h1 className="hidden lg:block lg:text-6xl xl:text-7xl xxl:text-8xl font-semibold text-5xl leading-tight mb-5">
                         Smooth Skin with
                         <span className="text-white"> Sweet Solutions</span>
@@ -53,18 +45,10 @@ const Home = () => {
                         href="https://www.vagaro.com/itssimplysugar/services"
                         target="_blank"
                         rel="noreferrer">
-                        <button className="cta-btn text-sm xs:text-base border-2 border-solid rounded-full px-6 py-2">
+                        <button className="cta-btn text-sm xs:text-base border-2 border-solid px-6 py-2">
                           Schedule Appointment
                         </button>
                       </a>
-                      {/* <Link to="/services" className="flex">
-                        <p className="grid place-items-center text-xs lg:text-base xl:text-lg font-semibold text-center underline mr-6 hover:text-white">
-                          View Services
-                        </p>
-                        <button className="rounded-full bg-white h-9 w-9">
-                          <span className="arrow down" />
-                        </button>
-                      </Link> */}
                     </div>
                   </div>
                 </div>

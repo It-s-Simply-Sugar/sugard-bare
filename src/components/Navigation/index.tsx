@@ -82,9 +82,9 @@ const Navigation = ({ closeBanner }: Props) => {
                 <li className={getLinkClass('/about')}>
                   <Link to="/about">About Us</Link>
                 </li>
-                <li className={getLinkClass('/contact')}>
+                {/* <li className={getLinkClass('/contact')}>
                   <a href="/contact">Contact</a>
-                </li>
+                </li> */}
               </ul>
               <a
                 href="https://www.vagaro.com/itssimplysugar/services"

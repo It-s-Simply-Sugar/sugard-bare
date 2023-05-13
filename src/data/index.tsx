@@ -10,13 +10,17 @@ import upperLip from '../assets/upper-lip.png';
 import chin from '../assets/chin.png';
 import lipChin from '../assets/lip-chin.png';
 import neck from '../assets/neck.png';
+import bikini from '../assets/bikini.png';
+import brazilian from '../assets/brazilian.png';
+import vajacial from '../assets/vajacial.png';
+import faceMask from '../assets/face-mask.png';
 
 export const popularServices = [
   {
     serviceName: 'Bikini',
     description: 'Removal of hair on the bikini line not to extend to leg or inner thigh area.',
     price: 55,
-    image: feetToes,
+    image: bikini,
     bookNow: '66'
   },
   {
@@ -24,7 +28,7 @@ export const popularServices = [
     description:
       'Removal of all the pubic hair with the sugaring technique which includes the backside but not the cheeks. Cheeks is an additional charge.',
     price: 68,
-    image: feetToes,
+    image: brazilian,
     bookNow: ''
   },
   {
@@ -32,7 +36,7 @@ export const popularServices = [
     description:
       'Similar to a traditional face facial, this service includes a double cleanse, light exfoliation, extractions, soothing mask.',
     price: 50,
-    image: feetToes,
+    image: vajacial,
     bookNow: '66'
   }
 ];
@@ -120,14 +124,14 @@ export const bikiniServices = [
     description:
       'Similar to a traditional face facial, this service includes a double cleanse, light exfoliation, extractions, soothing mask.',
     price: 50,
-    image: sfjgj,
+    image: vajacial,
     bookNow: '66'
   },
   {
     serviceName: 'Bikini',
     description: 'Removal of hair on the bikini line not to extend to leg or inner thigh area.',
     price: 55,
-    image: sfjgj,
+    image: bikini,
     bookNow: '66'
   },
   {
@@ -135,7 +139,7 @@ export const bikiniServices = [
     description:
       'Similar to a traditional face facial, this service includes a double cleanse, light exfoliation, extractions, soothing mask.',
     price: 80,
-    image: sfjgj,
+    image: bikini,
     bookNow: '11'
   },
   {
@@ -143,14 +147,14 @@ export const bikiniServices = [
     description:
       'Aloe & Rose Post Epilation Mask will leave your skin soothed, moisturized and protected.',
     price: 50,
-    image: sfjgj,
+    image: bikini,
     bookNow: '52'
   },
   {
     serviceName: 'Bikini Maintenance',
     description: 'Removal of regrowth of hair within 4 to 5 weeks from last sugaring appointment.',
     price: 48,
-    image: sfjgj,
+    image: bikini,
     bookNow: '23'
   },
   {
@@ -158,7 +162,7 @@ export const bikiniServices = [
     description:
       'Removal of all the pubic hair with the sugaring technique which includes the backside but not the cheeks. Cheeks is an additional charge.',
     price: 68,
-    image: sfjgj,
+    image: brazilian,
     bookNow: ''
   },
   {
@@ -166,7 +170,7 @@ export const bikiniServices = [
     description:
       'Groupon coupon is for NEW Clients only. Service is for a Brazilian or Bikini sugaring. Brazilian includes backside but not butt cheeks or inner thigh. Bikini does not include inner thigh.',
     price: 65,
-    image: sfjgj,
+    image: brazilian,
     bookNow: ''
   },
   {
@@ -174,7 +178,7 @@ export const bikiniServices = [
     description:
       'Similar to a traditional face facial, this service includes a double cleanse, light exfoliation, extractions, soothing mask.',
     price: 100,
-    image: sfjgj,
+    image: brazilian,
     bookNow: ''
   },
   {
@@ -182,21 +186,21 @@ export const bikiniServices = [
     description:
       'Aloe & Rose Post Epilation Mask will leave your skin soothed, moisturized and protected.',
     price: 70,
-    image: sfjgj,
+    image: brazilian,
     bookNow: ''
   },
   {
     serviceName: 'Brazilian Maintenance',
     description: 'Removal of regrowth. Must be made within 4 to 5 weeks of last sugaring.',
     price: 60,
-    image: sfjgj,
+    image: brazilian,
     bookNow: ''
   },
   {
     serviceName: 'Brazilian over 6 weeks (non-maintenance)',
     description: 'Removal of regrowth from last sugaring. Must be an established client.',
     price: 65,
-    image: sfjgj,
+    image: brazilian,
     bookNow: ''
   }
 ];
@@ -213,7 +217,7 @@ export const faceServices = [
     serviceName: 'Full Face w/ Mask',
     description: '',
     price: 57,
-    image: sfjgj,
+    image: faceMask,
     bookNow: '52'
   },
   {

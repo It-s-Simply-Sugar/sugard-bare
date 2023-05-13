@@ -91,11 +91,11 @@ const HamburgerNavigation = ({ showBanner }: Props) => {
                   onClick={() => setIsNavOpen(false)}>
                   <Link to="/about">About Us</Link>
                 </li>
-                <li
+                {/* <li
                   className={`py-4 ${getLinkClass('/contact')}`}
                   onClick={() => setIsNavOpen(false)}>
                   <Link to="/contact">Contact Us</Link>
-                </li>
+                </li> */}
               </ul>
               <div className="mx-4 grid grid-cols-1" onClick={() => setIsNavOpen(false)}>
                 <span className="my-4">

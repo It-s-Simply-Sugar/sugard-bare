@@ -1,8 +1,9 @@
 import image1 from '../../../assets/carousel-item-1.png';
-import image2 from '../../../assets/unnamed-1.jpg';
-import image3 from '../../../assets/unnamed.jpg';
-import image4 from '../../../assets/unnamed-7.jpg';
-import image5 from '../../../assets/unnamed-9.jpg';
+import image2 from '../../../assets/11.png';
+import image3 from '../../../assets/12.png';
+import image4 from '../../../assets/13.png';
+import image5 from '../../../assets/14.png';
+import image6 from '../../../assets/15.png';
 
 const data = [
   {
@@ -28,6 +29,11 @@ const data = [
   {
     id: 5,
     url: image5,
+    subTitle: 'Lorem'
+  },
+  {
+    id: 6,
+    url: image6,
     subTitle: 'Lorem'
   }
 ];

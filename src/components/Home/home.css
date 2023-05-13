@@ -43,15 +43,15 @@
 }
 
 .cta-btn {
-  color: #5F5551;
+  color: #FFF;
   border-color: #F6F5F5;
-  background-color: #F2EFEA;
+  background-color: #CBB6A0;
 }
 
 
 .cta-btn:hover {
-  color: #FFF;
-  background-color: #CBB6A0;
+  color: #5F5551;
+  background-color: #F2EFEA;
 }
 
 .arrow {

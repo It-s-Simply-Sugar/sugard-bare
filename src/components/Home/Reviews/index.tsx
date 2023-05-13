@@ -54,9 +54,11 @@ const Reviews = () => {
               <p className="text-xs text-center my-2 font-light">
                 &quot;{review.review.slice(0, 105)} {review.review.length > 105 ? '...' : ''}&quot;
               </p>
-              {review.review.length > 105 && (
-                <p className="text-center text-xs underline cursor-pointer">See full review</p>
-              )}
+              <a href="https://www.vagaro.com/itssimplysugar" target="_blank" rel="noreferrer">
+                {review.review.length > 105 && (
+                  <p className="text-center text-xs underline cursor-pointer">See full review</p>
+                )}
+              </a>
             </div>
           ))}
         </Marquee>
