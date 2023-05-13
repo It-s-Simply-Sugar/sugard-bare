@@ -11,8 +11,10 @@ const Footer = () => {
           style={{ maxWidth: '1550px' }}>
           <img src={logo} className="w-32" />
         </div>
-        <div className="flex flex-col sm:flex-row justify-center items-center gap-x-20 md:gap-x-40 text-xs pb-6">
-          <div className="mb-auto">
+        <div
+          className="mx-auto grid grid-cols-1 xs:grid-cols-3 text-center place-items-center xs:text-left gap-x-20 md:gap-x-40 text-xs pb-6"
+          style={{ maxWidth: '850px' }}>
+          <div className="mb-auto pb-4 xs:pb-0">
             <p className="font-bold mb-1">Quick Links</p>
             <Link to="/services">
               <p className="hover:text-white">Services</p>
@@ -30,7 +32,7 @@ const Footer = () => {
               <p className="hover:text-white">Book Online</p>
             </a>
           </div>
-          <div className="mb-auto">
+          <div className="mb-auto pb-4 xs:pb-0">
             <p className="font-bold mb-1">Contact</p>
             <p>
               125 West Bloomingdale Avenue
