@@ -74,7 +74,11 @@ const Home = () => {
                 </div>
               ))}
             </div>
-            <a href="#">
+            <a
+              href="https://www.google.com/maps/place/It%E2%80%99s+Simply+Sugar%2F+Sugaring+Hair+Removal/@27.8931735,-82.2898173,17z/data=!4m22!1m13!4m12!1m4!2m2!1d-82.3328768!2d27.820032!4e1!1m6!1m2!1s0x88c2d3476fbe30f3:0xa19b37b569911e82!2sits+simply+sugar!2m2!1d-82.2872424!2d27.8931735!3m7!1s0x88c2d3476fbe30f3:0xa19b37b569911e82!8m2!3d27.8931735!4d-82.2872424!9m1!1b1!16s%2Fg%2F11p6102gx5"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-white">
               <p className="underline font-medium" style={{ fontSize: '10px' }}>
                 Google Reviews
               </p>

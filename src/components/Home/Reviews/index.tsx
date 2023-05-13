@@ -5,7 +5,7 @@ import { data } from './data';
 
 const Reviews = () => {
   return (
-    <div className="pt-20 bg-white" style={{ backgroundColor: '#CCA43A' }}>
+    <div className="py-20 bg-white" style={{ backgroundColor: '#CCA43A' }}>
       <div
         className="relative mx-auto grid place-items-center px-6 md:px-12"
         style={{ maxWidth: '1550px' }}>

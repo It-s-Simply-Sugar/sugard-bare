@@ -55,7 +55,7 @@ const HamburgerNavigation = ({ showBanner }: Props) => {
               style={{ height: '2px', backgroundColor: '#F6F5F5' }}></span>
           </button>
         ) : (
-          <div className="grid place-items-end" style={{ zIndex: 10 }}>
+          <div className="grid place-items-end" style={{ zIndex: 15 }}>
             <div
               className={`cursor-pointer close ${
                 !showBanner ? 'close-when-banner-active' : 'close-when-banner-inactive'
@@ -67,10 +67,10 @@ const HamburgerNavigation = ({ showBanner }: Props) => {
       </div>
       {isNavOpen && (
         <div
-          className={`fixed right-0 w-64 z-50 animate-slide-${isNavClosing ? 'out' : 'in'} ${
+          className={`fixed right-0 w-64 animate-slide-${isNavClosing ? 'out' : 'in'} ${
             !showBanner ? 'banner-is-shown' : 'top-0'
           }`}
-          style={{ backgroundColor: '#F6F5F5', height: '100vh' }}
+          style={{ backgroundColor: '#F6F5F5', height: '100vh', zIndex: 12 }}
           onAnimationEnd={handleAnimationEnd}>
           <div className="mt-32 grid place-items-center" style={{ color: '#665E58' }}>
             <div>

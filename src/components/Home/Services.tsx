@@ -12,7 +12,7 @@ const Services = () => {
         className="-mt-12 xsl:-mt-16 md:-mt-32 w-full lg:flex lg:flex-row-reverse z-0 bg-white shadow-lg shadow-stone-300"
         style={{ maxWidth: '1550px' }}>
         <div className="lg:w-1/2 leading-relaxed grid place-items-center bg-white">
-          <div className="p-8 xsl:p-10 sm:py-20">
+          <div className="p-8 xsl:p-10 sm:py-20 md:px-16">
             <div className="flex mb-4 sm:mb-14">
               <img src={flower} className="w-14 h-14 mr-4 sm:mr-10" />
               <ul className="grid place-items-center sm:place-items-start">
@@ -77,7 +77,7 @@ const Services = () => {
         <div
           className="lg:w-1/2 leading-relaxed grid place-items-center"
           style={{ backgroundColor: '#F3EFEB' }}>
-          <div className="p-8 xsl:p-10 sm:py-20">
+          <div className="p-8 xsl:p-10 sm:py-20 md:px-16">
             <p className="text-xl sm:text-2xl md:text-3xl font-semibold uppercase py-8">
               book your
               <br />
