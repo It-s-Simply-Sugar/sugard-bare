@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import './navigation.css';
 import HamburgerNavigation from './HamburgerNavigation';
 import logo from '../../assets/sugardbare-logo.png';
+import logo2 from '../../assets/logo-version2.png';
 
 interface Props {
   closeBanner: boolean;
@@ -59,7 +60,7 @@ const Navigation = ({ closeBanner }: Props) => {
             {' '}
             <Link to="/">
               <div>
-                <img src={logo} alt="logo" className="w-32" />
+                <img src={activeLink === '/' ? logo : logo2} alt="logo" className="w-32" />
               </div>
             </Link>
             <div className="flex justify-center items-center">
