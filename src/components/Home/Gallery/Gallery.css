@@ -1,9 +1,9 @@
 .dot {
-  background-color: #C4B582;
+  background-color: #CCA43A;
 }
 
 .arrow-right, .arrow-left {
-  background-color: #C4B682;
+  background-color: #CCA43A;
   top: 48%;
   transform: translateX(-0px);
   transform: translateY(-50px);

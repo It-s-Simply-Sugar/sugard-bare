@@ -1,4 +1,5 @@
 import React from 'react';
+import './home.css';
 import { Link } from 'react-router-dom';
 import flower from '../../assets/flower-icon.png';
 
@@ -17,7 +18,7 @@ const Services = () => {
               <ul className="grid place-items-center sm:place-items-start">
                 <li
                   className="text-md xsl:text-xl sm:text-2xl md:text-3xl font-semibold uppercase sm:pb-3"
-                  style={{ color: '#C4B682' }}>
+                  style={{ color: '#CCA43A' }}>
                   brazilian
                 </li>
                 <li className="hidden sm:block text-sm md:text-base lg:text-lg">
@@ -37,7 +38,7 @@ const Services = () => {
               <ul className="grid place-items-center sm:place-items-start">
                 <li
                   className="text-md xsl:text-xl sm:text-2xl md:text-3xl font-semibold uppercase sm:pb-3"
-                  style={{ color: '#C4B682' }}>
+                  style={{ color: '#CCA43A' }}>
                   bikini
                 </li>
                 <li className="hidden sm:block text-sm md:text-base lg:text-lg">
@@ -57,7 +58,7 @@ const Services = () => {
               <ul className="grid place-items-center sm:place-items-start">
                 <li
                   className="text-md xsl:text-xl sm:text-2xl md:text-3xl font-semibold uppercase sm:pb-3"
-                  style={{ color: '#C4B682' }}>
+                  style={{ color: '#CCA43A' }}>
                   legs
                 </li>
                 <li className="hidden sm:block text-sm md:text-base lg:text-lg">
@@ -92,9 +93,7 @@ const Services = () => {
               Bare.
             </p>
             <Link to="/services">
-              <button
-                className="text-sm xs:text-base bg-white border-2 border-solid px-5 py-2 bg-white"
-                style={{ borderColor: '#C4B682', color: '#C4B682' }}>
+              <button className="view-services-btn text-sm xs:text-base bg-white border-2 border-solid px-5 py-2 bg-white">
                 View All Services
               </button>
             </Link>

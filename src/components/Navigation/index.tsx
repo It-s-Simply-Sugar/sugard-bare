@@ -30,21 +30,15 @@ const Navigation = ({ closeBanner }: Props) => {
 
   const getLinkClass = (path: string) => {
     if (path === activeLink) {
-      // active link is '/'
       if (activeLink === '/') {
         return 'nav__item-other nav__item-other--active';
-      }
-      // active link is not '/'
-      else {
+      } else {
         return 'nav__item-home nav__item-home--active';
       }
     } else {
-      // active link is '/'
       if (activeLink === '/') {
         return 'nav__item nav__item--home';
-      }
-      // active link is not '/'
-      else {
+      } else {
         return 'nav__item nav__item--other';
       }
     }
@@ -57,7 +51,7 @@ const Navigation = ({ closeBanner }: Props) => {
       {windowWidth >= 1024 ? (
         <div
           style={
-            activeLink === '/' ? { backgroundColor: '#CCB6A0' } : { backgroundColor: '#FFFFFF' }
+            activeLink === '/' ? { backgroundColor: '#CCA43A' } : { backgroundColor: '#FFFFFF' }
           }>
           <div
             className="mx-auto px-6 md:px-12 flex justify-between items-center py-5 font-medium"

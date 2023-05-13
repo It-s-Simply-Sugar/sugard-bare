@@ -38,7 +38,7 @@ const HamburgerNavigation = ({ showBanner }: Props) => {
   };
 
   return (
-    <div className="mx-auto py-4 px-10 font-medium" style={{ backgroundColor: '#CCB6A0' }}>
+    <div className="mx-auto py-4 px-10 font-medium" style={{ backgroundColor: '#CCA43A' }}>
       <div className="flex justify-between">
         <Link to="/">
           <div>

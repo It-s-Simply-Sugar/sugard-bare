@@ -6,7 +6,7 @@ const AnnouncementBanner = ({ closeBanner, closeBannerHandler }: Props) => {
   return (
     <>
       {!closeBanner && (
-        <div className="bg-white">
+        <div style={{ backgroundColor: '#F3EFEB' }}>
           <div className="relative mx-auto px-6 md:px-12 py-6" style={{ maxWidth: '1450px' }}>
             <div className="flex justify-center items-center pr-3">
               <div>

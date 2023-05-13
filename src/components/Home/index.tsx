@@ -11,7 +11,7 @@ import heroImage from '../../assets/hero-image-option2.png';
 const Home = () => {
   return (
     <div>
-      <div className="pt-6 xs:pt-16 lg:pt-10" style={{ backgroundColor: '#CCB6A0' }}>
+      <div className="pt-6 xs:pt-16 lg:pt-10" style={{ backgroundColor: '#CCA43A' }}>
         <div className="relative mx-auto px-6 md:px-12" style={{ maxWidth: '1450px' }}>
           <div className="flex flex-col-reverse lg:flex-row justify-center items-center lg:justify-around lg:w-full">
             <img
@@ -69,7 +69,7 @@ const Home = () => {
                     height="16">
                     <path
                       d="M12.0008 17L6.12295 20.5902L7.72105 13.8906L2.49023 9.40983L9.35577 8.85942L12.0008 2.5L14.6458 8.85942L21.5114 9.40983L16.2806 13.8906L17.8787 20.5902L12.0008 17Z"
-                      fill="rgba(170,126,9,1)"></path>
+                      fill="#F3EFEB"></path>
                   </svg>
                 </div>
               ))}

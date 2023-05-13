@@ -16,7 +16,7 @@ const BusinessHours = () => {
       style={{ maxWidth: '1550px' }}>
       <p
         className="text-xl sm:text-2xl md:text-3xl font-semibold uppercase pb-8 lg:pb-14"
-        style={{ color: '#C4B682' }}>
+        style={{ color: '#CCA43A' }}>
         business hours
       </p>
       <div className="w-full md:flex md:flex-row-reverse gap-x-4 mb-16">
@@ -29,14 +29,14 @@ const BusinessHours = () => {
               <br />
               Brandon, FL 33511
             </address>
-            <a href="tel:3038855985" className="hover:underline link" style={{ color: '#C4B682' }}>
+            <a href="tel:3038855985" className="hover:underline link" style={{ color: '#CCA43A' }}>
               303-885-5985
             </a>
             <br />
             <a
               href="mailto:sugardbare.official@gmail.com"
               className="hover:underline link"
-              style={{ color: '#C4B682' }}>
+              style={{ color: '#CCA43A' }}>
               sugardbare.official@gmail.com
             </a>
           </div>

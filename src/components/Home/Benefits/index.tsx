@@ -14,7 +14,7 @@ const Benefits = () => {
             style={{ maxWidth: '950px' }}>
             <p
               className="text-xl sm:text-2xl md:text-3xl font-semibold uppercase pb-8 lg:pb-14"
-              style={{ color: '#C4B682' }}>
+              style={{ color: '#CCA43A' }}>
               benefits of sugaring
             </p>
             <div className="grid grid-cols-1 xsl:grid-cols-2 xs:gap-8">

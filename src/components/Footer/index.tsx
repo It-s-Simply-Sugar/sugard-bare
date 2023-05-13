@@ -5,7 +5,7 @@ import logo from '../../assets/sugardbare-logo.png';
 const Footer = () => {
   return (
     <>
-      <div style={{ backgroundColor: '#CCB6A0' }}>
+      <div style={{ backgroundColor: '#CCA43A' }}>
         <div
           className="mx-auto grid place-items-center px-6 py-6 md:px-12"
           style={{ maxWidth: '1550px' }}>
@@ -64,13 +64,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div style={{ backgroundColor: '#605651' }}>
+      <div style={{ backgroundColor: '#F3EFEB' }}>
         <div
           className="mx-auto grid place-items-center px-6 py-1 md:px-12"
           style={{ maxWidth: '500px' }}>
-          <p className="text-xs text-white">
-            Copyright Sugar&lsquo;d Bare 2023, All Rights Reserved
-          </p>
+          <p className="text-xs">Copyright Sugar&lsquo;d Bare 2023, All Rights Reserved</p>
         </div>
       </div>
     </>
