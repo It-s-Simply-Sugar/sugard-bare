@@ -1,23 +1,17 @@
 import Marquee from 'react-fast-marquee';
 import './Reviews.css';
-import quotes from '../../../assets/quotes.png';
 import { data } from './data';
 
-const Reviews = () => {
+const SocialProofs = () => {
   return (
-    <div className="py-20 bg-white" style={{ backgroundColor: '#CCA43A' }}>
+    <div className="py-20 bg-white">
       <div
         className="relative mx-auto grid place-items-center px-6 md:px-12"
         style={{ maxWidth: '1550px' }}>
-        <p className="uppercase tracking-wider text-center text-white text-xl sm:text-2xl xl:text-3xl font-semibold pb-3">
+        <p className="uppercase tracking-wider text-center text-xl sm:text-2xl xl:text-3xl font-semibold pb-3">
           10+ years in business
         </p>
-        <img
-          src={quotes}
-          alt=""
-          className="w-8 md:w-9 absolute top-[40%] right-[78%] xlz:right-[58.5%]"
-        />
-        <p className="pt-6 text-lg sm:text-2xl font-light tracking-wider">
+        <p className="para-1 pt-6 text-lg sm:text-2xl font-light tracking-wider">
           See what our clients <br /> have to say about us!
         </p>
       </div>
@@ -66,4 +60,4 @@ const Reviews = () => {
     </div>
   );
 };
-export default Reviews;
+export default SocialProofs;

@@ -2,7 +2,7 @@ import React from 'react';
 import './home.css';
 import Services from './Services';
 import Gallery from './Gallery';
-import Reviews from './Reviews';
+import SocialProofs from './SocialProofs';
 import Promotions from './Promotions';
 import Benefits from './Benefits';
 import BusinessHours from './BusinessHours';
@@ -88,7 +88,7 @@ const Home = () => {
       </div>
       <Services />
       <Gallery />
-      <Reviews />
+      <SocialProofs />
       <Promotions />
       <Benefits />
       <BusinessHours />

@@ -38,9 +38,9 @@
     top: 330px; 
     left: 90px;
     
-  }
-          
+  }        
 }
+
 
 .cta-btn {
   color: #FFF;
@@ -55,14 +55,14 @@
 }
 
 .view-services-btn {
-  color: white;
-  background-color: #CCA43A;
+  color: #CCA43A;
+  background-color: #FFFFFF;
   border-color: #CCA43A;
 }
 
 .view-services-btn:hover {
-  color: #CCA43A;
-  background-color: #F3EFEB;
+  color: #FFFFFF;
+  background-color: #CCA43A;
   border-color: #CCA43A;
 }
 

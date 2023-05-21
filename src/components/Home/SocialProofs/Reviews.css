@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.marquee-container-div:before, .marquee-container-div:after {
+  position: absolute;
+  top: 0;
+  width: 5rem;
+  height: 100%;
+  content: "";
+  z-index: 10;
+}
+.marquee-container-div:before {
+  left: 0;
+  background: linear-gradient(to right, #FFF 0%, transparent 100%);
+}
+
+.marquee-container-div:after {
+  right: 0;
+  background: linear-gradient(to left, #FFF 0%, transparent 100%);
+}
+
+.para-1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 40px;
+  color: #CCA43A;
+}

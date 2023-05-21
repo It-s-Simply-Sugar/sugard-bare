@@ -1,6 +1,9 @@
 import './Benefits.css';
 import spaInterior from '../../../assets/some-image.png';
-import flower from '../../../assets/flower-icon.png';
+import natural from '../../../assets/benefits/100-natural.png';
+import skinTypes from '../../../assets/benefits/all-skin-type.png';
+import lastingResults from '../../../assets/benefits/long-lasting-results.png';
+import exfoliation from '../../../assets/benefits/exfoliation.png';
 
 const Benefits = () => {
   return (
@@ -19,7 +22,7 @@ const Benefits = () => {
             </p>
             <div className="grid grid-cols-1 xsl:grid-cols-2 xs:gap-8">
               <div className="mb-8 xs:mb-0">
-                <img src={flower} alt="" className="w-8 rounded-full" />
+                <img src={natural} alt="" className="w-8 rounded-full" />
                 <p className="font-bold text-base md:text-md lg:text-xl mt-2 mb-4">100% Natural</p>
                 <p className="text-sm md:text-base lg:text-lg">
                   Sugaring paste is made of natural ingredients like sugar, water, and lemon juice,
@@ -27,7 +30,7 @@ const Benefits = () => {
                 </p>
               </div>
               <div className="mb-8 xs:mb-0">
-                <img src={flower} alt="" className="w-8 rounded-full" />
+                <img src={skinTypes} alt="" className="w-8 rounded-full" />
                 <p className="font-bold text-base md:text-md lg:text-xl mt-2 mb-4">
                   For All Skin Type
                 </p>
@@ -38,7 +41,7 @@ const Benefits = () => {
                 </p>
               </div>
               <div className="mb-8 xs:mb-0">
-                <img src={flower} alt="" className="w-8 rounded-full" />
+                <img src={lastingResults} alt="" className="w-8 rounded-full" />
                 <p className="font-bold text-base md:text-md lg:text-xl mt-2 mb-4">
                   Long-lasting Results
                 </p>
@@ -48,7 +51,7 @@ const Benefits = () => {
                 </p>
               </div>
               <div className="">
-                <img src={flower} alt="" className="w-8 rounded-full" />
+                <img src={exfoliation} alt="" className="w-8 rounded-full" />
                 <p className="font-bold text-base md:text-md lg:text-xl mt-2 mb-4">
                   Gentle Exfoliation
                 </p>

@@ -78,7 +78,7 @@ const Services = () => {
           className="lg:w-1/2 leading-relaxed grid place-items-center"
           style={{ backgroundColor: '#F3EFEB' }}>
           <div className="p-8 xsl:p-10 sm:py-20 md:px-16">
-            <p className="text-xl sm:text-2xl md:text-3xl font-semibold uppercase py-8">
+            <p className="header-text text-xl sm:text-2xl md:text-3xl font-semibold uppercase py-8">
               book your
               <br />
               appointment

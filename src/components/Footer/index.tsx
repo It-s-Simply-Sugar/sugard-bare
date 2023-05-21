@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import logo from '../../assets/sugardbare-logo.png';
 
 const Footer = () => {
+  const date = new Date();
+  const currentYear = date.getFullYear();
+
   return (
     <>
       <div style={{ backgroundColor: '#CCA43A' }}>
@@ -70,7 +73,7 @@ const Footer = () => {
         <div
           className="mx-auto grid place-items-center px-6 py-1 md:px-12"
           style={{ maxWidth: '500px' }}>
-          <p className="text-xs">Copyright Sugar&lsquo;d Bare 2023, All Rights Reserved</p>
+          <p className="text-xs">Copyright Sugar&lsquo;d Bare {currentYear}, All Rights Reserved</p>
         </div>
       </div>
     </>
