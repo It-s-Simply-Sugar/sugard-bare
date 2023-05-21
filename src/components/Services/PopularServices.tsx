@@ -1,4 +1,5 @@
 import { popularServices } from '../../data';
+import './services.css';
 
 const PopularServices = () => {
   return (
@@ -22,10 +23,10 @@ const PopularServices = () => {
                 <p className="text-center my-3 lg:text-left text-xs">{service.description}</p>
                 <a
                   className="w-full mt-auto hidden xxs:block flex justify-start items-center -mt-auto"
-                  href="https://www.vagaro.com/itssimplysugar/services">
-                  <button
-                    className="w-full sm:w-1/2 sm:w-full sm:w-auto text-xs p-2 text-white"
-                    style={{ backgroundColor: '#CCA43A' }}>
+                  href="https://www.vagaro.com/itssimplysugar/services"
+                  target="_blank"
+                  rel="noreferrer">
+                  <button className="book-service-btn w-full sm:w-1/2 sm:w-full sm:w-auto text-xs p-2 text-white">
                     Book Service
                   </button>
                 </a>
@@ -34,10 +35,10 @@ const PopularServices = () => {
             {/* mobile */}
             <a
               className="mt-4 w-full xxs:hidden"
-              href="https://www.vagaro.com/itssimplysugar/services">
-              <button
-                className="w-full text-xs p-2 text-white"
-                style={{ backgroundColor: '#C4B682' }}>
+              href="https://www.vagaro.com/itssimplysugar/services"
+              target="_blank"
+              rel="noreferrer">
+              <button className="book-service-btn w-full text-xs p-2 text-white">
                 Book Service
               </button>
             </a>

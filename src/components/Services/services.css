@@ -1,10 +1,10 @@
 .tab:hover {
-    background-color: #C4B682;
+    background-color: #CCA43A;
     color: white;
 }
 
 .select-tab {
-    background-color: #C4B682;
+    background-color: #CCA43A;
 }
 
 .unselected-tab {
@@ -14,4 +14,15 @@
 
 .service-image {
     max-width: 120px;
+}
+
+.book-service-btn {
+    border: 1px solid #CCA43A;
+    color: #CCA43A;
+}
+
+.book-service-btn:hover {
+    border: 1px solid #CCA43A;
+    background-color: #CCA43A;
+    color: #FFFFFF;
 }

@@ -45,7 +45,7 @@ const ServiceTypes = () => {
 
   return (
     <div className="mt-20 w-full">
-      <ul className="xxxs:flex justify-center items-center gap-x-1 sm:gap-x-2">
+      <ul className="xxxs:flex justify-center items-center gap-x-1 sm:gap-x-2 mb-24">
         <li
           onClick={() => handleTabSelections('popular')}
           className={`tab mb-1 xxxs:mb-0 py-2 px-6 md:px-10 text-center xxxs:text-left text-xs sm:text-sm md:text-base cursor-pointer text-white ${

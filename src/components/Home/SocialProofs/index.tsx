@@ -4,7 +4,7 @@ import { data } from './data';
 
 const SocialProofs = () => {
   return (
-    <div className="py-20 bg-white">
+    <div className="pt-20 xs:pt-40 xs:pb-20 bg-white">
       <div
         className="relative mx-auto grid place-items-center px-6 md:px-12"
         style={{ maxWidth: '1550px' }}>
