@@ -17,7 +17,7 @@ const BusinessHours = () => {
       <p
         className="text-xl sm:text-2xl md:text-3xl font-semibold uppercase pb-8 lg:pb-14"
         style={{ color: '#CCA43A' }}>
-        business hours
+        swing on by and get sugar&apos;d!
       </p>
       <div className="w-full md:flex md:flex-row-reverse gap-x-4 mb-16">
         <div className="w-full md:w-1/2 grid place-items-center text-center mb-8 md:mb-0">

@@ -57,7 +57,6 @@ const Navigation = ({ closeBanner }: Props) => {
           <div
             className="mx-auto pt-12 px-6 md:px-12 flex justify-between items-center py-5 font-medium"
             style={{ maxWidth: '1550px' }}>
-            {' '}
             <Link to="/">
               <div>
                 <img src={activeLink === '/' ? logo : logo2} alt="logo" className="w-32" />
@@ -77,9 +76,6 @@ const Navigation = ({ closeBanner }: Props) => {
                 <li className={getLinkClass('/about')}>
                   <Link to="/about">About Us</Link>
                 </li>
-                {/* <li className={getLinkClass('/contact')}>
-                  <a href="/contact">Contact</a>
-                </li> */}
               </ul>
               <a
                 href="https://www.vagaro.com/itssimplysugar/services"

@@ -70,7 +70,7 @@ const HamburgerNavigation = ({ showBanner }: Props) => {
           className={`fixed right-0 w-64 animate-slide-${isNavClosing ? 'out' : 'in'} ${
             !showBanner ? 'banner-is-shown' : 'top-0'
           }`}
-          style={{ backgroundColor: '#F6F5F5', height: '100vh', zIndex: 12 }}
+          style={{ backgroundColor: '#F3EFEB', height: '100vh', zIndex: 12 }}
           onAnimationEnd={handleAnimationEnd}>
           <div className="mt-32 grid place-items-center" style={{ color: '#665E58' }}>
             <div>
@@ -91,11 +91,6 @@ const HamburgerNavigation = ({ showBanner }: Props) => {
                   onClick={() => setIsNavOpen(false)}>
                   <Link to="/about">About Us</Link>
                 </li>
-                {/* <li
-                  className={`py-4 ${getLinkClass('/contact')}`}
-                  onClick={() => setIsNavOpen(false)}>
-                  <Link to="/contact">Contact Us</Link>
-                </li> */}
               </ul>
               <div className="mx-4 grid grid-cols-1" onClick={() => setIsNavOpen(false)}>
                 <span className="my-4">

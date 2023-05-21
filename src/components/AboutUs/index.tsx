@@ -12,13 +12,15 @@ const AboutUs = () => {
           <br />
           the work
           <br />
-          <span className="text-white">that I do</span>
+          <span style={{ color: '#CCA43A' }}>that I do</span>
         </h1>
-        <div className="container grid place-items-center" style={{ backgroundColor: '#CCB6A0' }}>
+        <div className="container grid place-items-center" style={{ backgroundColor: '#F3EFEB' }}>
           <div className="px-8 sm:px-14 md:px-20 pt-24 sm:pt-32 md:pt-40 pb-10 grid place-items-center">
             <img src={sugar} alt="" />
           </div>
-          <div className="pb-8 flex flex-col justify-center items-center text-white">
+          <div
+            className="pb-8 flex flex-col justify-center items-center"
+            style={{ color: '#CCA43A' }}>
             <ul className="flex gap-x-4">
               <li className="text-lg font-thin">Owner</li>
               <li>|</li>
@@ -30,12 +32,15 @@ const AboutUs = () => {
             className="pb-8 px-8 sm:px-14 md:px-20 text-sm md:text-base lg:text-lg "
             style={{ maxWidth: '800px' }}>
             <p className="leading-relaxed mb-4">
-              Hi, I’m <span className="font-semibold text-white">Anna</span>! I consider myself
-              fortunate to have a job that I absolutely love. Each day I have the pleasure of
-              interacting with a diverse group of fascinating people and building meaningful
-              connections with them. With a decade of experience in the art of sugaring, I take
-              immense pride in delivering exceptional results to my clients. In addition to my
-              expertise in sugaring, I also offer a range of other top-tier services, including
+              Hi, I’m{' '}
+              <span className="font-semibold" style={{ color: '#CCA43A' }}>
+                Anna
+              </span>
+              ! I consider myself fortunate to have a job that I absolutely love. Each day I have
+              the pleasure of interacting with a diverse group of fascinating people and building
+              meaningful connections with them. With a decade of experience in the art of sugaring,
+              I take immense pride in delivering exceptional results to my clients. In addition to
+              my expertise in sugaring, I also offer a range of other top-tier services, including
               waxing, skincare, lash and brow tint, and eyelash extensions.
             </p>
             <p className="leading-relaxed mb-4">
