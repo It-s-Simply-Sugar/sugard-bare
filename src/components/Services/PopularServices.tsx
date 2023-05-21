@@ -19,14 +19,14 @@ const PopularServices = () => {
               </div>
             </div>
             <div className="mt-auto -full lg:flex">
-              <div className="description w-full lg:ml-4  grid place-items-center">
+              <div className="description w-full grid place-items-center">
                 <p className="text-center my-3 lg:text-left text-xs">{service.description}</p>
                 <a
                   className="w-full mt-auto hidden xxs:block flex justify-start items-center -mt-auto"
                   href="https://www.vagaro.com/itssimplysugar/services"
                   target="_blank"
                   rel="noreferrer">
-                  <button className="book-service-btn w-full sm:w-1/2 sm:w-full sm:w-auto text-xs p-2 text-white">
+                  <button className="book-service-btn w-full sm:w-full text-xs p-2 text-white">
                     Book Service
                   </button>
                 </a>
