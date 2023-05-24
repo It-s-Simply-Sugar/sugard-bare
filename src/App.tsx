@@ -1,51 +1,65 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import AnnouncementBanner from './components/Home/AnnouncementBanner';
-import Navigation from './components/Navigation';
+import Navigation from './routes/Navigation';
 import Home from './components/Home';
 import Services from './components/Services';
 import Faq from './components/Faq';
 import AboutUs from './components/AboutUs';
-// import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 
 function App() {
-  const [showBanner, setShowBanner] = useState(false);
-  const [closeBanner, setCloseBanner] = useState(false);
+  const [isNavOpen, setIsNavOpen] = useState(false);
+  const [isNavClosing, setIsNavClosing] = useState(false);
 
-  const scrollHandler = () => {
-    const scrollTop = window.pageYOffset;
-    if (scrollTop >= 300 && !showBanner) {
-      setShowBanner(true);
-    } else if (scrollTop < 300 && showBanner) {
-      setShowBanner(false);
+  useEffect(() => {
+    // const bodyStyles = `
+    // body > *:not(#no-blur) {
+    //   transition: filter 0.3s ease;
+    //   filter: blur(3px);
+    // }`;
+
+    if (isNavOpen) {
+      document.body.classList.add('no-scroll');
+      document.querySelector('body:not(#no-blur)')?.classList.add('blur-item');
+    } else {
+      document.body.classList.remove('no-scroll');
+      document.querySelector('body:not(#no-blur)')?.classList.remove('blur-item');
+    }
+  }, [isNavOpen]);
+
+  const handleCloseNav = () => {
+    setIsNavClosing(true);
+  };
+
+  const handleAnimationEnd = (e: React.AnimationEvent<HTMLDivElement>) => {
+    if (e.animationName === 'slideOut') {
+      setIsNavOpen(false);
+      setIsNavClosing(false);
+      e.currentTarget.classList.remove('animate-slide-out');
     }
   };
-  const closeBannerHandler = () => {
-    setCloseBanner(true);
-  };
-  useEffect(() => {
-    window.addEventListener('scroll', scrollHandler);
-    return () => window.removeEventListener('scroll', scrollHandler);
-  }, [showBanner]);
 
   return (
     <div>
-      <div className={` ${showBanner ? 'transition' : ''}`}>
-        <AnnouncementBanner closeBannerHandler={closeBannerHandler} closeBanner={closeBanner} />
-      </div>
-
-      <Navigation closeBanner={closeBanner} />
-      <div className="">
-        <Routes>
-          <Route path="/" element={<Home />} />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <Navigation
+              setIsNavOpen={setIsNavOpen}
+              isNavOpen={isNavOpen}
+              isNavClosing={isNavClosing}
+              handleCloseNav={handleCloseNav}
+              handleAnimationEnd={handleAnimationEnd}
+            />
+          }>
+          <Route index element={<Home />} />
           <Route path="/services" element={<Services />} />
           <Route path="/faq" element={<Faq />} />
           <Route path="/about" element={<AboutUs />} />
-          {/* <Route path="/contact" element={<ContactUs />} /> */}
-        </Routes>
-      </div>
+        </Route>
+      </Routes>
       <Footer />
     </div>
   );

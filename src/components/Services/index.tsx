@@ -1,4 +1,4 @@
-import ServiceTypes from './ServiceTypes';
+import ServiceTypes from './ServicesMenu';
 import CancellationPolicy from './CancellationPolicy';
 
 const Services = () => {
