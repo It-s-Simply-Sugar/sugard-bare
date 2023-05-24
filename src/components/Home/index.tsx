@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
 import './home.css';
 import Services from './Services';
 import Gallery from './Gallery';
@@ -9,6 +10,22 @@ import BusinessHours from './BusinessHours';
 import heroImage from '../../assets/hero-image-option2.png';
 
 const Home = () => {
+  const headerRef = useRef(null);
+
+  useEffect(() => {
+    const scrollReveal = ScrollReveal();
+
+    if (headerRef.current) {
+      scrollReveal.reveal(headerRef.current, {
+        duration: 1000,
+        distance: '30px',
+        origin: 'top',
+        easing: 'ease-out',
+        interval: 200
+      });
+    }
+  }, []);
+
   return (
     <div>
       <div className="pt-6 xs:pt-16 lg:pt-10" style={{ backgroundColor: '#CCA43A' }}>
@@ -24,7 +41,7 @@ const Home = () => {
               <div className="lg:flex-grow">
                 <div className="grid place-items-center">
                   <div>
-                    <div className="flex justify-center lg:justify-start">
+                    <div ref={headerRef} className="flex justify-center lg:justify-start">
                       <h1 className="lg:hidden font-semibold text-center text-4xl xs:text-5xl leading-tight mb-5">
                         Smooth Skin with
                         <br />
