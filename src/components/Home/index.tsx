@@ -3,6 +3,7 @@ import ScrollReveal from 'scrollreveal';
 import './home.css';
 import Services from './Services';
 import Gallery from './Gallery';
+import SomeRandomComp from './SomeRandomComp';
 import SocialProofs from './SocialProofs';
 import Promotions from './Promotions';
 import Benefits from './Benefits';
@@ -10,18 +11,29 @@ import BusinessHours from './BusinessHours';
 import heroImage from '../../assets/hero-image-option2.png';
 
 const Home = () => {
-  const headerRef = useRef(null);
+  const h1 = useRef(null);
+  const text = useRef(null);
 
   useEffect(() => {
     const scrollReveal = ScrollReveal();
 
-    if (headerRef.current) {
-      scrollReveal.reveal(headerRef.current, {
-        duration: 1000,
+    if (h1.current) {
+      scrollReveal.reveal(h1.current, {
+        duration: 2000,
         distance: '30px',
         origin: 'top',
         easing: 'ease-out',
         interval: 200
+      });
+    }
+    if (text.current) {
+      scrollReveal.reveal(text.current, {
+        duration: 2000,
+        distance: '200px',
+        origin: 'right',
+        easing: 'ease-out',
+        interval: 1000,
+        delay: 1000
       });
     }
   }, []);
@@ -41,7 +53,7 @@ const Home = () => {
               <div className="lg:flex-grow">
                 <div className="grid place-items-center">
                   <div>
-                    <div ref={headerRef} className="flex justify-center lg:justify-start">
+                    <div ref={h1} className="flex justify-center lg:justify-start">
                       <h1 className="lg:hidden font-semibold text-center text-4xl xs:text-5xl leading-tight mb-5">
                         Smooth Skin with
                         <br />
@@ -53,19 +65,21 @@ const Home = () => {
                         <span className="text-white"> Sweet Solutions</span>
                       </h1>
                     </div>
-                    <p className="text-center lg:text-left text-left text-sm lg:text-base xl:text-lg px-10 sm:px-20 md:px-40 lg:px-0 xl:pr-20">
-                      Expert sugaring and top-tier beauty services delivered with a warm and
-                      welcoming touch.
-                    </p>
-                    <div className="grid justify-center lg:justify-start pt-6 lg:pt-12">
-                      <a
-                        href="https://www.vagaro.com/itssimplysugar/services"
-                        target="_blank"
-                        rel="noreferrer">
-                        <button className="cta-btn text-sm xs:text-base border-2 border-solid px-6 py-2">
-                          Schedule Appointment
-                        </button>
-                      </a>
+                    <div ref={text}>
+                      <p className="font-light text-center lg:text-left text-left text-md lg:text-xl xl:text-2xl px-10 sm:px-20 md:px-40 lg:px-0 xl:pr-20">
+                        Expert sugaring and top-tier beauty services delivered with a warm and
+                        welcoming touch.
+                      </p>
+                      <div className="grid justify-center lg:justify-start pt-6 lg:pt-12">
+                        <a
+                          href="https://www.vagaro.com/itssimplysugar/services"
+                          target="_blank"
+                          rel="noreferrer">
+                          <button className="cta-btn text-sm xs:text-base border-2 border-solid px-6 py-2">
+                            Schedule Appointment
+                          </button>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -106,6 +120,7 @@ const Home = () => {
       <Services />
       <Gallery />
       <SocialProofs />
+      {/* <SomeRandomComp /> */}
       <Promotions />
       <Benefits />
       <BusinessHours />

@@ -1,17 +1,35 @@
-import { useState } from 'react';
+import React, { useEffect, useRef } from 'react';
+import ScrollReveal from 'scrollreveal';
 import Marquee from 'react-fast-marquee';
 import './Reviews.css';
 import { data } from './data';
 
 const SocialProofs = () => {
-  // const [isHovered] = useState(false);
+  const title = useRef(null);
+
+  useEffect(() => {
+    const scrollReveal = ScrollReveal();
+
+    if (title.current) {
+      scrollReveal.reveal(title.current, {
+        duration: 2000,
+        distance: '30px',
+        origin: 'bottom',
+        easing: 'ease-out',
+        interval: 200
+      });
+    }
+  }, []);
 
   return (
-    <div className="pt-20 xs:pt-40 xs:pb-20 bg-white">
+    <div className="pt-20 xs:pb-20 bg-white">
       <div
+        ref={title}
         className="relative mx-auto grid place-items-center px-6 md:px-12"
         style={{ maxWidth: '1550px' }}>
-        <p className="uppercase tracking-wider text-center text-xl sm:text-2xl xl:text-3xl font-semibold pb-3">
+        <p
+          className="uppercase tracking-wider text-center text-xl sm:text-2xl xl:text-3xl font-semibold pb-3"
+          style={{ color: '#CCA43A' }}>
           10+ years in business
         </p>
         <p className="para-1 pt-2 text-2xl sm:text-3xl font-light leading-5">
