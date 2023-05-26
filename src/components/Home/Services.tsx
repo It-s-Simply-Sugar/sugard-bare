@@ -70,8 +70,8 @@ const Services = () => {
                 </li>
                 <li className="hidden sm:block text-sm md:text-base lg:text-lg">
                   Hair is removed from the pubic area using a sugar paste that is applied to the
-                  skin in the direction of hair growth. The result is smooth and soft skin that
-                  lasts for several weeks.
+                  skin in the opposite direction of hair growth and removed in the direction of hair
+                  growth. The result is smooth and soft skin that lasts for several weeks.
                 </li>
               </ul>
             </div>

@@ -20,6 +20,15 @@
 
 .para-1 {
   font-family: 'Great Vibes', cursive;
-  font-size: 40px;
   color: #CCA43A;
+}
+
+.marquee-item-card  {
+  height: 200px;
+  background-color: #F3EFEB;
+}
+.marquee-item-card:hover  {
+  background-color: #f1eae4;
+  transform: scale(1.08);
+  transition: transform 0.3s ease;
 }
