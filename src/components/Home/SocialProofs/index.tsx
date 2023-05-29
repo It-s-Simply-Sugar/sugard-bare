@@ -22,7 +22,7 @@ const SocialProofs = () => {
   }, []);
 
   return (
-    <div className="py-32 bg-white">
+    <div className="py-20 md:py-32 bg-white">
       <div
         ref={title}
         className="relative mx-auto grid place-items-center px-6 md:px-12"
