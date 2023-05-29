@@ -39,10 +39,10 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
-      <div className="pt-6 xs:pt-16 lg:pt-10" style={{ backgroundColor: '#CCA43A' }}>
+    <main>
+      <section className="pt-6 xs:pt-16 lg:pt-10" style={{ backgroundColor: '#CCA43A' }}>
         <div className="relative mx-auto px-6 md:px-12" style={{ maxWidth: '1450px' }}>
-          <div className="flex flex-col-reverse lg:flex-row justify-center items-center lg:justify-around lg:w-full">
+          <header className="flex flex-col-reverse lg:flex-row justify-center items-center lg:justify-around lg:w-full">
             <img
               src={heroImage}
               alt=""
@@ -85,7 +85,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </header>
           <div className="google-reviews absolute text-center">
             <p className="rating text-white text-2xl xs:text-4xl font-semibold mb-1 xxl:mb-2">
               5.0
@@ -116,7 +116,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-      </div>
+      </section>
       <Services />
       <Gallery />
       <SocialProofs />
@@ -124,7 +124,7 @@ const Home = () => {
       <Promotions />
       <Benefits />
       <BusinessHours />
-    </div>
+    </main>
   );
 };
 

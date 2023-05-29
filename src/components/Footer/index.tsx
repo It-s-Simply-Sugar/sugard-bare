@@ -7,8 +7,8 @@ const Footer = () => {
   const currentYear = date.getFullYear();
 
   return (
-    <>
-      <div style={{ backgroundColor: '#CCA43A' }}>
+    <footer>
+      <section style={{ backgroundColor: '#CCA43A' }}>
         <div
           className="mx-auto grid place-items-center px-6 py-6 md:px-12"
           style={{ maxWidth: '1550px' }}>
@@ -35,13 +35,13 @@ const Footer = () => {
               <p className="hover:text-white">Book Online</p>
             </a>
           </div>
-          <div className="mb-auto pb-4 xs:pb-0">
+          <div className="mb-auto pb-4 xs:pb-0 non-italic">
             <p className="font-bold mb-1">Contact</p>
-            <p>
+            <address className="not-italic">
               125 West Bloomingdale Avenue
               <br />
               Brandon, FL 33511
-            </p>
+            </address>
             <br />
             <a
               href="mailto:sugardbare.official@gmail.com"
@@ -86,8 +86,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div style={{ backgroundColor: '#F3EFEB' }}>
+      </section>
+      <section style={{ backgroundColor: '#F3EFEB' }}>
         <div
           className="mx-auto grid place-items-center px-6 py-1 md:px-12"
           style={{ maxWidth: '500px' }}>
@@ -95,8 +95,8 @@ const Footer = () => {
             © Copyright Sugar&lsquo;d Bare {currentYear}, All Rights Reserved
           </p>
         </div>
-      </div>
-    </>
+      </section>
+    </footer>
   );
 };
 

@@ -1,47 +1,11 @@
-import React, { useEffect, useRef } from 'react';
-import ScrollReveal from 'scrollreveal';
+import React from 'react';
 import './home.css';
 import { Link } from 'react-router-dom';
 import flower from '../../assets/flower-icon.png';
 
 const Services = () => {
-  const listItemRef1 = useRef(null);
-  const listItemRef2 = useRef(null);
-  const listItemRef3 = useRef(null);
-
-  useEffect(() => {
-    const scrollReveal = ScrollReveal();
-
-    if (listItemRef1.current) {
-      scrollReveal.reveal(listItemRef1.current, {
-        duration: 2000,
-        distance: '30px',
-        origin: 'bottom',
-        easing: 'ease-out',
-        interval: 200
-      });
-    }
-    if (listItemRef2.current) {
-      scrollReveal.reveal(listItemRef2.current, {
-        duration: 2000,
-        distance: '30px',
-        origin: 'bottom',
-        easing: 'ease-out',
-        interval: 200
-      });
-    }
-    if (listItemRef3.current) {
-      scrollReveal.reveal(listItemRef3.current, {
-        duration: 2000,
-        distance: '150px',
-        origin: 'bottom',
-        easing: 'ease-out',
-        interval: 200
-      });
-    }
-  }, []);
   return (
-    <div
+    <section
       className="pb-20 flex justify-center items-center px-6 md:px-12 text-sm md:text-base lg:text-lg"
       style={{ backgroundColor: '#F8F8F8' }}>
       <div
@@ -49,7 +13,7 @@ const Services = () => {
         style={{ maxWidth: '1550px' }}>
         <div className="lg:w-1/2 leading-relaxed grid place-items-center bg-white">
           <div className="p-8 xsl:p-10 sm:py-20 md:px-16">
-            <div ref={listItemRef1} className="flex mb-4 sm:mb-14 pt-8 sm:pt-0">
+            <div className="flex mb-4 sm:mb-14 pt-8 sm:pt-0">
               <img src={flower} className="w-14 h-14 mr-4 sm:mr-10" />
               <ul className="grid place-items-center sm:place-items-start">
                 <li
@@ -69,7 +33,7 @@ const Services = () => {
               the direction of hair growth. The result is smooth and soft skin that lasts for
               several weeks.
             </p>
-            <div ref={listItemRef2} className="flex mb-4 sm:mb-14">
+            <div className="flex mb-4 sm:mb-14">
               <img src={flower} className="w-14 h-14 mr-4 sm:mr-10" />
               <ul className="grid place-items-center sm:place-items-start">
                 <li
@@ -89,7 +53,7 @@ const Services = () => {
               the area outside of the panty line, leaving you with a smooth and hair-free bikini
               area.
             </p>
-            <div ref={listItemRef3} className="flex mb-4 sm:mb-0">
+            <div className="flex mb-4 sm:mb-0">
               <img src={flower} className="w-14 h-14 mr-4 sm:mr-10" />
               <ul className="grid place-items-center sm:place-items-start">
                 <li
@@ -136,7 +100,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

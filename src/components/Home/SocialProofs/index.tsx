@@ -22,7 +22,7 @@ const SocialProofs = () => {
   }, []);
 
   return (
-    <div className="py-20 md:py-32 bg-white">
+    <section className="py-20 md:py-32 bg-white">
       <div
         ref={title}
         className="relative mx-auto grid place-items-center px-6 md:px-12"
@@ -85,7 +85,7 @@ const SocialProofs = () => {
           ))}
         </Marquee>
       </div>
-    </div>
+    </section>
   );
 };
 export default SocialProofs;

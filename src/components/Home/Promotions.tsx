@@ -31,7 +31,7 @@ const Promotions = () => {
     }
   }, []);
   return (
-    <div className="flex justify-center items-center pb-20 px-6 md:px-12 bg-white">
+    <section className="flex justify-center items-center pb-20 px-6 md:px-12 bg-white">
       <div className="w-full xs:flex xs:gap-x-6" style={{ maxWidth: '1550px' }}>
         <div className="lg:w-1/2 leading-relaxed grid place-items-center">
           <div className="w-full">
@@ -66,7 +66,7 @@ const Promotions = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

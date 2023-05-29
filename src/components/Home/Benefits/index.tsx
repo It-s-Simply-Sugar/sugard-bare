@@ -60,7 +60,7 @@ const Benefits = () => {
     }
   }, []);
   return (
-    <div
+    <section
       className="px-6 md:px-12 py-20 lg:py-40 relative text-sm md:text-base lg:text-lg"
       style={{ backgroundColor: '#F3EFEB' }}>
       <div className="mx-auto grid place-items-center" style={{ maxWidth: '1550px' }}>
@@ -132,7 +132,7 @@ const Benefits = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
