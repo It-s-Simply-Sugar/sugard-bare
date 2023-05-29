@@ -22,7 +22,7 @@ const SocialProofs = () => {
   }, []);
 
   return (
-    <div className="pt-20 xs:pb-20 bg-white">
+    <div className="py-32 bg-white">
       <div
         ref={title}
         className="relative mx-auto grid place-items-center px-6 md:px-12"
@@ -32,7 +32,7 @@ const SocialProofs = () => {
           style={{ color: '#CCA43A' }}>
           10+ years in business
         </p>
-        <p className="para-1 pt-2 text-2xl sm:text-3xl font-light leading-5">
+        <p className="pt-2 text-md xs:text-xl lg:text-2xl font-extralight leading-5">
           See what our clients <br /> have to say about us!
         </p>
       </div>

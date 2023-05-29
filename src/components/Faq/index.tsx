@@ -5,7 +5,7 @@ import water from '../../assets/water.png';
 
 const Faq = () => {
   return (
-    <div className="py-20">
+    <div className="py-20 text-sm md:text-base lg:text-lg leading-relaxed">
       <div className="mx-auto grid place-items-center px-6 xl:px-20" style={{ maxWidth: '1550px' }}>
         <h1 className="px-6 pb-6 uppercase text-center font-semibold leading-tight text-5xl sm:text-7xl xxl:text-8xl">
           the
@@ -16,7 +16,7 @@ const Faq = () => {
         </h1>
 
         <div className="">
-          <p className="sm:px-14 lg:px-24 xl:px-60 text-center text-sm md:text-base leading-relaxed">
+          <p className="sm:px-14 lg:px-24 xl:px-60 text-center">
             Unlike other methods, sugaring is a natural alternative to hair removal. Our sugar paste
             is handcrafted with a blend of ingredients found in your kitchen: sugar, water, and
             lemon. It&apos;s gentle on all skin types, even the most sensitive, making it a safe and
@@ -63,7 +63,7 @@ const Faq = () => {
           <div className="w-full text-2xl font-extralight mb-4 lg:mb-0">
             <p style={{ maxWidth: '450px' }}>What is sugaring?</p>
           </div>
-          <div className="w-full text-sm md:text-base mb-4 leading-relaxed">
+          <div className="w-full mb-4">
             <p className="mb-2">
               Sugaring is a natural method of hair removal that has been practiced for centuries. It
               involves using a mixture of sugar, water, and lemon juice to create a paste that is
@@ -91,7 +91,7 @@ const Faq = () => {
               How long does the hair need to be for my first sugaring appointment?
             </p>
           </div>
-          <div className="w-full text-sm md:text-base mb-4 leading-relaxed">
+          <div className="w-full mb-4">
             <p className="mb-2">
               To ensure a successful sugaring appointment, it is important to have the hair at the
               optimal length. For first-time clients who have been shaving, it is recommended to
@@ -112,7 +112,7 @@ const Faq = () => {
           <div className="w-full text-2xl font-extralight mb-4 lg:mb-0">
             <p style={{ maxWidth: '450px' }}>How long will it take for my hair to grow back?</p>
           </div>
-          <div className="w-full text-sm md:text-base mb-4 leading-relaxed">
+          <div className="w-full mb-4">
             <p className="mb-2">
               After your first sugaring session, the hair follicle will gradually deplete, which
               means that the hair will grow back finer and sparser over time. Typically, clients can
@@ -132,7 +132,7 @@ const Faq = () => {
           <div className="w-full text-2xl font-extralight mb-4 lg:mb-0">
             <p style={{ maxWidth: '450px' }}>Is sugaring sanitary?</p>
           </div>
-          <div className="w-full text-sm md:text-base mb-4 leading-relaxed">
+          <div className="w-full mb-4">
             <p className="mb-2">
               Sugaring is a highly sanitary hair removal method, and there are several reasons why.
               Firstly, only a single ball of sugar is used throughout the entire treatment, which
@@ -156,7 +156,7 @@ const Faq = () => {
           <div className="w-full text-2xl font-extralight mb-4 lg:mb-0">
             <p style={{ maxWidth: '450px' }}>Should I exfoliate before my appointment?</p>
           </div>
-          <div className="w-full text-sm md:text-base mb-4 leading-relaxed">
+          <div className="w-full mb-4">
             <p className="mb-2">
               Preparing your skin before a sugaring appointment can help to improve the results and
               ensure a more comfortable experience. Gently exfoliating your skin a day or two before
@@ -183,7 +183,7 @@ const Faq = () => {
           <div className="w-full text-2xl font-extralight mb-4 lg:mb-0">
             <p style={{ maxWidth: '450px' }}>What are aftercare post sugaring?</p>
           </div>
-          <div className="w-full text-sm md:text-base mb-4 leading-relaxed">
+          <div className="w-full mb-4">
             <p className="mb-2">
               Proper aftercare is essential to ensure that your skin stays smooth and healthy after
               a sugaring appointment. Here are some important tips for post-sugaring care:
@@ -206,7 +206,7 @@ const Faq = () => {
           <div className="w-full text-2xl font-extralight mb-4 lg:mb-0">
             <p style={{ maxWidth: '450px' }}>What is your cancellation policy?</p>
           </div>
-          <div className="w-full text-sm md:text-base leading-relaxed mb-4">
+          <div className="w-full mb-4">
             <p className="mb-2">
               Kindly be considerate of my time and schedule by canceling your appointment at least
               24 hours prior to the scheduled time. You may reach me through email at{' '}

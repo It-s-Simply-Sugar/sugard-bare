@@ -18,7 +18,7 @@ const Benefits = () => {
 
     if (titleOne.current) {
       scrollReveal.reveal(titleOne.current, {
-        duration: 2000,
+        duration: 1500,
         distance: '150px',
         origin: 'bottom',
         easing: 'ease-out',
@@ -28,39 +28,41 @@ const Benefits = () => {
 
     if (titleTwo.current) {
       scrollReveal.reveal(titleTwo.current, {
-        duration: 2000,
+        duration: 1500,
         distance: '150px',
         origin: 'bottom',
         easing: 'ease-out',
         interval: 200,
-        delay: 500
+        delay: 100
       });
     }
 
     if (titleThree.current) {
       scrollReveal.reveal(titleThree.current, {
-        duration: 2000,
+        duration: 1500,
         distance: '150px',
-        origin: 'top',
+        origin: 'bottom',
         easing: 'ease-out',
         interval: 200,
-        delay: 1000
+        delay: 200
       });
     }
 
     if (titleFour.current) {
       scrollReveal.reveal(titleFour.current, {
-        duration: 2000,
+        duration: 1500,
         distance: '150px',
-        origin: 'top',
+        origin: 'bottom',
         easing: 'ease-out',
         interval: 200,
-        delay: 1500
+        delay: 400
       });
     }
   }, []);
   return (
-    <div className="px-6 md:px-12 py-20 lg:py-40 relative" style={{ backgroundColor: '#F3EFEB' }}>
+    <div
+      className="px-6 md:px-12 py-20 lg:py-40 relative text-sm md:text-base lg:text-lg"
+      style={{ backgroundColor: '#F3EFEB' }}>
       <div className="mx-auto grid place-items-center" style={{ maxWidth: '1550px' }}>
         <div
           className="w-full lg:flex flex-reverse bg-white"
@@ -80,7 +82,7 @@ const Benefits = () => {
                   <p className="font-bold text-base md:text-md lg:text-xl mt-2 mb-4">
                     100% Natural
                   </p>
-                  <p className="text-sm md:text-base lg:text-lg">
+                  <p>
                     Sugaring paste is made of natural ingredients like sugar, water, and lemon
                     juice, which are gentle on the skin and less likely to cause allergic reactions.
                   </p>
@@ -92,7 +94,7 @@ const Benefits = () => {
                   <p className="font-bold text-base md:text-md lg:text-xl mt-2 mb-4">
                     For All Skin Type
                   </p>
-                  <p className="text-sm md:text-base lg:text-lg">
+                  <p>
                     Sugaring paste is applied at room temperature, which is less likely to irritate
                     sensitive skin. Additionally, sugaring does not stick to live skin cells, which
                     reduces the risk of skin damage or tearing.
@@ -105,7 +107,7 @@ const Benefits = () => {
                   <p className="font-bold text-base md:text-md lg:text-xl mt-2 mb-4">
                     Long-lasting Results
                   </p>
-                  <p className="text-sm md:text-base lg:text-lg">
+                  <p>
                     Sugaring removes hair from the root, which means it takes longer to grow back
                     compared to shaving or depilatory creams.
                   </p>
@@ -117,7 +119,7 @@ const Benefits = () => {
                   <p className="font-bold text-base md:text-md lg:text-xl mt-2 mb-4">
                     Gentle Exfoliation
                   </p>
-                  <p className="text-sm md:text-base lg:text-lg">
+                  <p>
                     Sugaring removes dead skin cells, leaving skin smooth and soft. It also reduces
                     the occurrence of ingrown hairs.
                   </p>

@@ -21,7 +21,9 @@ const Services = () => {
                 Some text here
               </p> */}
               <div className="text-center">
-                <a href="#cancellation-policy" className="text-sm underline font-semibold">
+                <a
+                  href="#cancellation-policy"
+                  className="text-sm md:text-base lg:text-lg underline font-semibold">
                   View Cancellation Policy
                 </a>
               </div>

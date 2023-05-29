@@ -1,9 +1,9 @@
-import image1 from '../../../assets/carousel-item-1.png';
-import image2 from '../../../assets/11.png';
-import image3 from '../../../assets/12.png';
-import image4 from '../../../assets/13.png';
-import image5 from '../../../assets/14.png';
-import image6 from '../../../assets/15.png';
+import image1 from '../../../assets/services-icons/carousel-item-1.png';
+import image2 from '../../../assets/building-interior/11.png';
+import image3 from '../../../assets/building-interior/12.png';
+import image4 from '../../../assets/building-interior/13.png';
+import image5 from '../../../assets/building-interior/14.png';
+import image6 from '../../../assets/building-interior/15.png';
 
 const data = [
   {

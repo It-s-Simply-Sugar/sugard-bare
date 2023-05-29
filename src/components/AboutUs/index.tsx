@@ -29,7 +29,7 @@ const AboutUs = () => {
             <p className="text-md font-normal">Professional Esthetician</p>
           </div>
           <div
-            className="pb-8 px-8 sm:px-14 md:px-20 text-sm md:text-base lg:text-lg "
+            className="pb-8 px-8 sm:px-14 md:px-20 text-sm md:text-base lg:text-lg"
             style={{ maxWidth: '800px' }}>
             <p className="leading-relaxed mb-4">
               Hi, I’m {''}

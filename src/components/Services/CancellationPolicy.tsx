@@ -9,7 +9,7 @@ const CancellationPolicy = () => {
           <div className="w-56 h-1 bg-black mb-10" style={{ backgroundColor: '#CCA43A' }} />
         </div>
       </div>
-      <p className="px-10 sm:px-14 lg:px-24 xl:px-60 text-center text-sm md:text-base leading-relaxed">
+      <p className="px-10 sm:px-14 lg:px-24 xl:px-60 text-center text-sm md:text-base lg:text-lg leading-relaxed">
         Kindly be considerate of my time and schedule by canceling your appointment at least 24
         hours prior to the scheduled time. You may reach me through email at{' '}
         <a

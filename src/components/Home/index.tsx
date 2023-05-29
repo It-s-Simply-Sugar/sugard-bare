@@ -3,7 +3,7 @@ import ScrollReveal from 'scrollreveal';
 import './home.css';
 import Services from './Services';
 import Gallery from './Gallery';
-import SomeRandomComp from './SomeRandomComp';
+// import SomeRandomComp from './SomeRandomComp';
 import SocialProofs from './SocialProofs';
 import Promotions from './Promotions';
 import Benefits from './Benefits';
