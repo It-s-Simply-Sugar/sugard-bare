@@ -14,8 +14,8 @@ const AnnouncementBanner = ({ closeBanner, closeBannerHandler }: Props) => {
                   <span className="font-bold">New Look!</span> Same great services.
                 </p>
                 <p className="text-center text-xs md:text-sm font-thin">
-                  Book your appointment today and experience the difference of natural sugar hair
-                  removal.
+                  Formerly known as It&apos;s Simply Sugar. Book an appointment today and indulge in
+                  the Sugar&apos;d Bare experience.
                 </p>
               </div>
               <button className="absolute right-0 pr-4 top-[20px]" onClick={closeBannerHandler}>

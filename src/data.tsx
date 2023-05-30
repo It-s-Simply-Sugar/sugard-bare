@@ -35,6 +35,12 @@ export const popularServices = [
       'Similar to a traditional face facial, this service includes a double cleanse, light exfoliation, extractions, soothing mask.',
     price: 50,
     image: vajacial
+  },
+  {
+    serviceName: 'Calming Mask',
+    description: 'As an add-on, a calming mask can be added to any hair removal service',
+    price: 5 - 25,
+    image: faceMask
   }
 ];
 
@@ -61,7 +67,7 @@ export const bodyServices = [
   },
   {
     serviceName: 'Neck',
-    description: 'Removal of hair for either the front or back of neck',
+    description: 'Removal of hair for either the front or back of neck.',
     price: 12,
     image: neck
   },
@@ -114,7 +120,7 @@ export const bikiniServices = [
     image: vajacial
   },
   {
-    serviceName: 'Bikini',
+    serviceName: 'Bikini (New Client)',
     description: 'Removal of hair on the bikini line not to extend to leg or inner thigh area.',
     price: 55,
     image: bikini
@@ -144,13 +150,6 @@ export const bikiniServices = [
     description:
       'Removal of all the pubic hair with the sugaring technique which includes the backside but not the cheeks. Cheeks is an additional charge.',
     price: 68,
-    image: brazilian
-  },
-  {
-    serviceName: 'Brazilian (New Groupon Client)',
-    description:
-      'Groupon coupon is for NEW Clients only. Service is for a Brazilian or Bikini sugaring. Brazilian includes backside but not butt cheeks or inner thigh. Bikini does not include inner thigh.',
-    price: 65,
     image: brazilian
   },
   {
@@ -190,8 +189,9 @@ export const faceServices = [
   },
   {
     serviceName: 'Full Face w/ Mask',
-    description: '',
-    price: 57,
+    description:
+      'Hair removal using the sugaring technique on entire face including brows with the addition of a soothing or cooling mask.',
+    price: 55 - 58,
     image: faceMask
   },
   {
@@ -208,14 +208,13 @@ export const faceServices = [
   },
   {
     serviceName: 'Ears',
-    description:
-      'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam doloribus tempore commodi, culpa non corpori',
+    description: 'Hair is removed from ears. Both ears included.',
     price: 10,
     image: ears
   },
   {
     serviceName: 'Upper Lip',
-    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam doloribus',
+    description: 'Removal of hair on upper lip.',
     price: 12,
     image: upperLip
   },
