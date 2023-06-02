@@ -3,6 +3,7 @@ import ScrollReveal from 'scrollreveal';
 import Marquee from 'react-fast-marquee';
 import './Reviews.css';
 import { data } from './data';
+import quotes from '../../../assets/quotes.png';
 
 const SocialProofs = () => {
   const title = useRef(null);
@@ -25,16 +26,23 @@ const SocialProofs = () => {
     <section className="py-20 md:py-32 bg-white">
       <div
         ref={title}
-        className="relative mx-auto grid place-items-center px-6 md:px-12"
+        className="mx-auto grid place-items-center px-6 md:px-12"
         style={{ maxWidth: '1200px' }}>
         <p
           className="uppercase tracking-wider text-center text-xl sm:text-2xl xl:text-3xl font-semibold pb-3"
           style={{ color: '#CCA43A' }}>
           10+ years in business
         </p>
-        <p className="pt-2 text-md xs:text-xl lg:text-2xl font-extralight leading-5">
-          See what our clients <br /> have to say about us!
-        </p>
+        <div className="relative">
+          <p className="pt-4 text-md xs:text-xl lg:text-2xl font-extralight leading-5">
+            See what our clients <br /> have to say about us!
+          </p>
+          <img
+            src={quotes}
+            alt=""
+            className="absolute w-6 xs:w-8  bottom-[35px] left-[-30px] xs:bottom-[50px] xs:left-[-40px]"
+          />
+        </div>
       </div>
       <div className="mt-10 mx-auto" style={{ maxWidth: '1200px' }}>
         <Marquee

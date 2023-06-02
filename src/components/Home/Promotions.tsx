@@ -40,7 +40,7 @@ const Promotions = () => {
             <div className="grid place-items-center sm:place-items-start mb-4 sm:mb-10">
               <p
                 ref={titleLeft}
-                className="text-xl xsl:text-2xl xs:text-xl sm:text-2xl md:text-3xl font-semibold uppercase sm:pb-3"
+                className="text-xl text-center xs:text-left xsl:text-2xl xs:text-xl sm:text-2xl md:text-3xl font-semibold uppercase sm:pb-3"
                 style={{ color: '#CCA43A' }}>
                 get more for less: our latest
                 <br />
