@@ -12,7 +12,7 @@ const Promotions = () => {
 
     if (titleLeft.current) {
       scrollReveal.reveal(titleLeft.current, {
-        duration: 2000,
+        duration: 800,
         distance: '150px',
         origin: 'left',
         easing: 'ease-out',
@@ -22,7 +22,7 @@ const Promotions = () => {
 
     if (titleRight.current) {
       scrollReveal.reveal(titleRight.current, {
-        duration: 2000,
+        duration: 800,
         distance: '150px',
         origin: 'right',
         easing: 'ease-out',

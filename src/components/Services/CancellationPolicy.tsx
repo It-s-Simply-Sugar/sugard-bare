@@ -1,6 +1,9 @@
 const CancellationPolicy = () => {
   return (
-    <div id="cancellation-policy" className="py-20 mt-24" style={{ backgroundColor: '#F6F5F5' }}>
+    <div
+      id="cancellation-policy"
+      className="py-24"
+      style={{ backgroundColor: '#605651', color: '#F3EFEB' }}>
       <div className="flex flex-col justify-center items-center">
         <div>
           <h3 className=" text-center text-2xl font-semibold pb-3 border-solid">

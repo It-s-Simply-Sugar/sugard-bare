@@ -19,7 +19,7 @@ const Home = () => {
 
     if (h1.current) {
       scrollReveal.reveal(h1.current, {
-        duration: 2000,
+        duration: 800,
         distance: '30px',
         origin: 'top',
         easing: 'ease-out',
@@ -28,7 +28,7 @@ const Home = () => {
     }
     if (text.current) {
       scrollReveal.reveal(text.current, {
-        duration: 2000,
+        duration: 800,
         distance: '200px',
         origin: 'right',
         easing: 'ease-out',
@@ -54,7 +54,7 @@ const Home = () => {
                 <div className="grid place-items-center">
                   <div>
                     <div ref={h1} className="flex justify-center lg:justify-start">
-                      <h1 className="lg:hidden font-semibold text-center text-4xl xs:text-5xl leading-tight mb-5">
+                      <h1 className="desktop-title lg:hidden font-semibold text-center text-4xl xs:text-5xl leading-tight mb-5">
                         Smooth Skin with
                         <br />
                         <span className="text-white">Sweet Solutions</span>

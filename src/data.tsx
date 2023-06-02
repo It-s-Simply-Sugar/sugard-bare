@@ -1,4 +1,3 @@
-import sfjgj from './assets/services-icons/unnamed-3.jpg';
 import fullLegs from './assets/services-icons/full-legs.png';
 import halfArms from './assets/services-icons/half-arms-lower.png';
 import fullArms from './assets/services-icons/full-arms.png';
@@ -192,27 +191,28 @@ export const bikiniServices = [
 export const faceServices = [
   {
     serviceName: 'Full Face',
-    description: 'Hair removal using the sugaring technique on entire face including brows.',
+    description: 'Hair is removed on the entire face including eyebrows.',
     price: 45,
     image: fullFace
   },
   {
     serviceName: 'Full Face w/ Mask',
     description:
-      'Hair removal using the sugaring technique on entire face including brows with the addition of a soothing or cooling mask.',
+      'Hair is removed on the entire face including eyebrows with the addition of a soothing or cooling mask.',
     price: 55,
     price2: 58,
     image: faceMask
   },
   {
     serviceName: 'Brow Shaping',
-    description: 'Sugaring price includes both brows',
+    description:
+      'Excess hair is removed from eyebrow line to provide a sculpted shape. Price includes both eyebrows.',
     price: 28,
     image: eyebrow
   },
   {
     serviceName: 'Brow Maintenance',
-    description: 'Removal of regrowth on brow line using sugar. Price includes both brows.',
+    description: 'Removal of regrowth on eyebrow line. Price includes both eyebrows.',
     price: 20,
     image: eyebrow
   },
@@ -230,43 +230,43 @@ export const faceServices = [
   },
   {
     serviceName: 'Chin',
-    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam doloribus',
+    description: 'Hair is removed from the chin.',
     price: 15,
     image: chin
   },
   {
     serviceName: 'Lip and Chin',
-    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam doloribus',
+    description: 'Hair is removed from the lip and chin.',
     price: 25,
     image: lipChin
   },
   {
     serviceName: 'Sideburns',
-    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam ',
+    description: 'Hair is removed from the sideburns. Both sideburns included.',
     price: 20,
     image: sideburns
   },
   {
     serviceName: 'Brow Sugaring + Tint',
-    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam ',
+    description: 'Eyebrow sugaring and tinting.',
     price: 40,
     image: eyebrow
   },
   {
     serviceName: 'Brow Tint',
-    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam ',
+    description: 'Eyebrow tinting.',
     price: 25,
     image: eyebrow
   },
   {
     serviceName: 'Lash Tint',
-    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam ',
+    description: 'Eyelash tinting.',
     price: 30,
     image: lash
   },
   {
     serviceName: 'Lash + Brow Tint',
-    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam ',
+    description: 'Eyelash and eyebrow tinting.',
     price: 40,
     image: lashBrow
   }

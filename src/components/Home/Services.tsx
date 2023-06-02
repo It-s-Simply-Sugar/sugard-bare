@@ -9,37 +9,6 @@ import body from '../../assets/1.png';
 import facial from '../../assets/4.png';
 
 const Services = () => {
-  const data = [
-    {
-      id: 0,
-      title: 'Brazilian',
-      url: brazilian,
-      description:
-        'Uncover Smoothness from front to back! Our brazilian service removes all pubic hair, including the backside (excluding cheeks), for a beautifully clean and hair-free intimate area.'
-    },
-    {
-      id: 1,
-      title: 'Legs',
-      url: body,
-      description:
-        'Our specialized sugaring service offers complete hair removal for your legs. Whether you opt for perfectly smooth thighs or flawless calves, we ensure a thorough, gentle, and hair-free sugaring experience.'
-    },
-    {
-      id: 2,
-      title: 'bikini',
-      url: legs,
-      description:
-        'Bikini services focus on flawlessly shaping your bikini line with meticulous attention to detail. Experience the confidence of a clean and defined bikini line without any unwanted hair, courtesy of our precise and tailored sugaring technique.'
-    },
-    {
-      id: 3,
-      title: 'Facial',
-      url: facial,
-      description:
-        'Immerse yourself in our range of indulgent treatments that leave your face feeling irresistibly soft, while our eyebrow and eyelash maintenance services provide the perfect frame to accentuate your natural beauty.'
-    }
-  ];
-
   const cardOne = useRef(null);
   const cardTwo = useRef(null);
   const cardThree = useRef(null);
@@ -50,7 +19,7 @@ const Services = () => {
 
     if (cardOne.current) {
       scrollReveal.reveal(cardOne.current, {
-        duration: 1500,
+        duration: 800,
         distance: '150px',
         origin: 'bottom',
         easing: 'ease-out',
@@ -60,7 +29,7 @@ const Services = () => {
 
     if (cardTwo.current) {
       scrollReveal.reveal(cardTwo.current, {
-        duration: 1500,
+        duration: 800,
         distance: '150px',
         origin: 'bottom',
         easing: 'ease-out',
@@ -71,7 +40,7 @@ const Services = () => {
 
     if (cardThree.current) {
       scrollReveal.reveal(cardThree.current, {
-        duration: 1500,
+        duration: 800,
         distance: '150px',
         origin: 'bottom',
         easing: 'ease-out',
@@ -82,7 +51,7 @@ const Services = () => {
 
     if (cardFour.current) {
       scrollReveal.reveal(cardFour.current, {
-        duration: 1500,
+        duration: 800,
         distance: '150px',
         origin: 'bottom',
         easing: 'ease-out',
@@ -101,30 +70,6 @@ const Services = () => {
           removal.
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-x-12 gap-y-12 flex flex-col">
-          {/* {data.map((service) => (
-            <Link to="/services" key={service.id} ref={cardOne} className="mt-auto service-card">
-              <div className="shadow" style={{ backgroundColor: '#F8F8F8' }}>
-                <div>
-                  <img src={service.url} alt="" />
-                </div>
-                <div className="p-8">
-                  <h3
-                    className="text-md xsl:text-xl sm:text-2xl md:text-3xl font-semibold uppercase"
-                    style={{ color: '#CCA43A' }}>
-                    {service.title}
-                  </h3>
-                  <p className="text-sm md:text-base lg:text-lg mt-2 mb-6 xs:mb-0">
-                    {service.description}
-                  </p>
-                  <button
-                    className="mt-0 md:mt-10 border border-solid text-white px-4 py-2 text-sm xs:text-base"
-                    style={{ backgroundColor: '#CCA43A' }}>
-                    View all services
-                  </button>
-                </div>
-              </div>
-            </Link>
-          ))} */}
           <Link to="/services" ref={cardOne} className="mt-auto service-card">
             <div className="shadow" style={{ backgroundColor: '#F8F8F8' }}>
               <div>
@@ -132,7 +77,7 @@ const Services = () => {
               </div>
               <div className="p-8">
                 <h3
-                  className="text-md xsl:text-xl sm:text-2xl md:text-3xl font-semibold uppercase"
+                  className="desktop-title text-md xsl:text-xl sm:text-2xl md:text-3xl font-semibold uppercase"
                   style={{ color: '#CCA43A' }}>
                   Brazilian
                 </h3>
@@ -156,7 +101,7 @@ const Services = () => {
               </div>
               <div className="p-8">
                 <h3
-                  className="text-md xsl:text-xl sm:text-2xl md:text-3xl font-semibold uppercase"
+                  className="desktop-title text-md xsl:text-xl sm:text-2xl md:text-3xl font-semibold uppercase"
                   style={{ color: '#CCA43A' }}>
                   legs
                 </h3>
@@ -179,7 +124,7 @@ const Services = () => {
               </div>
               <div className="p-8">
                 <h3
-                  className="text-md xsl:text-xl sm:text-2xl md:text-3xl font-semibold uppercase"
+                  className="desktop-title text-md xsl:text-xl sm:text-2xl md:text-3xl font-semibold uppercase"
                   style={{ color: '#CCA43A' }}>
                   bikini
                 </h3>
@@ -204,7 +149,7 @@ const Services = () => {
               </div>
               <div className="p-8">
                 <h3
-                  className="text-md xsl:text-xl sm:text-2xl md:text-3xl font-semibold uppercase"
+                  className="desktop-title text-md xsl:text-xl sm:text-2xl md:text-3xl font-semibold uppercase"
                   style={{ color: '#CCA43A' }}>
                   Facial
                 </h3>

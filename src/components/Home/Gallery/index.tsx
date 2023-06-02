@@ -1,13 +1,28 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
+import ScrollReveal from 'scrollreveal';
 import './Gallery.css';
 import slides from './data';
-import leftArrow from '../../../assets/arrow-left.png';
-import rightArrow from '../../../assets/arrow-right.png';
 
 const Gallery = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [touchStart, setTouchStart] = useState(0);
   const [touchEnd, setTouchEnd] = useState(0);
+
+  const galleryOnScrollAnimation = useRef(null);
+
+  useEffect(() => {
+    const scrollReveal = ScrollReveal();
+
+    if (galleryOnScrollAnimation.current) {
+      scrollReveal.reveal(galleryOnScrollAnimation.current, {
+        duration: 800,
+        distance: '150px',
+        origin: 'bottom',
+        easing: 'ease-out',
+        interval: 200
+      });
+    }
+  }, []);
 
   const prevSlide = () => {
     const isFirstSlide = currentIndex === 0;
@@ -50,7 +65,9 @@ const Gallery = () => {
         style={{ maxWidth: '600px' }}>
         Indulge in a Sweet Escape: Your Ultimate Hair Removal Retreat Awaits!
       </h2>
-      <div className="gallery max-w-[1000px] w-full m-auto pb-16 xs:px-4 relative group">
+      <div
+        ref={galleryOnScrollAnimation}
+        className="gallery max-w-[1000px] w-full m-auto pb-16 xs:px-4 relative group">
         <div
           style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
           className="w-full h-full bg-center bg-cover duration-500"

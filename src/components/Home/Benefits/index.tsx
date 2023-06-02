@@ -39,7 +39,7 @@ const Benefits = () => {
 
     if (titleThree.current) {
       scrollReveal.reveal(titleThree.current, {
-        duration: 1500,
+        duration: 800,
         distance: '150px',
         origin: 'bottom',
         easing: 'ease-out',
@@ -62,7 +62,7 @@ const Benefits = () => {
   return (
     <section
       className="px-6 md:px-12 py-10 md:py-24 relative text-sm md:text-base lg:text-lg text-white"
-      style={{ backgroundColor: '#605651' }}>
+      style={{ backgroundColor: '#605651', color: '#F3EFEB' }}>
       <div className="mx-auto grid place-items-center" style={{ maxWidth: '1200px' }}>
         <div
           className="w-full lg:flex flex-reverse bg-white"
@@ -72,7 +72,7 @@ const Benefits = () => {
             style={{ maxWidth: '950px' }}>
             <h2
               className="desktop-title text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold uppercase border-b border-solid pb-4 mb-12 lg:mb-16"
-              style={{ color: '#CCA43A' }}>
+              style={{ color: '#CCA43A', borderColor: '#F3EFEB' }}>
               benefits of sugaring
             </h2>
             <div className="grid grid-cols-1 xsl:grid-cols-2 xs:gap-8">

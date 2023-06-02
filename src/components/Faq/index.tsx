@@ -16,7 +16,7 @@ const Faq = () => {
         </h1>
 
         <div className="">
-          <p className="sm:px-14 lg:px-24 xl:px-60 text-center">
+          <p className="sm:px-14 lg:px-24 xl:px-28 text-center">
             Unlike other methods, sugaring is a natural alternative to hair removal. Our sugar paste
             is handcrafted with a blend of ingredients found in your kitchen: sugar, water, and
             lemon. It&apos;s gentle on all skin types, even the most sensitive, making it a safe and
@@ -25,35 +25,33 @@ const Faq = () => {
             cells therefore preventing skin tearing. After a completed session, you&apos;ll emerge
             with silky-smooth, exfoliated skin that will leave you feeling confident and radiant.
           </p>
-          <div className="mx-auto grid place-items-center grid-cols-3 gap-x-4 my-20">
-            <div className="mb-8 xl:mb-0">
-              <img src={sugar} alt="one" className="w-32 lg:w-40" />
-              <p
-                className="text-center mt-4 xl:mt-10 text-lg sm:text-2xl uppercase font-extralight"
-                style={{ color: '#CCA43A' }}>
-                Sugar
-              </p>
-            </div>
-            <div className="mb-8 xl:mb-0">
-              <img src={water} alt="one" className="w-32 lg:w-40" />
-              <p
-                className="text-center mt-4 xl:mt-10 text-lg sm:text-2xl uppercase font-extralight"
-                style={{ color: '#CCA43A' }}>
-                water
-              </p>
-            </div>
-            <div className="mb-8 xl:mb-0">
-              <img src={lemon} alt="one" className="w-32 lg:w-40" />
-              <p
-                className="text-center mt-4 xl:mt-10 text-lg sm:text-2xl uppercase font-extralight"
-                style={{ color: '#CCA43A' }}>
-                lemon
-              </p>
-            </div>
+        </div>
+      </div>
+      <div className="bg-red-200" style={{ backgroundColor: '#CCA43A' }}>
+        <div
+          className="mx-auto grid place-items-center grid-cols-3 gap-x-4 my-20 py-10 px-6 md:px-12"
+          style={{ maxWidth: '1200px' }}>
+          <div className="mb-0">
+            <img src={sugar} alt="one" className="w-32 lg:w-40" />
+            <p className="text-center text-white mt-4 xl:mt-10 text-lg sm:text-2xl uppercase font-extralight">
+              Sugar
+            </p>
+          </div>
+          <div className="mb-0">
+            <img src={water} alt="one" className="w-32 lg:w-40" />
+            <p className="text-center text-white mt-4 xl:mt-10 text-lg sm:text-2xl uppercase font-extralight">
+              water
+            </p>
+          </div>
+          <div className="mb-0">
+            <img src={lemon} alt="one" className="w-32 lg:w-40" />
+            <p className="text-center text-white mt-4 xl:mt-10 text-lg sm:text-2xl uppercase font-extralight">
+              lemon
+            </p>
           </div>
         </div>
       </div>
-      <div className="mt-10 mx-auto px-12" style={{ maxWidth: '1200px' }}>
+      <div className="mt-10 mx-auto px-6 md:px-12" style={{ maxWidth: '1200px' }}>
         <div
           className="w-full lg:flex lg:justify-between border-b border-solid"
           style={{ borderColor: '#CCA43A' }}>

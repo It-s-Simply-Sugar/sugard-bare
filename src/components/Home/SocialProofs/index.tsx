@@ -13,7 +13,7 @@ const SocialProofs = () => {
 
     if (title.current) {
       scrollReveal.reveal(title.current, {
-        duration: 2000,
+        duration: 800,
         distance: '30px',
         origin: 'bottom',
         easing: 'ease-out',

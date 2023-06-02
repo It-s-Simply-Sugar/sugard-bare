@@ -45,7 +45,7 @@ const ServicesMenu = () => {
 
   return (
     <div className="mt-10 lg:mt-20 w-full">
-      <ul className="xxxs:flex justify-center items-center gap-x-1 sm:gap-x-2 lg:mb-20">
+      <ul className="xxxs:flex justify-center items-center gap-x-1 sm:gap-x-2 mb-10">
         <li
           onClick={() => handleTabSelections('popular')}
           className={`tab mb-1 xxxs:mb-0 py-2 px-6 md:px-10 text-center xxxs:text-left text-xs sm:text-sm md:text-base cursor-pointer text-white ${
@@ -75,11 +75,13 @@ const ServicesMenu = () => {
           Face
         </li>
       </ul>
-      <div className="mt-10">
-        {showPopularTab && <PopularServices />}
-        {showBodyTab && <BodyServices />}
-        {showBikiniTab && <BikiniServices />}
-        {showEyebrowsTab && <FaceServices />}
+      <div className="py-24 px-6 md:px-12" style={{ backgroundColor: '#F3EFEB' }}>
+        <div className="mx-auto" style={{ maxWidth: '1200px' }}>
+          {showPopularTab && <PopularServices />}
+          {showBodyTab && <BodyServices />}
+          {showBikiniTab && <BikiniServices />}
+          {showEyebrowsTab && <FaceServices />}
+        </div>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import CancellationPolicy from './CancellationPolicy';
 
 const Services = () => {
   return (
-    <div className="py-20">
+    <div className="pt-20">
       <div
         className="mx-auto grid place-items-center px-6 md:px-20 xxl:px-0 mb-20"
         style={{ maxWidth: '1200px' }}>
@@ -30,10 +30,9 @@ const Services = () => {
             </div>
           </div>
         </div>
-
-        <ServiceTypes />
-        <CancellationPolicy />
       </div>
+      <ServiceTypes />
+      <CancellationPolicy />
     </div>
   );
 };
