@@ -15,11 +15,11 @@ const BusinessHours = () => {
       <div
         className="mx-auto py-20 bg-white grid place-items-center"
         style={{ maxWidth: '1200px' }}>
-        <p
-          className="text-center text-xl sm:text-2xl md:text-3xl font-semibold uppercase pb-8 lg:pb-14"
+        <h2
+          className="desktop-title text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold uppercase pb-8 lg:pb-14"
           style={{ color: '#CCA43A' }}>
           swing on by and get sugar&apos;d!
-        </p>
+        </h2>
         <div className="w-full md:flex md:flex-row-reverse gap-x-4 mb-16">
           <div className="w-full md:w-1/2 grid place-items-center text-center mb-8 md:mb-0">
             <div className="text-sm lg:text-base xl:text-lg">

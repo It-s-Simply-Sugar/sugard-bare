@@ -61,7 +61,7 @@ const Benefits = () => {
   }, []);
   return (
     <section
-      className="px-6 md:px-12 py-20 lg:py-40 relative text-sm md:text-base lg:text-lg text-white"
+      className="px-6 md:px-12 py-10 md:py-24 relative text-sm md:text-base lg:text-lg text-white"
       style={{ backgroundColor: '#605651' }}>
       <div className="mx-auto grid place-items-center" style={{ maxWidth: '1200px' }}>
         <div
@@ -70,11 +70,11 @@ const Benefits = () => {
           <div
             className="lg:w-full grid place-items-center lg:mr-10 xl:mr-20"
             style={{ maxWidth: '950px' }}>
-            <p
-              className="text-xl sm:text-2xl md:text-3xl font-semibold uppercase pb-8 lg:pb-14"
+            <h2
+              className="desktop-title text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold uppercase border-b border-solid pb-4 mb-12 lg:mb-16"
               style={{ color: '#CCA43A' }}>
               benefits of sugaring
-            </p>
+            </h2>
             <div className="grid grid-cols-1 xsl:grid-cols-2 xs:gap-8">
               <div className="mb-8 xs:mb-0">
                 <img src={natural} alt="" className="w-8 rounded-full" />
@@ -127,7 +127,7 @@ const Benefits = () => {
               </div>
             </div>
           </div>
-          <div className="lg:block hidden -mt-96" style={{ marginTop: '-40%' }}>
+          <div className="lg:block hidden" style={{ marginTop: '-34.6%' }}>
             <img src={spaInterior} alt="" className="" />
           </div>
         </div>

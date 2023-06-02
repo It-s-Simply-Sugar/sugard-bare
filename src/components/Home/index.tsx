@@ -60,7 +60,7 @@ const Home = () => {
                         <span className="text-white">Sweet Solutions</span>
                       </h1>
 
-                      <h1 className="hidden lg:block text-5xl lg:text-6xl xl:text-7xl font-semibold leading-tight mb-5">
+                      <h1 className="desktop-title hidden lg:block text-5xl lg:text-6xl xl:text-7xl font-semibold leading-tight mb-5">
                         Smooth Skin with
                         <span className="text-white"> Sweet Solutions</span>
                       </h1>

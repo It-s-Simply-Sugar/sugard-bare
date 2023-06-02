@@ -45,6 +45,11 @@ const Gallery = () => {
 
   return (
     <section className="pb-10 pt-20 px-6 md:px-12" style={{ backgroundColor: '#CCA43A' }}>
+      <h2
+        className="desktop-title uppercase mx-auto mb-10 md:mb-24 text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl border-b border-solid pb-4"
+        style={{ maxWidth: '600px' }}>
+        Indulge in a Sweet Escape: Your Ultimate Hair Removal Retreat Awaits!
+      </h2>
       <div className="gallery max-w-[1000px] w-full m-auto pb-16 xs:px-4 relative group">
         <div
           style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
@@ -74,7 +79,7 @@ const Gallery = () => {
               fill="rgba(204,164,58,1)"></path>
           </svg>
         </div>
-        <div className="flex top-4 justify-center pt-4 gap-x-1">
+        <div className="flex top-4 justify-center pt-8 gap-x-2">
           {slides.map((slide, index) => (
             <div
               key={index}

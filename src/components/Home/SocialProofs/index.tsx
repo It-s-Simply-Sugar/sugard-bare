@@ -23,16 +23,16 @@ const SocialProofs = () => {
   }, []);
 
   return (
-    <section className="py-20 md:py-32 bg-white">
+    <section className="my-10 md:my-24 bg-white">
       <div
         ref={title}
         className="mx-auto grid place-items-center px-6 md:px-12"
         style={{ maxWidth: '1200px' }}>
-        <p
-          className="uppercase tracking-wider text-center text-xl sm:text-2xl xl:text-3xl font-semibold pb-3"
+        <h2
+          className="desktop-title uppercase tracking-wider text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold pb-3"
           style={{ color: '#CCA43A' }}>
           10+ years in business
-        </p>
+        </h2>
         <div className="relative">
           <p className="pt-4 text-md xs:text-xl lg:text-2xl font-extralight leading-5">
             See what our clients <br /> have to say about us!
@@ -56,7 +56,9 @@ const SocialProofs = () => {
               href="https://www.vagaro.com/itssimplysugar"
               target="_blank"
               rel="noreferrer">
-              <div className="marquee-item-card mx-4 rounded-tr-2xl rounded-bl-2xl px-4 md:px-10 py-6 grid place-items-center shadow-lg shadow-zinc-300 my-6 w-72 md:w-96">
+              <div
+                className="marquee-item-card mx-4 rounded-tr-3xl rounded-bl-3xl px-4 md:px-10 py-6 grid place-items-center border border-solid my-6 w-72 md:w-96"
+                style={{ borderColor: '#CCA43A' }}>
                 <div className="grid place-items-center relative">
                   <img
                     src={review.image}
@@ -86,7 +88,11 @@ const SocialProofs = () => {
                 </p>
 
                 {review.review.length > 105 && (
-                  <p className="text-center text-xs underline cursor-pointer">See full review</p>
+                  <p
+                    className="text-center text-xs underline cursor-pointer font-medium"
+                    style={{ color: '#CCA43A' }}>
+                    See full review
+                  </p>
                 )}
               </div>
             </a>
