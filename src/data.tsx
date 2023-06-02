@@ -4,7 +4,6 @@ import halfArms from './assets/services-icons/half-arms-lower.png';
 import fullArms from './assets/services-icons/full-arms.png';
 import fullLegsUpper from './assets/services-icons/half-legs-upper.png';
 import feetToes from './assets/services-icons/feet-toes.png';
-import browShaping from './assets/services-icons/eyebrows.png';
 import ears from './assets/services-icons/ears.png';
 import upperLip from './assets/services-icons/upper-lip.png';
 import chin from './assets/services-icons/chin.png';
@@ -14,6 +13,13 @@ import bikini from './assets/services-icons/bikini.png';
 import brazilian from './assets/services-icons/brazilian.png';
 import vajacial from './assets/services-icons/vajacial.png';
 import faceMask from './assets/services-icons/face-mask.png';
+import eyebrow from './assets/eyebrow.png';
+import lash from './assets/eyelash.png';
+import lashBrow from './assets/lash-brow.png';
+import shoulders from './assets/shoulders.png';
+import chestStomach from './assets/chest-stomach.png';
+import abTrail from './assets/ab-trail.png';
+import innerThigh from './assets/inner-thigh.png';
 
 export const popularServices = [
   {
@@ -76,7 +82,7 @@ export const bodyServices = [
     serviceName: 'Shoulders',
     description: 'Removal of hair from shoulders. Price includes both shoulders.',
     price: 20,
-    image: sfjgj
+    image: shoulders
   },
   {
     serviceName: 'Full Arms',
@@ -94,21 +100,21 @@ export const bodyServices = [
     serviceName: 'Chest and Stomach',
     description: 'Both upper and lower torso are included in price.',
     price: 60,
-    image: sfjgj
+    image: chestStomach
   },
   {
     serviceName: 'Ab Trail',
     description:
       'This does not include lower torso, only ab trail. If you want more than the ab trail please select stomach sugaring.',
     price: 8,
-    image: sfjgj
+    image: abTrail
   },
   {
     serviceName: 'Inner Thigh',
     description:
       '1/4 of the upper leg, inner thigh only. Please note this service is not for legs that are fully covered in sparse hair. It is specifically for pubic hair that comes out to the inner thigh only.',
     price: 18,
-    image: sfjgj
+    image: innerThigh
   }
 ];
 
@@ -200,13 +206,13 @@ export const faceServices = [
     serviceName: 'Brow Shaping',
     description: 'Sugaring price includes both brows',
     price: 28,
-    image: browShaping
+    image: eyebrow
   },
   {
     serviceName: 'Brow Maintenance',
     description: 'Removal of regrowth on brow line using sugar. Price includes both brows.',
     price: 20,
-    image: browShaping
+    image: eyebrow
   },
   {
     serviceName: 'Ears',
@@ -242,24 +248,24 @@ export const faceServices = [
     serviceName: 'Brow Sugaring + Tint',
     description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam ',
     price: 40,
-    image: sfjgj
+    image: eyebrow
   },
   {
     serviceName: 'Brow Tint',
     description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam ',
     price: 25,
-    image: sfjgj
+    image: eyebrow
   },
   {
     serviceName: 'Lash Tint',
     description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam ',
     price: 30,
-    image: sfjgj
+    image: lash
   },
   {
     serviceName: 'Lash + Brow Tint',
     description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam ',
     price: 40,
-    image: sfjgj
+    image: lashBrow
   }
 ];

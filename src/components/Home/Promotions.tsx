@@ -31,7 +31,9 @@ const Promotions = () => {
     }
   }, []);
   return (
-    <section className="flex justify-center items-center pb-20 px-6 md:px-12 bg-white">
+    <section
+      className="flex justify-center items-center py-24 px-6 md:px-12 bg-white"
+      style={{ backgroundColor: '#F3EFEB' }}>
       <div className="w-full xs:flex xs:gap-x-6" style={{ maxWidth: '1200px' }}>
         <div className="lg:w-1/2 leading-relaxed grid place-items-center">
           <div className="w-full">

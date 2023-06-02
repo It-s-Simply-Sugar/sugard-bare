@@ -61,12 +61,12 @@ const Benefits = () => {
   }, []);
   return (
     <section
-      className="px-6 md:px-12 py-20 lg:py-40 relative text-sm md:text-base lg:text-lg"
-      style={{ backgroundColor: '#F3EFEB' }}>
+      className="px-6 md:px-12 py-20 lg:py-40 relative text-sm md:text-base lg:text-lg text-white"
+      style={{ backgroundColor: '#605651' }}>
       <div className="mx-auto grid place-items-center" style={{ maxWidth: '1200px' }}>
         <div
           className="w-full lg:flex flex-reverse bg-white"
-          style={{ backgroundColor: '#F3EFEB' }}>
+          style={{ backgroundColor: '#605651' }}>
           <div
             className="lg:w-full grid place-items-center lg:mr-10 xl:mr-20"
             style={{ maxWidth: '950px' }}>
