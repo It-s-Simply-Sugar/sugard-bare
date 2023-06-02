@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <section className="pb-20 flex justify-center items-center px-6 md:px-12 text-sm md:text-base lg:text-lg">
       <div
-        className="-mt-12 xsl:-mt-16 md:-mt-16 w-full lg:flex lg:flex-row-reverse z-0 bg-white shadow-lg shadow-stone-300"
+        className=" mt-10 md:-mt-16 w-full lg:flex lg:flex-row-reverse z-0 bg-white shadow-lg shadow-stone-300"
         style={{ maxWidth: '1200px' }}>
         <div className="lg:w-1/2 leading-relaxed grid place-items-center bg-white">
           <div className="p-8 xsl:p-10 sm:py-20 md:px-16">

@@ -8,7 +8,7 @@ import SocialProofs from './SocialProofs';
 import Promotions from './Promotions';
 import Benefits from './Benefits';
 import BusinessHours from './BusinessHours';
-import heroImage from '../../assets/hero-image-option2.png';
+import heroImage from '../../assets/hero-image.png';
 
 const Home = () => {
   const h1 = useRef(null);

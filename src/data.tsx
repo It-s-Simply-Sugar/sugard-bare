@@ -20,6 +20,8 @@ import shoulders from './assets/shoulders.png';
 import chestStomach from './assets/chest-stomach.png';
 import abTrail from './assets/ab-trail.png';
 import innerThigh from './assets/inner-thigh.png';
+import sideburns from './assets/sideburns.png';
+import fullFace from './assets/full-face.png';
 
 export const popularServices = [
   {
@@ -192,7 +194,7 @@ export const faceServices = [
     serviceName: 'Full Face',
     description: 'Hair removal using the sugaring technique on entire face including brows.',
     price: 45,
-    image: sfjgj
+    image: fullFace
   },
   {
     serviceName: 'Full Face w/ Mask',
@@ -242,7 +244,7 @@ export const faceServices = [
     serviceName: 'Sideburns',
     description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam ',
     price: 20,
-    image: sfjgj
+    image: sideburns
   },
   {
     serviceName: 'Brow Sugaring + Tint',
