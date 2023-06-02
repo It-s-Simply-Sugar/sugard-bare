@@ -1,3 +1,111 @@
+// import React from 'react';
+// import './home.css';
+// import { Link } from 'react-router-dom';
+// import flower from '../../assets/spa-flowers.png';
+// import brazilian from '../../assets/3.png';
+// import legs from '../../assets/1.png';
+// import body from '../../assets/2.png';
+
+// const Services = () => {
+//   return (
+//     <section className="bg-white pb-20 justify-center items-center px-6 md:px-12 text-sm md:text-base lg:text-lg">
+//       <div className="w-full pt-40 mx-auto" style={{ maxWidth: '1200px' }}>
+//         <div className="w-full md:flex">
+//           <div className="w-1/4 mr-20 grid place-items-center">
+//             <img src={flower} alt="" />
+//           </div>
+//           <div className="w-3/4">
+//             <div className="flex">
+//               <div className="w-1/2 grid place-items-center mr-8">
+//                 <div>
+//                   <p
+//                     className="text-md xsl:text-xl sm:text-2xl md:text-3xl font-semibold uppercase sm:pb-3"
+//                     style={{ color: '#CCA43A' }}>
+//                     Brazilian
+//                   </p>
+//                   <p>
+//                     Hair is removed from the pubic area using a sugar paste that is applied to the
+//                     skin in the opposite direction of hair growth and removed in the direction of
+//                     hair growth. The result is smooth and soft skin that lasts for several weeks.
+//                   </p>
+//                   <div className="grid justify-center lg:justify-start pt-4">
+//                     <a href="/services" target="_blank" rel="noreferrer">
+//                       <button className="cta-btn text-sm xs:text-base px-6 py-2">
+//                         See Full Services
+//                       </button>
+//                     </a>
+//                   </div>
+//                 </div>
+//               </div>
+//               <div className="w-1/2 grid place-items-center">
+//                 <img src={brazilian} alt="" className="rounded-2xl" />
+//               </div>
+//             </div>
+
+//             {/* teo */}
+//             <div className="flex my-32">
+//               <div className="w-1/2 grid place-items-center">
+//                 <img src={body} alt="" className="rounded-2xl" />
+//               </div>
+//               <div className="w-1/2 grid place-items-center ml-8">
+//                 <div>
+//                   <p
+//                     className="text-md xsl:text-xl sm:text-2xl md:text-3xl font-semibold uppercase sm:pb-3"
+//                     style={{ color: '#CCA43A' }}>
+//                     Bikini
+//                   </p>
+//                   <p>
+//                     Hair is removed from the pubic area using a sugar paste that is applied to the
+//                     skin in the opposite direction of hair growth and removed in the direction of
+//                     hair growth. The result is smooth and soft skin that lasts for several weeks.
+//                   </p>
+//                   <div className="grid justify-center lg:justify-start pt-4">
+//                     <a href="/services" target="_blank" rel="noreferrer">
+//                       <button className="cta-btn text-sm xs:text-base px-6 py-2">
+//                         See Full Services
+//                       </button>
+//                     </a>
+//                   </div>
+//                 </div>
+//               </div>
+//             </div>
+
+//             {/* //threw */}
+//             <div className="flex">
+//               <div className="w-1/2 grid place-items-center mr-8">
+//                 <div>
+//                   <p
+//                     className="text-md xsl:text-xl sm:text-2xl md:text-3xl font-semibold uppercase sm:pb-3"
+//                     style={{ color: '#CCA43A' }}>
+//                     Legs
+//                   </p>
+//                   <p>
+//                     Hair is removed from the pubic area using a sugar paste that is applied to the
+//                     skin in the opposite direction of hair growth and removed in the direction of
+//                     hair growth. The result is smooth and soft skin that lasts for several weeks.
+//                   </p>
+//                   <div className="grid justify-center lg:justify-start pt-4">
+//                     <a href="/services" target="_blank" rel="noreferrer">
+//                       <button className="cta-btn text-sm xs:text-base px-6 py-2">
+//                         See Full Services
+//                       </button>
+//                     </a>
+//                   </div>
+//                 </div>
+//               </div>
+//               <div className="w-1/2 grid place-items-center">
+//                 <img src={legs} alt="" className="rounded-2xl" />
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default Services;
+
 import React from 'react';
 import './home.css';
 import { Link } from 'react-router-dom';
@@ -5,12 +113,10 @@ import flower from '../../assets/flower-icon.png';
 
 const Services = () => {
   return (
-    <section
-      className="pb-20 flex justify-center items-center px-6 md:px-12 text-sm md:text-base lg:text-lg"
-      style={{ backgroundColor: '#F8F8F8' }}>
+    <section className="pb-20 flex justify-center items-center px-6 md:px-12 text-sm md:text-base lg:text-lg">
       <div
-        className="-mt-12 xsl:-mt-16 md:-mt-32 w-full lg:flex lg:flex-row-reverse z-0 bg-white shadow-lg shadow-stone-300"
-        style={{ maxWidth: '1550px' }}>
+        className="-mt-12 xsl:-mt-16 md:-mt-16 w-full lg:flex lg:flex-row-reverse z-0 bg-white shadow-lg shadow-stone-300"
+        style={{ maxWidth: '1200px' }}>
         <div className="lg:w-1/2 leading-relaxed grid place-items-center bg-white">
           <div className="p-8 xsl:p-10 sm:py-20 md:px-16">
             <div className="flex mb-4 sm:mb-14 pt-8 sm:pt-0">

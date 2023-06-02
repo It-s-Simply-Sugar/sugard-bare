@@ -6,7 +6,7 @@ import logo from '../../assets/anna-signature.png';
 const AboutUs = () => {
   return (
     <div className="py-20">
-      <div className="mx-auto px-6" style={{ maxWidth: '1550px' }}>
+      <div className="mx-auto px-6" style={{ maxWidth: '1200px' }}>
         <h1 className="px-6 uppercase font-semibold leading-tight text-5xl sm:text-7xl xxl:text-8xl">
           I love
           <br />

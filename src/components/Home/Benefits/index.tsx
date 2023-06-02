@@ -63,7 +63,7 @@ const Benefits = () => {
     <section
       className="px-6 md:px-12 py-20 lg:py-40 relative text-sm md:text-base lg:text-lg"
       style={{ backgroundColor: '#F3EFEB' }}>
-      <div className="mx-auto grid place-items-center" style={{ maxWidth: '1550px' }}>
+      <div className="mx-auto grid place-items-center" style={{ maxWidth: '1200px' }}>
         <div
           className="w-full lg:flex flex-reverse bg-white"
           style={{ backgroundColor: '#F3EFEB' }}>

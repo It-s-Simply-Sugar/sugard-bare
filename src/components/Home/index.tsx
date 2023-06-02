@@ -40,8 +40,8 @@ const Home = () => {
 
   return (
     <main>
-      <section className="pt-6 xs:pt-16 lg:pt-10" style={{ backgroundColor: '#CCA43A' }}>
-        <div className="relative mx-auto px-6 md:px-12" style={{ maxWidth: '1450px' }}>
+      <section className="pt-6 xs:pt-16 lg:pt-20" style={{ backgroundColor: '#CCA43A' }}>
+        <div className="relative mx-auto px-6 md:px-12" style={{ maxWidth: '1200px' }}>
           <header className="flex flex-col-reverse lg:flex-row justify-center items-center lg:justify-around lg:w-full">
             <img
               src={heroImage}
@@ -60,13 +60,13 @@ const Home = () => {
                         <span className="text-white">Sweet Solutions</span>
                       </h1>
 
-                      <h1 className="hidden lg:block lg:text-6xl xl:text-7xl xxl:text-8xl font-semibold text-5xl leading-tight mb-5">
+                      <h1 className="hidden lg:block text-5xl lg:text-6xl xl:text-7xl font-semibold leading-tight mb-5">
                         Smooth Skin with
                         <span className="text-white"> Sweet Solutions</span>
                       </h1>
                     </div>
                     <div ref={text}>
-                      <p className="font-light text-center lg:text-left text-left text-md lg:text-xl xl:text-2xl px-10 sm:px-20 md:px-40 lg:px-0 xl:pr-20">
+                      <p className="font-light text-center lg:text-left text-left text-md lg:text-xl xl:text-2xl px-10 sm:px-20 md:px-40 lg:px-0">
                         Expert sugaring and top-tier beauty services delivered with a warm and
                         welcoming touch.
                       </p>

@@ -91,7 +91,7 @@ const Navigation = ({
             }>
             <div
               className="mx-auto pt-12 px-6 md:px-12 flex justify-between items-center py-5 font-medium"
-              style={{ maxWidth: '1550px' }}>
+              style={{ maxWidth: '1200px' }}>
               <Link to="/">
                 <div>
                   <img src={activeLink === '/' ? logo : logo2} alt="logo" className="w-32" />

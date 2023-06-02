@@ -32,7 +32,7 @@ const Promotions = () => {
   }, []);
   return (
     <section className="flex justify-center items-center pb-20 px-6 md:px-12 bg-white">
-      <div className="w-full xs:flex xs:gap-x-6" style={{ maxWidth: '1550px' }}>
+      <div className="w-full xs:flex xs:gap-x-6" style={{ maxWidth: '1200px' }}>
         <div className="lg:w-1/2 leading-relaxed grid place-items-center">
           <div className="w-full">
             <div className="grid place-items-center sm:place-items-start mb-4 sm:mb-10">

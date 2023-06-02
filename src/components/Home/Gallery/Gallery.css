@@ -1,14 +1,21 @@
-.dot {
-  background-color: #CCA43A;
+.active-selector {
+  background-color: #F3EFEB;
+}
+
+.inactive-selector {
+  background-color: #B49133;
 }
 
 .arrow-right, .arrow-left {
-  background-color: #CCA43A;
+  background-color: #FFF;
   top: 48%;
   transform: translateX(-0px);
   transform: translateY(-50px);
 }
 
+.arrow-right:hover, .arrow-left:hover {
+  background-color: #F3EFEB;
+}
 .arrow-right {
   right: -8px;
 }

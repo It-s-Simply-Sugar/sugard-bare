@@ -11,7 +11,7 @@ const Footer = () => {
       <section style={{ backgroundColor: '#CCA43A' }}>
         <div
           className="mx-auto grid place-items-center px-6 py-6 md:px-12"
-          style={{ maxWidth: '1550px' }}>
+          style={{ maxWidth: '1200' }}>
           <img src={logo} className="w-32" />
         </div>
         <div

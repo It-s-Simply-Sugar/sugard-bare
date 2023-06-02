@@ -44,7 +44,7 @@ const Gallery = () => {
   };
 
   return (
-    <section className="pb-10 px-6 md:px-12" style={{ backgroundColor: '#F8F8F8' }}>
+    <section className="pb-10 pt-20 px-6 md:px-12" style={{ backgroundColor: '#CCA43A' }}>
       <div className="gallery max-w-[1000px] w-full m-auto pb-16 xs:px-4 relative group">
         <div
           style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
@@ -55,13 +55,24 @@ const Gallery = () => {
         <div
           onClick={prevSlide}
           className="hidden xs:block arrow-left absolute text-2xl rounded-full h-12 w-12  cursor-pointer">
-          <img src={leftArrow} className="w-5 ml-3" style={{ marginTop: '19px' }} />
+          {/* <img src={leftArrow} className="w-5 ml-3" style={{ marginTop: '19px' }} /> */}
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-6 mt-3 ml-3">
+            <path
+              d="M7.82843 10.9999H20V12.9999H7.82843L13.1924 18.3638L11.7782 19.778L4 11.9999L11.7782 4.22168L13.1924 5.63589L7.82843 10.9999Z"
+              fill="rgba(204,164,58,1)"></path>
+          </svg>
         </div>
         {/* Right Arrow */}
         <div
           onClick={nextSlide}
           className="hidden xs:block arrow-right absolute text-2xl rounded-full h-12 w-12 cursor-pointer">
-          <img src={rightArrow} className="w-5 ml-3" style={{ marginTop: '19px' }} />
+          {/* <img src={rightArrow} className="w-5 ml-3" style={{ marginTop: '19px' }} /> */}
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-6 mt-3 ml-3">
+            {' '}
+            <path
+              d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+              fill="rgba(204,164,58,1)"></path>
+          </svg>
         </div>
         <div className="flex top-4 justify-center pt-4 gap-x-1">
           {slides.map((slide, index) => (
@@ -69,7 +80,7 @@ const Gallery = () => {
               key={index}
               onClick={() => goToSlide(index)}
               className={`w-2 h-2 rounded-full cursor-pointer ${
-                currentIndex === index ? 'dot' : 'bg-gray-200'
+                currentIndex === index ? 'active-selector' : 'inactive-selector'
               }`}></div>
           ))}
         </div>

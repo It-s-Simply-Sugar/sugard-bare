@@ -24,10 +24,10 @@
 
 .marquee-item-card  {
   height: 200px;
-  background-color: #F3EFEB;
+  background-color: #F8F8F8;
 }
 .marquee-item-card:hover  {
-  background-color: #f1eae4;
+  background-color: #F3EFEB;
   transform: scale(1.08);
   transition: transform 0.3s ease;
 }

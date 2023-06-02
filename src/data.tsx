@@ -39,7 +39,8 @@ export const popularServices = [
   {
     serviceName: 'Calming Mask',
     description: 'As an add-on, a calming mask can be added to any hair removal service',
-    price: 5 - 25,
+    price: 5,
+    price2: 25,
     image: faceMask
   }
 ];
@@ -191,7 +192,8 @@ export const faceServices = [
     serviceName: 'Full Face w/ Mask',
     description:
       'Hair removal using the sugaring technique on entire face including brows with the addition of a soothing or cooling mask.',
-    price: 55 - 58,
+    price: 55,
+    price2: 58,
     image: faceMask
   },
   {
@@ -234,6 +236,30 @@ export const faceServices = [
     serviceName: 'Sideburns',
     description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam ',
     price: 20,
+    image: sfjgj
+  },
+  {
+    serviceName: 'Brow Sugaring + Tint',
+    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam ',
+    price: 40,
+    image: sfjgj
+  },
+  {
+    serviceName: 'Brow Tint',
+    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam ',
+    price: 25,
+    image: sfjgj
+  },
+  {
+    serviceName: 'Lash Tint',
+    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam ',
+    price: 30,
+    image: sfjgj
+  },
+  {
+    serviceName: 'Lash + Brow Tint',
+    description: 'dolor sit amet consectetur adipisicing elit. Iusto distinctio ipsam ',
+    price: 40,
     image: sfjgj
   }
 ];

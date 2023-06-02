@@ -6,7 +6,7 @@ import water from '../../assets/water.png';
 const Faq = () => {
   return (
     <div className="py-20 text-sm md:text-base lg:text-lg leading-relaxed">
-      <div className="mx-auto grid place-items-center px-6 xl:px-20" style={{ maxWidth: '1550px' }}>
+      <div className="mx-auto grid place-items-center px-6 xl:px-20" style={{ maxWidth: '1200px' }}>
         <h1 className="px-6 pb-6 uppercase text-center font-semibold leading-tight text-5xl sm:text-7xl xxl:text-8xl">
           the
           <br />
@@ -53,7 +53,7 @@ const Faq = () => {
           </div>
         </div>
       </div>
-      <div className="mt-10 mx-auto px-12" style={{ maxWidth: '1550px' }}>
+      <div className="mt-10 mx-auto px-12" style={{ maxWidth: '1200px' }}>
         <div
           className="w-full lg:flex lg:justify-between border-b border-solid"
           style={{ borderColor: '#CCA43A' }}>

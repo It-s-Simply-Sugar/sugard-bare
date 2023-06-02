@@ -43,15 +43,16 @@
 
 
 .cta-btn {
-  color: #FFF;
-  border-color: #F6F5F5;
-  background-color: #CCA43A;
+  color: #000;
+  border-color: #FFF;
+  background-color: #FFF;
 }
 
 
 .cta-btn:hover {
-  color: #000;
-  background-color: #F2EFEA;
+  color: #FFF;
+  background-color: #CCA43A;
+  border-color: #FFF;
 }
 
 .view-services-btn {

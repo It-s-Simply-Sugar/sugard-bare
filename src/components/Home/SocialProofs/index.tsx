@@ -26,7 +26,7 @@ const SocialProofs = () => {
       <div
         ref={title}
         className="relative mx-auto grid place-items-center px-6 md:px-12"
-        style={{ maxWidth: '1550px' }}>
+        style={{ maxWidth: '1200px' }}>
         <p
           className="uppercase tracking-wider text-center text-xl sm:text-2xl xl:text-3xl font-semibold pb-3"
           style={{ color: '#CCA43A' }}>
@@ -36,7 +36,7 @@ const SocialProofs = () => {
           See what our clients <br /> have to say about us!
         </p>
       </div>
-      <div className="mt-10 mx-auto" style={{ maxWidth: '1550px' }}>
+      <div className="mt-10 mx-auto" style={{ maxWidth: '1200px' }}>
         <Marquee
           className="marquee-container-div flex"
           direction="left"
@@ -48,7 +48,7 @@ const SocialProofs = () => {
               href="https://www.vagaro.com/itssimplysugar"
               target="_blank"
               rel="noreferrer">
-              <div className="marquee-item-card mx-4 rounded-2xl px-4 md:px-10 py-6 grid place-items-center drop-shadow-md my-6 w-72 md:w-96">
+              <div className="marquee-item-card mx-4 rounded-tr-2xl rounded-bl-2xl px-4 md:px-10 py-6 grid place-items-center shadow-lg shadow-zinc-300 my-6 w-72 md:w-96">
                 <div className="grid place-items-center relative">
                   <img
                     src={review.image}

@@ -1,6 +1,7 @@
 interface Service {
   serviceName: string;
   price: number;
+  price2?: number;
   image: string;
   description: string;
 }
@@ -10,13 +11,16 @@ interface ServiceItemProps {
 }
 
 const ServiceItem = ({ service }: ServiceItemProps) => {
-  const { serviceName, price, image, description } = service;
+  const { serviceName, price, price2, image, description } = service;
   return (
     <div className="grid bg-white p-4 xxs:px-14 xxs:py-6 xsl:p-6 shadow-md rounded-md border border-solid border-gray-200 mb-6">
       <div className="mb-auto">
         <div className="flex justify-between xsl:pb-4">
           <p className="font-semibold text-sm">{serviceName}</p>
-          <p className="font-semibold text-sm">${price.toFixed(2)}</p>
+          <p className="font-semibold text-sm">
+            ${price.toFixed(2)}
+            {price2 && <span> - ${price2.toFixed(2)}</span>}
+          </p>
         </div>
         <div className="service-image mx-auto grid place-items-center">
           <img src={image} alt="" className="w-full" />

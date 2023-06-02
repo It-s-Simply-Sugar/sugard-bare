@@ -6,7 +6,7 @@ const Services = () => {
     <div className="py-20">
       <div
         className="mx-auto grid place-items-center px-6 md:px-20 xxl:px-0 mb-20"
-        style={{ maxWidth: '1550px' }}>
+        style={{ maxWidth: '1200px' }}>
         <div className="w-full bg-white">
           <h1 className="px-6 pb-6 uppercase text-center font-semibold leading-tight text-5xl sm:text-7xl xxl:text-8xl">
             our
