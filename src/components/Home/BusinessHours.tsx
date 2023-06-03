@@ -20,8 +20,8 @@ const BusinessHours = () => {
           style={{ color: '#CCA43A' }}>
           swing on by and get sugar&apos;d!
         </h2>
-        <div className="w-full md:flex md:flex-row-reverse gap-x-4 mb-16">
-          <div className="w-full md:w-1/2 grid place-items-center text-center mb-8 md:mb-0">
+        <div className="w-full md:flex md:flex-row-reverse mb-16">
+          <div className="md:w-1/2 grid place-items-center text-center mb-8 md:mb-0 bg-red-100">
             <div className="text-sm lg:text-base xl:text-lg">
               <p className="text-xl font-bold mb-4">Sugar&apos;d Bare</p>
               <p className="text-md font-semibold mb-1">Salon 705 Suites</p>
@@ -45,7 +45,7 @@ const BusinessHours = () => {
               </a>
             </div>
           </div>
-          <div className="w-full md:w-1/2">
+          <div className="md:w-1/2 bg-yellow-400">
             {hours.map((item, index) => (
               <div
                 className="flex justify-between border-b mb-1"

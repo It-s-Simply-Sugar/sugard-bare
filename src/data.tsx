@@ -25,21 +25,22 @@ import fullFace from './assets/full-face.png';
 export const popularServices = [
   {
     serviceName: 'Bikini',
-    description: 'Removal of hair on the bikini line not to extend to leg or inner thigh area.',
+    description:
+      'Removal of hair on the bikini line. This service does not extend to the legs or inner thigh area.',
     price: 55,
     image: bikini
   },
   {
     serviceName: 'Brazilian (New Client)',
     description:
-      'Removal of all the pubic hair with the sugaring technique which includes the backside but not the cheeks. Cheeks is an additional charge.',
+      'Removal of all pubic hair including the backside but excluding the cheeks. Cheeks is an additional charge.',
     price: 68,
     image: brazilian
   },
   {
     serviceName: 'Vajacial',
     description:
-      'Similar to a traditional face facial, this service includes a double cleanse, light exfoliation, extractions, soothing mask.',
+      'Similar to a traditional face facial, this service includes a double cleanse, light exfoliation, extractions, and soothing mask.',
     price: 50,
     image: vajacial
   },
@@ -55,8 +56,7 @@ export const popularServices = [
 export const bodyServices = [
   {
     serviceName: 'Full Legs',
-    description:
-      'Removal of hair from the thigh to the ankle, both front and back. Both legs included.',
+    description: 'Removal of hair from the thigh to the ankle, front and back. Both legs included.',
     price: 88,
     image: fullLegs
   },

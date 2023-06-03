@@ -73,7 +73,7 @@ const Services = () => {
           <Link to="/services" ref={cardOne} className="mt-auto service-card">
             <div className="shadow" style={{ backgroundColor: '#F8F8F8' }}>
               <div>
-                <img src={brazilian} alt="" />
+                <img src={brazilian} alt="Brazilian service with sugaring" />
               </div>
               <div className="p-8">
                 <h3
@@ -97,7 +97,7 @@ const Services = () => {
           <Link to="/services" ref={cardTwo} className="mt-auto service-card">
             <div className="shadow" style={{ backgroundColor: '#F8F8F8' }}>
               <div>
-                <img src={legs} alt="" />
+                <img src={legs} alt="Legs service with sugaring" />
               </div>
               <div className="p-8">
                 <h3
@@ -120,7 +120,7 @@ const Services = () => {
           <Link to="/services" ref={cardThree} className="mt-auto service-card">
             <div className="shadow" style={{ backgroundColor: '#F8F8F8' }}>
               <div>
-                <img src={body} alt="" />
+                <img src={body} alt="Bikini service with sugaring" />
               </div>
               <div className="p-8">
                 <h3
@@ -145,7 +145,7 @@ const Services = () => {
           <Link to="/services" ref={cardFour} className="mt-auto service-card">
             <div className="shadow" style={{ backgroundColor: '#F8F8F8' }}>
               <div>
-                <img src={facial} alt="" />
+                <img src={facial} alt="Face services with sugaring" />
               </div>
               <div className="p-8">
                 <h3

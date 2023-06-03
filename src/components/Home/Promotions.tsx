@@ -42,9 +42,7 @@ const Promotions = () => {
                 ref={titleLeft}
                 className="desktop-title text-center xs:text-left text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold uppercase sm:pb-3"
                 style={{ color: '#CCA43A' }}>
-                get more for less: our latest
-                <br />
-                promotions & discounts
+                our latest promotions & discounts
               </h2>
             </div>
             <div className="grid place-items-center sm:place-items-start mb-4 sm:mb-0">

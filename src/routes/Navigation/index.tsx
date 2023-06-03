@@ -106,7 +106,7 @@ const Navigation = ({
                     <Link to="/services">Services</Link>
                   </li>
                   <li className={getLinkClass('/faq')}>
-                    <a href="/faq">FAQs</a>
+                    <Link to="/faq">FAQs</Link>
                   </li>
                   <li className={getLinkClass('/about')}>
                     <Link to="/about">About Us</Link>
