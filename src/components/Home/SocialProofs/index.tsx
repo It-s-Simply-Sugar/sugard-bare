@@ -56,9 +56,7 @@ const SocialProofs = () => {
               href="https://www.vagaro.com/itssimplysugar"
               target="_blank"
               rel="noreferrer">
-              <div
-                className="marquee-item-card mx-4 rounded-tr-3xl rounded-bl-3xl px-4 md:px-10 py-6 grid place-items-center border border-solid my-6 w-72 md:w-96"
-                style={{ borderColor: '#CCA43A' }}>
+              <div className="marquee-item-card mx-4 rounded-tr-3xl rounded-bl-3xl px-4 md:px-10 py-6 grid place-items-center shadow-lg my-8 w-72 md:w-96">
                 <div className="grid place-items-center relative">
                   <img
                     src={review.image}

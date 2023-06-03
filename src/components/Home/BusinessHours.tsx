@@ -13,16 +13,18 @@ const BusinessHours = () => {
   return (
     <div className="px-6 md:px-12">
       <div
-        className="mx-auto py-20 bg-white grid place-items-center"
+        className="mx-auto py-10 md:py-24 bg-white grid place-items-center"
         style={{ maxWidth: '1200px' }}>
         <h2
           className="desktop-title text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold uppercase pb-8 lg:pb-14"
           style={{ color: '#CCA43A' }}>
           swing on by and get sugar&apos;d!
         </h2>
-        <div className="w-full md:flex md:flex-row-reverse mb-16">
-          <div className="md:w-1/2 grid place-items-center text-center mb-8 md:mb-0">
-            <div className="text-sm lg:text-base xl:text-lg">
+        <div className="w-full md:flex md:flex-row-reverse mb-10 md:mb-24">
+          <div className="md:w-1/2 grid place-items-center text-center px-4 xxs:px-10 md:px-0">
+            <div
+              className="text-sm lg:text-base xl:text-lg w-full py-8"
+              style={{ backgroundColor: '#F3EFEB' }}>
               <p className="text-xl font-bold mb-4">Sugar&apos;d Bare</p>
               <p className="text-md font-semibold mb-1">Salon 705 Suites</p>
               <address className="mb-4 not-italic">
@@ -45,11 +47,13 @@ const BusinessHours = () => {
               </a>
             </div>
           </div>
-          <div className="md:w-1/2">
+          <div
+            className="md:w-1/2 bg-yellow-400 py-14 px-10"
+            style={{ backgroundColor: '#CCA43A' }}>
             {hours.map((item, index) => (
               <div
                 className="flex justify-between border-b mb-1"
-                style={{ borderColor: '#CCB6A0' }}
+                style={{ borderColor: '#605651' }}
                 key={index}>
                 <div className="font-medium text-sm sm:text-md xl:text-lg">
                   <p>{item.day}</p>

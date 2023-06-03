@@ -81,13 +81,13 @@ const Services = () => {
                   style={{ color: '#CCA43A' }}>
                   Brazilian
                 </h3>
-                <p className="text-sm md:text-base lg:text-lg mt-2 mb-6 xs:mb-0">
+                <p className="text-sm md:text-base lg:text-lg mt-2 mb-0">
                   Uncover Smoothness from front to back! Our brazilian service removes all pubic
                   hair, including the backside (excluding cheeks), for a beautifully clean and
                   hair-free intimate area.
                 </p>
                 <button
-                  className="mt-0 md:mt-10 border border-solid text-white px-4 py-2 text-sm xs:text-base"
+                  className="mt-4 md:mt-10 border border-solid text-white px-4 py-2 text-sm xs:text-base"
                   style={{ backgroundColor: '#CCA43A' }}>
                   View all services
                 </button>
@@ -105,12 +105,12 @@ const Services = () => {
                   style={{ color: '#CCA43A' }}>
                   legs
                 </h3>
-                <p className="text-sm md:text-base lg:text-lg mt-2 mb-6 xs:mb-0">
+                <p className="text-sm md:text-base lg:text-lg mt-2 mb-0">
                   Whether you opt for perfectly smooth thighs or flawless calves, we ensure a
                   thorough, gentle, and hair-free sugaring experience with our leg services.
                 </p>
                 <button
-                  className="mt-0 md:mt-10 border border-solid text-white px-4 py-2 text-sm xs:text-base"
+                  className="mt-4 md:mt-10 border border-solid text-white px-4 py-2 text-sm xs:text-base"
                   style={{ backgroundColor: '#CCA43A' }}>
                   View all services
                 </button>
@@ -128,14 +128,14 @@ const Services = () => {
                   style={{ color: '#CCA43A' }}>
                   bikini
                 </h3>
-                <p className="text-sm md:text-base lg:text-lg mt-2 mb-6 xs:mb-0">
+                <p className="text-sm md:text-base lg:text-lg mt-2 mb-0">
                   Bikini services focus on flawlessly shaping your bikini line with meticulous
                   attention to detail. Experience the confidence of a clean and defined bikini line
                   without any unwanted hair, courtesy of our precise and tailored sugaring
                   technique.
                 </p>
                 <button
-                  className="mt-0 md:mt-10 border border-solid text-white px-4 py-2 text-sm xs:text-base"
+                  className="mt-4 md:mt-10 border border-solid text-white px-4 py-2 text-sm xs:text-base"
                   style={{ backgroundColor: '#CCA43A' }}>
                   View all services
                 </button>
@@ -153,13 +153,13 @@ const Services = () => {
                   style={{ color: '#CCA43A' }}>
                   Facial
                 </h3>
-                <p className="text-sm md:text-base lg:text-lg mt-2 mb-6 xs:mb-0">
+                <p className="text-sm md:text-base lg:text-lg mt-2 mb-0">
                   Immerse yourself in our range of indulgent treatments that leave your face feeling
                   irresistibly soft, while our eyebrow and eyelash maintenance services provide the
                   perfect frame to accentuate your natural beauty.
                 </p>
                 <button
-                  className="mt-0 md:mt-10 border border-solid text-white px-4 py-2 text-sm xs:text-base"
+                  className="mt-4 md:mt-10 border border-solid text-white px-4 py-2 text-sm xs:text-base"
                   style={{ backgroundColor: '#CCA43A' }}>
                   View all services
                 </button>
