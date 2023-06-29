@@ -74,7 +74,7 @@ const Footer = () => {
           className="mx-auto grid place-items-center px-6 py-1 md:px-12"
           style={{ maxWidth: '500px' }}>
           <p className="text-xs">
-            © Copyright Sugar&lsquo;d Bare {currentYear}, All Rights Reserved
+            © Copyright Sugar&lsquo;d Bare {currentYear}, All Rights Reserved.
           </p>
         </div>
       </section>

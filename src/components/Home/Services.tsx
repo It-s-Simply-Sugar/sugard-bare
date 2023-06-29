@@ -63,12 +63,6 @@ const Services = () => {
   return (
     <section className="relative bg-white justify-center items-center my-10 md:my-24 px-6 md:px-12 text-sm md:text-base lg:text-lg">
       <div className="mx-auto" style={{ maxWidth: '1200px' }}>
-        {/* <img
-          src={flower}
-          alt=""
-          className="absolute hidden md:block right-[20%] top-[-40%]"
-          style={{ zIndex: 0 }}
-        /> */}
         <h2
           className="desktop-title uppercase mx-auto mb-10 md:mb-24 text-center font-bold md:leading-relaxed text-xl sm:text-2xl md:text-3xl lg:text-4xl border-b border-solid pb-4"
           style={{ maxWidth: '900px', borderColor: '#CCA43A' }}>

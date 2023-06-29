@@ -3,7 +3,6 @@ import ScrollReveal from 'scrollreveal';
 import './home.css';
 import Services from './Services';
 import Gallery from './Gallery';
-// import flower from '../../assets/spa-flowers.png';
 import SocialProofs from './SocialProofs';
 import Promotions from './Promotions';
 import Benefits from './Benefits';
@@ -53,12 +52,6 @@ const Home = () => {
               <div className="lg:flex-grow">
                 <div className="grid place-items-center">
                   <div className="relative">
-                    {/* <img
-                      src={flower}
-                      alt=""
-                      className="absolute hidden md:block right-[0] top-[260px] w-64"
-                      style={{ zIndex: 0 }}
-                    /> */}
                     <div ref={h1} className="flex justify-center lg:justify-start">
                       <p className="desktop-title lg:hidden font-semibold text-center text-4xl xs:text-5xl leading-tight mb-5">
                         Smooth Skin with

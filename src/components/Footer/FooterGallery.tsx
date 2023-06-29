@@ -7,7 +7,7 @@ import image6 from '../../assets/footer-gallery/7.png';
 import image7 from '../../assets/footer-gallery/8.png';
 
 const FooterGallery = () => {
-  const images = [
+  const footerImages = [
     {
       id: 0,
       url: image1
@@ -68,7 +68,7 @@ const FooterGallery = () => {
 
   return (
     <div className="flex overflow-hidden gap-x-1" style={{ width: '100%' }}>
-      {images.map((image) => (
+      {footerImages.map((image) => (
         <img src={image.url} alt="" key={image.id} className="w-40 lg:w-64" />
       ))}
     </div>
