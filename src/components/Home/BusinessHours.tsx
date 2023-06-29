@@ -18,7 +18,7 @@ const BusinessHours = () => {
         <h2
           className="desktop-title text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold uppercase pb-8 lg:pb-14"
           style={{ color: '#CCA43A' }}>
-          swing on by and get sugar&apos;d!
+          swing on by and get sugar&apos;d
         </h2>
         <div className="w-full md:flex md:flex-row-reverse mb-10 md:mb-24">
           <div className="md:w-1/2 grid place-items-center text-center px-4 xxs:px-10 md:px-0">
