@@ -28,7 +28,7 @@ const BusinessHours = () => {
               <p className="text-xl font-bold mb-4">Sugar&apos;d Bare</p>
               <p className="text-md font-semibold mb-1">Salon 705 Suites</p>
               <address className="mb-4 not-italic">
-                125 West Bloomingdale Avenue
+                123 West Bloomingdale Avenue
                 <br />
                 Brandon, FL 33511
               </address>

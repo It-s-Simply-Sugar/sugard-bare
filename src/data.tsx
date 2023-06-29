@@ -46,7 +46,7 @@ export const popularServices = [
   },
   {
     serviceName: 'Calming Mask',
-    description: 'As an add-on, a calming mask can be added to any hair removal service',
+    description: 'As an add-on, a calming mask can be added to any hair removal service.',
     price: 5,
     price2: 25,
     image: faceMask

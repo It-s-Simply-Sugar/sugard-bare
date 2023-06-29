@@ -9,7 +9,6 @@
 }
 
 .service-card:hover  {
-  background-color: red;
   transform: scale(1.08);
   transition: transform 0.3s ease;
 }

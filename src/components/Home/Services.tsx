@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import ScrollReveal from 'scrollreveal';
 import './home.css';
 import { Link } from 'react-router-dom';
-import flower from '../../assets/spa-flowers.png';
+// import flower from '../../assets/spa-flowers.png';
 import brazilian from '../../assets/3.png';
 import legs from '../../assets/2.png';
 import body from '../../assets/1.png';
@@ -61,8 +61,14 @@ const Services = () => {
     }
   }, []);
   return (
-    <section className="bg-white justify-center items-center my-10 md:my-24 px-6 md:px-12 text-sm md:text-base lg:text-lg">
+    <section className="relative bg-white justify-center items-center my-10 md:my-24 px-6 md:px-12 text-sm md:text-base lg:text-lg">
       <div className="mx-auto" style={{ maxWidth: '1200px' }}>
+        {/* <img
+          src={flower}
+          alt=""
+          className="absolute hidden md:block right-[20%] top-[-40%]"
+          style={{ zIndex: 0 }}
+        /> */}
         <h2
           className="desktop-title uppercase mx-auto mb-10 md:mb-24 text-center font-bold md:leading-relaxed text-xl sm:text-2xl md:text-3xl lg:text-4xl border-b border-solid pb-4"
           style={{ maxWidth: '900px', borderColor: '#CCA43A' }}>
@@ -70,8 +76,8 @@ const Services = () => {
           removal.
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-x-12 gap-y-12 flex flex-col">
-          <Link to="/services" ref={cardOne} className="mt-auto service-card">
-            <div className="shadow" style={{ backgroundColor: '#F8F8F8' }}>
+          <Link to="/services" ref={cardOne} className="mt-auto">
+            <div className="service-card shadow" style={{ backgroundColor: '#F8F8F8' }}>
               <div>
                 <img src={brazilian} alt="Brazilian service with sugaring" />
               </div>
@@ -94,8 +100,8 @@ const Services = () => {
               </div>
             </div>
           </Link>
-          <Link to="/services" ref={cardTwo} className="mt-auto service-card">
-            <div className="shadow" style={{ backgroundColor: '#F8F8F8' }}>
+          <Link to="/services" ref={cardTwo} className="mt-auto">
+            <div className="service-card shadow" style={{ backgroundColor: '#F8F8F8' }}>
               <div>
                 <img src={legs} alt="Legs service with sugaring" />
               </div>
@@ -117,8 +123,8 @@ const Services = () => {
               </div>
             </div>
           </Link>
-          <Link to="/services" ref={cardThree} className="mt-auto service-card">
-            <div className="shadow" style={{ backgroundColor: '#F8F8F8' }}>
+          <Link to="/services" ref={cardThree} className="mt-auto">
+            <div className="service-card shadow" style={{ backgroundColor: '#F8F8F8' }}>
               <div>
                 <img src={body} alt="Bikini service with sugaring" />
               </div>
@@ -142,8 +148,8 @@ const Services = () => {
               </div>
             </div>
           </Link>
-          <Link to="/services" ref={cardFour} className="mt-auto service-card">
-            <div className="shadow" style={{ backgroundColor: '#F8F8F8' }}>
+          <Link to="/services" ref={cardFour} className="mt-auto">
+            <div className="service-card shadow" style={{ backgroundColor: '#F8F8F8' }}>
               <div>
                 <img src={facial} alt="Face services with sugaring" />
               </div>

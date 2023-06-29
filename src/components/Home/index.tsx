@@ -3,7 +3,7 @@ import ScrollReveal from 'scrollreveal';
 import './home.css';
 import Services from './Services';
 import Gallery from './Gallery';
-// import SomeRandomComp from './SomeRandomComp';
+// import flower from '../../assets/spa-flowers.png';
 import SocialProofs from './SocialProofs';
 import Promotions from './Promotions';
 import Benefits from './Benefits';
@@ -52,24 +52,30 @@ const Home = () => {
             <div className="lg:w-1/2 lg:flex lg:max-w-40 lg:-mt-28 lg:ml-10">
               <div className="lg:flex-grow">
                 <div className="grid place-items-center">
-                  <div>
+                  <div className="relative">
+                    {/* <img
+                      src={flower}
+                      alt=""
+                      className="absolute hidden md:block right-[0] top-[260px] w-64"
+                      style={{ zIndex: 0 }}
+                    /> */}
                     <div ref={h1} className="flex justify-center lg:justify-start">
-                      <h1 className="desktop-title lg:hidden font-semibold text-center text-4xl xs:text-5xl leading-tight mb-5">
+                      <p className="desktop-title lg:hidden font-semibold text-center text-4xl xs:text-5xl leading-tight mb-5">
                         Smooth Skin with
                         <br />
                         <span className="text-white">Sweet Solutions</span>
-                      </h1>
+                      </p>
 
-                      <h1 className="desktop-title hidden lg:block text-5xl lg:text-6xl xl:text-7xl font-semibold leading-tight mb-5">
+                      <p className="desktop-title hidden lg:block text-5xl lg:text-6xl xl:text-7xl font-semibold leading-tight mb-5">
                         Smooth Skin with
                         <span className="text-white"> Sweet Solutions</span>
-                      </h1>
+                      </p>
                     </div>
                     <div ref={text}>
-                      <p className="font-light text-center lg:text-left text-left text-md lg:text-xl xl:text-2xl px-10 sm:px-20 md:px-40 lg:px-0">
+                      <h1 className="font-light text-center lg:text-left text-left text-md lg:text-xl xl:text-2xl px-10 sm:px-20 md:px-40 lg:px-0">
                         Expert sugaring and top-tier beauty services delivered with a warm and
                         welcoming touch.
-                      </p>
+                      </h1>
                       <div className="grid justify-center lg:justify-start pt-6 lg:pt-12">
                         <a
                           href="https://www.vagaro.com/itssimplysugar/services"
@@ -120,7 +126,6 @@ const Home = () => {
       <Services />
       <Gallery />
       <SocialProofs />
-      {/* <SomeRandomComp /> */}
       <Promotions />
       <Benefits />
       <BusinessHours />
