@@ -32,7 +32,7 @@ const Footer = () => {
               <p className="hover:text-white">About Us</p>
             </Link>
             <a
-              href="https://www.vagaro.com/itssimplysugar/services"
+              href="https://www.vagaro.com/sugardbareofficial/services"
               target="_blank"
               rel="noreferrer">
               <p className="hover:text-white">Book Online</p>

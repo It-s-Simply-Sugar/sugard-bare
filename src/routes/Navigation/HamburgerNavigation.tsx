@@ -113,7 +113,7 @@ const HamburgerNavigation: React.FC<HamburgerNavigationProps> = ({
               <div className="mx-4 grid grid-cols-1" onClick={() => setIsNavOpen(false)}>
                 <span className="my-4">
                   <a
-                    href="https://www.vagaro.com/itssimplysugar/services"
+                    href="https://www.vagaro.com/sugardbareofficial/services"
                     target="_blank"
                     rel="noreferrer">
                     <button

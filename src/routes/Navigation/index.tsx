@@ -113,7 +113,7 @@ const Navigation = ({
                   </li>
                 </ul>
                 <a
-                  href="https://www.vagaro.com/itssimplysugar/services"
+                  href="https://www.vagaro.com/sugardbareofficial/services"
                   target="_blank"
                   rel="noreferrer">
                   <button
