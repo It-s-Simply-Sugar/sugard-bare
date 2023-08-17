@@ -71,7 +71,7 @@ const Home = () => {
                       </h1>
                       <div className="grid justify-center lg:justify-start pt-6 lg:pt-12">
                         <a
-                          href="https://www.vagaro.com/itssimplysugar/services"
+                          href="https://www.vagaro.com/sugardbareofficial/services"
                           target="_blank"
                           rel="noreferrer">
                           <button className="cta-btn text-sm xs:text-base border-2 border-solid px-6 py-2">
