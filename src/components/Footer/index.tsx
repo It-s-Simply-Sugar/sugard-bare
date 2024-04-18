@@ -40,11 +40,7 @@ const Footer = () => {
           </div>
           <div className="mb-auto pb-4 xs:pb-0 non-italic">
             <p className="font-bold mb-1">Contact</p>
-            <address className="not-italic">
-              123 West Bloomingdale Avenue
-              <br />
-              Brandon, FL 33511
-            </address>
+            <address className="not-italic">Riverview, FL 33578</address>
             <br />
             <a
               href="mailto:sugardbare.official@gmail.com"
